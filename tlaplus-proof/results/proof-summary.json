@@ -1,0 +1,24 @@
+{
+  "scope": "Complete TLAPS proof chain for the defined protocol and point-store client specifications",
+  "status": "complete",
+  "frozen_run": "20261118T174404Z",
+  "finished_utc": "2026-11-18T22:19:37.386799+00:00",
+  "source_manifest_sha256": "66916a17cdd5ef0ff5085ea162b6f78cd41bd73785ba167b7137e41c3f27e58a",
+  "original_acceptance_sha256": "75cf4849d3a8a66b2d135b92f5007a71c8af0b7da1ac9826053e84d3531e31f9",
+  "modules": 302,
+  "obligations": 18928,
+  "targets": 80,
+  "backend_counts": {
+    "smt": 4943,
+    "tlapm": 13076,
+    "zenon": 699,
+    "ls4": 111,
+    "isabelle": 99
+  },
+  "all_own_runs_fresh": true,
+  "all_transitive_sources_match": true,
+  "max_sampled_proof_group_rss_bytes": 8119803904,
+  "maximum_requested_backend_seconds": 30.0,
+  "proof_elapsed_seconds": 16012.376,
+  "tlc_is_supplementary": true
+}

@@ -1,0 +1,628 @@
+{
+  "scope": "counterexample_check_expected_by_suite",
+  "count": 20,
+  "checks": [
+    {
+      "id": "protocol-tlc--mut_no_quorum",
+      "suite": "protocol-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/negative-controls/mut_no_quorum.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "CommittedKnowledgeSound",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221437Z-bfs-mut_no_quorum-fe5b8a8f/result.json",
+      "result_sha256": "e98ac66ef81f352951c7ab2ad0c0d9dc11c836f2cc8390290c63a0684ff82b4f",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 30,
+        "distinct_states": 29,
+        "states_on_queue": 0,
+        "search_depth": 29
+      },
+      "elapsed_seconds": 1.63
+    },
+    {
+      "id": "protocol-tlc--mut_skip_boundary_commit",
+      "suite": "protocol-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/negative-controls/mut_skip_boundary_commit.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "EvidenceRespectsPartitionOrder",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221439Z-bfs-mut_skip_boundary_commit-d3c91b23/result.json",
+      "result_sha256": "68c22d696abb4dd24ba876c27d858ff73d824c42a7c1be41c1d45c5ffb9d5e04",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 34,
+        "distinct_states": 34,
+        "states_on_queue": 0,
+        "search_depth": 34
+      },
+      "elapsed_seconds": 1.641
+    },
+    {
+      "id": "protocol-tlc--mut_early_recovery",
+      "suite": "protocol-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/negative-controls/mut_early_recovery.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "ConfirmationHasQuorum",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221441Z-bfs-mut_early_recovery-b8f11a35/result.json",
+      "result_sha256": "9d1856618450dbde962d2bac329ee1fc08890858b03f98f4fe0b344c147e371a",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 62,
+        "distinct_states": 61,
+        "states_on_queue": 0,
+        "search_depth": 61
+      },
+      "elapsed_seconds": 2.039
+    },
+    {
+      "id": "protocol-tlc--mut_drop_pending",
+      "suite": "protocol-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/negative-controls/mut_drop_pending.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "RecoveryReportsHaveOrigin",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221443Z-bfs-mut_drop_pending-952e99f3/result.json",
+      "result_sha256": "edb075e5ae3ad354249dd64274e37e0e72029ab599d188bbaec6485008c58cc2",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 55,
+        "distinct_states": 55,
+        "states_on_queue": 0,
+        "search_depth": 55
+      },
+      "elapsed_seconds": 1.834
+    },
+    {
+      "id": "protocol-tlc--mut_skip_recovery_union",
+      "suite": "protocol-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/negative-controls/mut_skip_recovery_union.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "RecoveryCandidatesPreserveEvidence",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221445Z-bfs-mut_skip_recovery_union-2ac39d59/result.json",
+      "result_sha256": "7a94593690969f1b1f965b8cc055d78385caf15bb46a531e74976ff6f0e09e59",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 55,
+        "distinct_states": 55,
+        "states_on_queue": 0,
+        "search_depth": 55
+      },
+      "elapsed_seconds": 1.833
+    },
+    {
+      "id": "client-tlc--mut_read_without_barrier",
+      "suite": "client-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftClientScenarios.tla",
+      "config": "configs/negative-controls/client_mut_read_without_barrier.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "HistoryLinearizable",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221651Z-bfs-mut_read_without_barrier-b66f1013/result.json",
+      "result_sha256": "0c304447ba07261b76a06200b19fe6303962ef8730db531a6aa4e4d73b0f7a3d",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 47,
+        "distinct_states": 46,
+        "states_on_queue": 0,
+        "search_depth": 46
+      },
+      "elapsed_seconds": 2.443
+    },
+    {
+      "id": "client-tlc--mut_early_reply",
+      "suite": "client-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftClientScenarios.tla",
+      "config": "configs/negative-controls/client_mut_early_reply.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "HistoryLinearizable",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221654Z-bfs-mut_early_reply-f501870f/result.json",
+      "result_sha256": "8a81e33b4e82fe37906bf898c07ee7b592c7d5f8d6c02642e0b6cea102a0bb86",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 77,
+        "distinct_states": 75,
+        "states_on_queue": 0,
+        "search_depth": 75
+      },
+      "elapsed_seconds": 2.859
+    },
+    {
+      "id": "client-tlc--mut_lose_dedup",
+      "suite": "client-tlc",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftClientScenarios.tla",
+      "config": "configs/negative-controls/client_mut_lose_dedup.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "HistoryLinearizable",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221657Z-bfs-mut_lose_dedup-65ccf834/result.json",
+      "result_sha256": "f7c0bf8afb3755fd8730e1fd19f98c3797011f2910198296f9d9021c8e5fedf0",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 114,
+        "distinct_states": 113,
+        "states_on_queue": 0,
+        "search_depth": 113
+      },
+      "elapsed_seconds": 3.875
+    },
+    {
+      "id": "client-capacity--legacy_capacity_one",
+      "suite": "client-capacity",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftClientCapacityDiagnostic.tla",
+      "config": "configs/regressions/client_capacity_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "FirstWriteEnabled",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {
+        "TRaftClientCore.tla": "baseline/TRaftClientCore-before-shared-observer.tla"
+      },
+      "evidence_result": "frozen-results/20261118T174404Z/client-capacity/checks/20261118T221701Z-bfs-legacy_capacity_one-3ddca04d/result.json",
+      "result_sha256": "dd13d26b79072822c03da437e7f82937e1388ba0e1fb22fa7e40db804d01fd67",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 33,
+        "distinct_states": 32,
+        "states_on_queue": 0,
+        "search_depth": 32
+      },
+      "elapsed_seconds": 2.254
+    },
+    {
+      "id": "induction-diagnostic--legacy_unconfirmed_history",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftRecoveryHistoryDiagnostic.tla",
+      "config": "configs/regressions/recovery_history_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "CommittedPartitionAgreement",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221712Z-bfs-legacy_unconfirmed_history-f304277a/result.json",
+      "result_sha256": "2140160a3b01bab23eff3e725d5b39d5a0a32dc58446d1e05d6a9027f3c92a41",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.839
+    },
+    {
+      "id": "induction-diagnostic--legacy_evidence_partition_order",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftEvidenceOrderDiagnostic.tla",
+      "config": "configs/regressions/evidence_order_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "EvidenceRespectsPartitionOrder",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221714Z-bfs-legacy_evidence_partition_order-47ae1e90/result.json",
+      "result_sha256": "25871760b3c6accea4acb8b41925c59fa2fcac33236722daebcb902133c34b58",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.639
+    },
+    {
+      "id": "induction-diagnostic--legacy_vote_request",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftInductionDiagnostic.tla",
+      "config": "configs/regressions/induction_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "CandidateInvariant",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221716Z-bfs-legacy_vote_request-c8a93efd/result.json",
+      "result_sha256": "51c794373467dee188d100b768a030fe8c49dcfa385c0474349f499b260102aa",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.43
+    },
+    {
+      "id": "induction-diagnostic--legacy_offer_source",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftOfferOneStepDiagnostic.tla",
+      "config": "configs/regressions/offer_one_step.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "PreMessageCandidate",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221718Z-bfs-legacy_offer_source-a2652d20/result.json",
+      "result_sha256": "03f4d19941cead3baf4a56a08158c539a19a1d00c11a5c605b87012f3fb30171",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.836
+    },
+    {
+      "id": "induction-diagnostic--legacy_boundary_count",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftBoundaryCountDiagnostic.tla",
+      "config": "configs/regressions/boundary_count_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "NormalCountCheckSound",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221720Z-bfs-legacy_boundary_count-e2ea433f/result.json",
+      "result_sha256": "18f1897ac11bc03f73fed050b29841ba904f87d9a5d636c9b490a096f57539f1",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.836
+    },
+    {
+      "id": "induction-diagnostic--legacy_activation_history",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftActivationDiagnostic.tla",
+      "config": "configs/regressions/activation_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "PreActivationCandidate",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221722Z-bfs-legacy_activation_history-7f350701/result.json",
+      "result_sha256": "a5979e5deb6f1ea3967c4989b987d384b596fc20da5c2a9ed7a9639deccf0ed7",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.832
+    },
+    {
+      "id": "induction-diagnostic--legacy_applied_history",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftAppliedHistoryDiagnostic.tla",
+      "config": "configs/regressions/applied_history_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "PartitionStateMachineSafety",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221724Z-bfs-legacy_applied_history-8ef5fe74/result.json",
+      "result_sha256": "5ba774080ca6004f2b13be5a2388b99f3a8de3cd738f279912a4fe892f0e305e",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.83
+    },
+    {
+      "id": "induction-diagnostic--legacy_context_origin",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftContextOriginDiagnostic.tla",
+      "config": "configs/regressions/context_origin_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "EntryContextUnique",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221725Z-bfs-legacy_context_origin-74602031/result.json",
+      "result_sha256": "df1e19e6571bbb0eddd519cc0106a6facd41a8ec7b98fcf43e5520ef59c61138",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.823
+    },
+    {
+      "id": "induction-diagnostic--legacy_partial_partition_history",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftPartialPartitionHistoryDiagnostic.tla",
+      "config": "configs/regressions/partial_partition_history_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "CommittedPartitionAgreement",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221727Z-bfs-legacy_partial_partition_history-18405ea8/result.json",
+      "result_sha256": "9e9edff344f5b56cf9300bcacc17b5f1051eddb7cc9c2625654bba3d2a8b535b",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.827
+    },
+    {
+      "id": "induction-diagnostic--reachable_normal_noop_self_ack",
+      "suite": "induction-diagnostic",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftNoopSelfAckDiagnostic.tla",
+      "config": "configs/regressions/noop_self_ack_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "NoopSelfAckLegacyConstraint",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/induction-diagnostic/20261118T221729Z-bfs-reachable_normal_noop_self_ack-5201b835/result.json",
+      "result_sha256": "f2b26cf8c5a79848e80aec94e156cc41369152ca15eeeaa8dba8774b82a05dc9",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 25,
+        "distinct_states": 25,
+        "states_on_queue": 0,
+        "search_depth": 25
+      },
+      "elapsed_seconds": 1.831
+    },
+    {
+      "id": "source-semantics--observer_records_violation",
+      "suite": "source-semantics",
+      "classification": "counterexample_check_expected_by_suite",
+      "model": "models/TRaftObserverPassivityDiagnostic.tla",
+      "config": "configs/regressions/observer_passivity.cfg",
+      "mode": "bfs",
+      "expected_outcome": "invariant_failure",
+      "expected_invariant": "NoRecordedOrderViolation",
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/source-semantics/observer-passivity/20261118T174654Z-bfs-observer_records_violation-6d7f0bcc/result.json",
+      "result_sha256": "32332cd2cdc769ec4d2143cb19d45d3f7f03fed15bf8a7470c39b8afde2694bb",
+      "outcome": "invariant_failure",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      },
+      "elapsed_seconds": 1.429
+    }
+  ]
+}

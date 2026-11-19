@@ -1,0 +1,32 @@
+{
+  "protocol": "traft",
+  "local_iotdb_home": "/path/to/extracted/iotdb",
+  "config_node": {
+    "ssh": "server1",
+    "home": "/srv/traft/config-node"
+  },
+  "data_nodes": [
+    {
+      "ssh": "server1",
+      "home": "/srv/traft/data-node",
+      "endpoint": "192.0.2.1:6667"
+    },
+    {
+      "ssh": "server2",
+      "home": "/srv/traft/data-node",
+      "endpoint": "192.0.2.2:6667"
+    },
+    {
+      "ssh": "server3",
+      "home": "/srv/traft/data-node",
+      "endpoint": "192.0.2.3:6667"
+    }
+  ],
+  "workers": 60,
+  "series": 9600,
+  "rate_points": 12500,
+  "duration": 90,
+  "steady_start": 30,
+  "steady_end": 80,
+  "capacity": 9600
+}

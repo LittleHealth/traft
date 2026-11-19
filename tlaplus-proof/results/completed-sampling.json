@@ -1,0 +1,66 @@
+{
+  "scope": "finite_simulation_sample",
+  "count": 2,
+  "checks": [
+    {
+      "id": "protocol-tlc--init_sample-seed20261116",
+      "suite": "protocol-tlc",
+      "classification": "finite_simulation_sample",
+      "model": "models/TRaftPaper.tla",
+      "config": "configs/sampling/T3_I6_sim.cfg",
+      "mode": "simulate",
+      "expected_outcome": "simulation_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": 20261116,
+      "depth": 200,
+      "simulate": "num=50",
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221551Z-simulate-init_sample-seed20261116-88fde852/result.json",
+      "result_sha256": "73a3cc6755f3aa5736f511a40aeadb04eab54dd190a25191d6fc6a43fa9fc506",
+      "outcome": "simulation_ok",
+      "stats": {
+        "states_checked": 51650,
+        "traces_generated": 50,
+        "simulation_states_generated": 51650
+      },
+      "elapsed_seconds": 5.874
+    },
+    {
+      "id": "invariant-tlc--candidate_init_sample-seed20261118",
+      "suite": "invariant-tlc",
+      "classification": "finite_simulation_sample",
+      "model": "models/TRaftProofFinite.tla",
+      "config": "configs/sampling/proof_init_sample.cfg",
+      "mode": "simulate",
+      "expected_outcome": "simulation_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": 20261118,
+      "depth": 100,
+      "simulate": "num=50",
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221632Z-simulate-candidate_init_sample-seed20261118-023c9167/result.json",
+      "result_sha256": "9c3ece54ce005eb29146579580b7bd86183201dc87662f4e46b84f977dc40b9e",
+      "outcome": "simulation_ok",
+      "stats": {
+        "states_checked": 28193,
+        "traces_generated": 50,
+        "simulation_states_generated": 28193
+      },
+      "elapsed_seconds": 7.702
+    }
+  ]
+}

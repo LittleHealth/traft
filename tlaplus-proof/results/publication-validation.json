@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "accepted": true,
+  "checked_utc": "2026-11-19T08:18:10.343068+00:00",
+  "scope": "Publication interface validation; formal theorem claims use frozen run 20261118T174404Z.",
+  "host": "dq-179",
+  "remote_directory": "/home/zxj/traft/2026-11-19-review-artifact-01",
+  "tested_package_sha256": "2fd6ca61736adf3dc2fe9462e497edd13ff3a334d6d76a62ba258bebfce008e1",
+  "tested_publication_manifest_sha256": "d46f45a08d29f9f544d274f21a99d579408d1ddb2b632b78bf4f87c86091360e",
+  "python_files_syntax_checked": 17,
+  "existing_evidence": {
+    "accepted": true,
+    "scope": "published archives and complete registered TLAPS chain",
+    "archive_files_checked": 132243,
+    "modules": 302,
+    "obligations": 18928,
+    "targets": 80,
+    "published_checks": 45
+  },
+  "completed_published_checks": {
+    "accepted": true,
+    "kind": "tlc",
+    "checked": 45
+  },
+  "selected_proofs": {
+    "accepted": true,
+    "kind": "proof",
+    "checked_modules": 2,
+    "full_chain": false,
+    "dependency_modules_not_run": []
+  },
+  "acceptance_controls": {
+    "accepted": true,
+    "cases": 13,
+    "record": "publication-checks/final-acceptance-controls.json"
+  },
+  "fresh_install": {
+    "version": "bf665f4",
+    "official_elf_sha256": "bd1c09283a266f14595b6fdfcdf5ae895b40b27c6c3ba635a84b0aa59b9bed8a",
+    "runtime_profile": "tlapm-8g-resident",
+    "system_libraries_modified": false,
+    "package_scripts_executed": false,
+    "installed_utc": "2026-11-19T08:12:32.408727+00:00"
+  },
+  "fresh_install_selftest_accepted": true,
+  "records": {
+    "controller.json": "84fcdccc938e113a92f00884ccb0332b042c4be958398cc28a970394e34fb34a",
+    "evidence-verification.json": "97ee42c807e4fc68eea09cac8782b0201a0b6fa17e100cedc28be17d2ee22838",
+    "acceptance-controls.json": "77524c465de7a733a105483013d8d628a11cb2b5979d47d3ff7bd1246f948dfa",
+    "selftest.json": "2ff654a51359da59bc37bcc5650b7b4b2985e84b67674683541a33efef32f110",
+    "tlc-verification.json": "4e91b3e36d427c7fa0500a58ef49ce7935c00c61f18fdd62226d92be28e9323b",
+    "tlc-run-summary.json": "a97c4219c5beeff14fbbda1ec19c4e4c58de60bca254ddfe70b290242f48c20f",
+    "proof-smoke.json": "b36775e0116599277a94f3fdb9dadd0a5379e5bd72f9e66fc323468f3e4f86a7",
+    "fresh-tool-selftest.json": "6ce8f8946b818c84b5ff21fc14a37658a6858e581c9211facf20cf70b902f9e7",
+    "final-validation.json": "7d3684937abdb526ea4cbb8cffd7cd7c1204f8284b49fff84ceab1fe76c4296e",
+    "final-acceptance-controls.json": "29eb11e4d1061236e945f28570bce01a9ca1a68eae1c1ffc023f38d241359519",
+    "final-evidence-verification.json": "97ee42c807e4fc68eea09cac8782b0201a0b6fa17e100cedc28be17d2ee22838"
+  },
+  "initial_execution_scripts": {
+    "scripts/artifact.py": "5ad1454ab4e0634db2d97efd05a707b9c89627d99a0fd8ebea66426cda5429f8",
+    "scripts/bootstrap.py": "4add64a0db050efca388dac4c17c0f0fe39110cda655857f24315eea22a67ff9",
+    "scripts/common.py": "78722c54e7e32dce42daf42137e09e35b135c2909a5647debdc9e2675e868d74",
+    "scripts/export_public_results.py": "c601bd74e060644781ddb0177163264b7c3b10e48cfcf46349451758e54a26a0",
+    "scripts/prepare_workspace.py": "4739101a7b247e64dacd1ce23fb0ae4ba8920365af8e26a5097f1f76e23a7244",
+    "scripts/support/acceptance.py": "6b284ceb7d03280fa9b0b0e1e87df122d3a98ea3bd1219b11c84db4185235e0a",
+    "scripts/support/audit_client_source_changes.py": "1e9c500d8b4c919a5b3fcfdb99c8876dd63078616ed494b5f87ec5a4a9b67f0c",
+    "scripts/support/bootstrap_modern.py": "44bbde486799ab0e471d938afb64c0ca831ac3e73197499fe23a61e4b013c721",
+    "scripts/support/run_checks.py": "c38b5c1e5078ecac70446c9eeb72d6bbf281921c11dae7263ddf9543cf69a1ed",
+    "scripts/support/run_proof_group.py": "e397e943dcf1604abcad8b5e058588deb0c68389c8f42d165dd2013cb8ecaaab",
+    "scripts/support/run_proofs.py": "2a74a6ed03de9425567e9cd7df63b3957512d1e19d4c7252986a14ad31564719",
+    "scripts/support/selftest_proof_group.py": "061875b5397c3442dff5f04a70b8bcd6e8a0154c9ca95c588b8161fc3f780406",
+    "scripts/support/selftest_runner.py": "2d3c3230c15e04a9a495d24b427ff2046b719f491046e665f5d3bcf52e060bad",
+    "scripts/support/tla_audit.py": "0bdf2b71e79fe8e19b40a4bbbd37e05b5cdb968ed17ef69c2f6e37a0e4b9f3ff",
+    "scripts/support/toolchain_audit.py": "b9d41be268781f50ab7d7e77e730f99eec50a052d84e8f4e43a4b71fb969e627",
+    "scripts/test_artifact.py": "aa3a39c978c0051f88f08259f64e7bc93adcc8b2f5243e2f9912b44b3aaff477",
+    "scripts/verify_evidence.py": "9cc778419565250b2df203bedbbc07ff5b5d89ca3998eeba458d1b6e9a296e2a"
+  },
+  "final_checked_scripts": {
+    "scripts/artifact.py": "5ad1454ab4e0634db2d97efd05a707b9c89627d99a0fd8ebea66426cda5429f8",
+    "scripts/bootstrap.py": "4add64a0db050efca388dac4c17c0f0fe39110cda655857f24315eea22a67ff9",
+    "scripts/common.py": "9068924d9c2039eb83e326f175d113213fa7c4afb99493b0fbfd0fcee701c1f2",
+    "scripts/export_public_results.py": "c601bd74e060644781ddb0177163264b7c3b10e48cfcf46349451758e54a26a0",
+    "scripts/prepare_workspace.py": "4739101a7b247e64dacd1ce23fb0ae4ba8920365af8e26a5097f1f76e23a7244",
+    "scripts/support/acceptance.py": "6b284ceb7d03280fa9b0b0e1e87df122d3a98ea3bd1219b11c84db4185235e0a",
+    "scripts/support/audit_client_source_changes.py": "1e9c500d8b4c919a5b3fcfdb99c8876dd63078616ed494b5f87ec5a4a9b67f0c",
+    "scripts/support/bootstrap_modern.py": "44bbde486799ab0e471d938afb64c0ca831ac3e73197499fe23a61e4b013c721",
+    "scripts/support/run_checks.py": "c38b5c1e5078ecac70446c9eeb72d6bbf281921c11dae7263ddf9543cf69a1ed",
+    "scripts/support/run_proof_group.py": "e397e943dcf1604abcad8b5e058588deb0c68389c8f42d165dd2013cb8ecaaab",
+    "scripts/support/run_proofs.py": "2a74a6ed03de9425567e9cd7df63b3957512d1e19d4c7252986a14ad31564719",
+    "scripts/support/selftest_proof_group.py": "061875b5397c3442dff5f04a70b8bcd6e8a0154c9ca95c588b8161fc3f780406",
+    "scripts/support/selftest_runner.py": "2d3c3230c15e04a9a495d24b427ff2046b719f491046e665f5d3bcf52e060bad",
+    "scripts/support/tla_audit.py": "0bdf2b71e79fe8e19b40a4bbbd37e05b5cdb968ed17ef69c2f6e37a0e4b9f3ff",
+    "scripts/support/toolchain_audit.py": "b9d41be268781f50ab7d7e77e730f99eec50a052d84e8f4e43a4b71fb969e627",
+    "scripts/test_artifact.py": "4ef712a3210970efed6d64335f85527c523a5ab0231b2f381b08d71b61736043",
+    "scripts/verify_evidence.py": "b593427e29ff92ad7aba3a89afd99c1debc016d7f15508d3dd805f0da14c90ad"
+  },
+  "final_validation_record": "publication-checks/final-validation.json",
+  "final_tested_publication_manifest_sha256": "1ab274d4b929f367b95a45722f7e62378713eb6f2b43c8597f28b4826acf442e"
+}

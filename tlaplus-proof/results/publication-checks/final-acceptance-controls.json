@@ -1,0 +1,96 @@
+{
+  "accepted": true,
+  "cases": [
+    {
+      "case": "actual_completed_tlc",
+      "passed": true,
+      "expected_acceptance": true,
+      "observed_acceptance": true,
+      "reason": null
+    },
+    {
+      "case": "wrong_tlc_outcome",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Unexpected TLC result: protocol-tlc--quorum_guard"
+    },
+    {
+      "case": "wrong_tlc_model",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Wrong TLC mode/model: protocol-tlc--quorum_guard"
+    },
+    {
+      "case": "wrong_tlc_tool",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "TLC tool checksum mismatch: protocol-tlc--quorum_guard"
+    },
+    {
+      "case": "wrong_tlc_config_hash",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "TLC configuration hash mismatch: protocol-tlc--quorum_guard"
+    },
+    {
+      "case": "actual_selected_proofs",
+      "passed": true,
+      "expected_acceptance": true,
+      "observed_acceptance": true,
+      "reason": null
+    },
+    {
+      "case": "cached_proof_obligation",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Proof obligation coverage/status mismatch: TRaftFunctionProof"
+    },
+    {
+      "case": "missing_proof_obligation",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Proof obligation coverage/status mismatch: TRaftFunctionProof"
+    },
+    {
+      "case": "selected_proofs_cannot_claim_full",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Missing or repeated SANY preflight: TRaftInvariantStepProof"
+    },
+    {
+      "case": "missing_prover_controls",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Missing prover control"
+    },
+    {
+      "case": "exact_frozen_input_inventory",
+      "passed": true,
+      "expected_acceptance": true,
+      "observed_acceptance": true,
+      "reason": null
+    },
+    {
+      "case": "unregistered_formal_input",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Formal input inventory differs; missing=[], extra=['models/Injected.tla']"
+    },
+    {
+      "case": "missing_frozen_formal_input",
+      "passed": true,
+      "expected_acceptance": false,
+      "observed_acceptance": false,
+      "reason": "Formal input inventory differs; missing=['models/TRaftCore.tla'], extra=[]"
+    }
+  ]
+}

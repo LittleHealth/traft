@@ -1,0 +1,59 @@
+{
+  "kind": "selftest",
+  "parser_and_prover": {
+    "accepted": true,
+    "positive_obligations": 4,
+    "negative_controls": [
+      "isabelle",
+      "smt"
+    ]
+  },
+  "verifier": {
+    "accepted": true,
+    "rejected_corruptions": 5
+  },
+  "semantic_probes": [
+    {
+      "id": "source-semantics--observer_records_violation",
+      "accepted": true,
+      "returncode": 1,
+      "outcome": "invariant_failure",
+      "failed_invariant": "NoRecordedOrderViolation",
+      "result": "checks/source-semantics--observer_records_violation/20261119T080636Z-bfs-source-semantics--observer_records_violation-17fd8152/result.json",
+      "sha256": "28e9c2489b6e69f2b932228c987675a09416060bed41ae362f3b30e149cac235",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      }
+    },
+    {
+      "id": "source-semantics--union_grouping",
+      "accepted": true,
+      "returncode": 0,
+      "outcome": "exhaustive_ok",
+      "failed_invariant": null,
+      "result": "checks/source-semantics--union_grouping/20261119T080637Z-bfs-source-semantics--union_grouping-205f4c62/result.json",
+      "sha256": "46a3c00f6c6f46e83d0f6d561661ddb39eac548d09838b680fcf1cdf34153ab8",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 1,
+        "states_on_queue": 0,
+        "search_depth": 1
+      }
+    }
+  ],
+  "group_controls": {
+    "accepted": true,
+    "negative_group_detected_false_obligation": true,
+    "arithmetic_and_smt_negative_controls_required": true,
+    "shared_import_group_checked_both_modules": true,
+    "negative_group": "20261119T080638Z-group-7b7b0ec7",
+    "positive_group": "20261119T080639Z-group-ebc0667f",
+    "positive_group_seconds": 167.025,
+    "proof_cache_reused": false,
+    "full_proof_complete": false
+  },
+  "accepted": true
+}

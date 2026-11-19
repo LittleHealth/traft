@@ -1,0 +1,48 @@
+{
+  "kind": "selftest",
+  "parser_and_prover": {
+    "accepted": true,
+    "positive_obligations": 4,
+    "negative_controls": [
+      "isabelle",
+      "smt"
+    ]
+  },
+  "verifier": {
+    "accepted": true,
+    "rejected_corruptions": 5
+  },
+  "semantic_probes": [
+    {
+      "id": "source-semantics--observer_records_violation",
+      "accepted": true,
+      "returncode": 1,
+      "outcome": "invariant_failure",
+      "failed_invariant": "NoRecordedOrderViolation",
+      "result": "checks/source-semantics--observer_records_violation/20261119T081443Z-bfs-source-semantics--observer_records_violation-ac0dec72/result.json",
+      "sha256": "d2a12540e2b960623737426da2d7d3be226379d91b112333f0af130b5eb9404b",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 2,
+        "states_on_queue": 0,
+        "search_depth": 2
+      }
+    },
+    {
+      "id": "source-semantics--union_grouping",
+      "accepted": true,
+      "returncode": 0,
+      "outcome": "exhaustive_ok",
+      "failed_invariant": null,
+      "result": "checks/source-semantics--union_grouping/20261119T081444Z-bfs-source-semantics--union_grouping-779db2f3/result.json",
+      "sha256": "e1f01fd60c73c26e84362cbdb164e2480f3ad40b117b2014d0cde4e1723d0bff",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 1,
+        "states_on_queue": 0,
+        "search_depth": 1
+      }
+    }
+  ],
+  "accepted": true
+}

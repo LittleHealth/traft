@@ -1,0 +1,101 @@
+{
+  "accepted": true,
+  "stages": [
+    {
+      "name": "parser_selftest",
+      "returncode": 0,
+      "elapsed_seconds": 0.085,
+      "command": [
+        "python3",
+        "selftest_runner.py"
+      ],
+      "environment_overrides": {}
+    },
+    {
+      "name": "prover_selftest",
+      "returncode": 0,
+      "elapsed_seconds": 1.201,
+      "command": [
+        "python3",
+        "models/run_proofs.py",
+        "--source",
+        "models",
+        "--tlapm",
+        "/home/zxj/traft/2026-11-18-full-proof-02/tools/modern/tlapm/bin/tlapm",
+        "--runtime-profile",
+        "tlapm-8g-resident",
+        "--output",
+        "/home/zxj/traft/2026-11-18-full-proof-02/frozen-results/20261118T174404Z/proofs",
+        "--timeout",
+        "300",
+        "--composition-timeout",
+        "900",
+        "--long-composition-timeout",
+        "1800",
+        "ProofToolPositive",
+        "ProofToolNegative",
+        "ProofToolSMTNegative"
+      ],
+      "environment_overrides": {}
+    },
+    {
+      "name": "prover_group_selftest",
+      "returncode": 0,
+      "elapsed_seconds": 166.913,
+      "command": [
+        "python3",
+        "selftest_proof_group.py",
+        "--models",
+        "models",
+        "--tlapm",
+        "/home/zxj/traft/2026-11-18-full-proof-02/tools/modern/tlapm/bin/tlapm",
+        "--runtime-profile",
+        "tlapm-8g-resident",
+        "--output",
+        "/home/zxj/traft/2026-11-18-full-proof-02/frozen-results/20261118T174404Z/group-selftest"
+      ],
+      "environment_overrides": {}
+    },
+    {
+      "name": "source_semantics_selftest",
+      "returncode": 0,
+      "elapsed_seconds": 3.227,
+      "command": [
+        "python3",
+        "run_source_semantics_probe.py",
+        "--tlapm",
+        "/home/zxj/traft/2026-11-18-full-proof-02/tools/modern/tlapm/bin/tlapm",
+        "--runtime-profile",
+        "tlapm-8g-resident",
+        "--output",
+        "/home/zxj/traft/2026-11-18-full-proof-02/frozen-results/20261118T174404Z/source-semantics"
+      ],
+      "environment_overrides": {}
+    }
+  ],
+  "syntax_check": [
+    {
+      "id": "protocol-tlc--syntax",
+      "suite": "protocol-tlc",
+      "classification": "syntax_ok",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": null,
+      "mode": "sany",
+      "expected_outcome": "syntax_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221425Z-sany-syntax-c1dd6d23/result.json",
+      "result_sha256": "4bbe3dae54d60bd6967a7e65f580c1ef06f84a1583855b70c4eaab0c4a7e3645"
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "targets": [
+    {
+      "id": "initial_invariant",
+      "module": "TRaftInitProof",
+      "theorem": "InitEstablishesInvariant",
+      "accepted": true
+    },
+    {
+      "id": "inductive_step",
+      "module": "TRaftInvariantStepProof",
+      "theorem": "InductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "observed_protocol_safety",
+      "module": "TRaftSafetyObligations",
+      "theorem": "ObservedProtocolSafety",
+      "accepted": true
+    },
+    {
+      "id": "protocol_safety_without_ghost_assumption",
+      "module": "TRaftProtocolSafety",
+      "theorem": "ProtocolSafety",
+      "scope": "Reconstructs canonical history from protocol observations; every imported induction obligation must be independently checked.",
+      "accepted": true
+    },
+    {
+      "id": "core_and_history_refinement",
+      "module": "TRaftHistoryRefinementProof",
+      "theorem": "CoreAndHistoryRefinement",
+      "accepted": true
+    },
+    {
+      "id": "canonical_history_definition",
+      "module": "TRaftCanonicalDefinitionProof",
+      "theorem": "CanonicalDefinitionAlways",
+      "accepted": true
+    },
+    {
+      "id": "unbounded_core_and_history_refinement",
+      "module": "TRaftBoundedObserverRefinement",
+      "theorem": "UnboundedCoreRefinement",
+      "scope": "Embeds physical actions and maps partition history by upward authorization-epoch closure; requires complete protocol induction and mapping lemmas.",
+      "accepted": true
+    },
+    {
+      "id": "deterministic_application_agreement",
+      "module": "TRaftApplicationAgreement",
+      "theorem": "ApplicationAgreement",
+      "scope": "Same applied sets determine equal durable state, and replicas caching the same request agree even at different application progress.",
+      "accepted": true
+    },
+    {
+      "id": "client_linearizability",
+      "module": "TRaftClientLinearizability",
+      "theorem": "ClientLinearizability",
+      "scope": "The shared logged-read ClientSpec satisfies an independent point-store history predicate, preserving returned values and real-time order after pending-call completion.",
+      "accepted": true
+    },
+    {
+      "id": "client_temporal_refinement",
+      "module": "TRaftClientRefinementProof",
+      "theorem": "ClientTemporalRefinement",
+      "accepted": true
+    },
+    {
+      "id": "client_shared_specification_identity",
+      "module": "TRaftClientSpecificationProof",
+      "theorem": "SharedClientSpecificationIdentity",
+      "scope": "Exact identity for the current shared ClientSpec. Unbounded equivalence to the historical recursive observer is excluded; independent recursive checks and bounded differential tests remain enabled.",
+      "accepted": true
+    },
+    {
+      "id": "protocol_six_established_safety_properties",
+      "module": "TRaftEstablishedSafety",
+      "theorem": "ProtocolEstablishedSafety",
+      "accepted": true
+    },
+    {
+      "id": "client_projection_of_six_safety_properties",
+      "module": "TRaftEstablishedSafety",
+      "theorem": "ClientEstablishedSafety",
+      "accepted": true
+    },
+    {
+      "id": "protocol_election_safety",
+      "module": "TRaftElectionTemporal",
+      "theorem": "ProtocolElectionSafety",
+      "accepted": true
+    },
+    {
+      "id": "protocol_control_invariant",
+      "module": "TRaftControlTemporal",
+      "theorem": "ControlInvariantAlways",
+      "accepted": true
+    },
+    {
+      "id": "unique_proposal_epoch",
+      "module": "TRaftProposalIdentityProof",
+      "theorem": "ProtocolUniqueProposalEpoch",
+      "accepted": true
+    },
+    {
+      "id": "protocol_ack_durability",
+      "module": "TRaftDurabilityProof",
+      "theorem": "ProtocolAckDurability",
+      "accepted": true
+    },
+    {
+      "id": "independent_commit_evidence",
+      "module": "TRaftDurabilityProof",
+      "theorem": "ProtocolIndependentEvidence",
+      "accepted": true
+    },
+    {
+      "id": "protocol_commit_knowledge",
+      "module": "TRaftCommitTemporal",
+      "theorem": "ProtocolCommitKnowledgeSound",
+      "accepted": true
+    },
+    {
+      "id": "finite_reachable_logs",
+      "module": "TRaftFiniteTemporal",
+      "theorem": "FiniteLogInvariantAlways",
+      "accepted": true
+    },
+    {
+      "id": "normal_offer_provenance",
+      "module": "TRaftOfferProof",
+      "theorem": "ProtocolOfferProvenance",
+      "accepted": true
+    },
+    {
+      "id": "leader_history_provenance",
+      "module": "TRaftLeaderHistoryProof",
+      "theorem": "ProtocolLeaderHistory",
+      "accepted": true
+    },
+    {
+      "id": "application_partition_order",
+      "module": "TRaftApplicationOrderProof",
+      "theorem": "ProtocolApplicationOrder",
+      "accepted": true
+    },
+    {
+      "id": "conditional_count_completeness",
+      "module": "TRaftBoundaryProof",
+      "theorem": "CountSafetyFromCandidate",
+      "accepted": true
+    },
+    {
+      "id": "conditional_recovery_origin_step",
+      "module": "TRaftRecoveryOriginInduction",
+      "theorem": "RecoveryOriginInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "entry_boundary_metadata_preservation",
+      "module": "TRaftBoundaryInduction",
+      "theorem": "EntryBoundaryInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "recovery_invariant_preservation",
+      "module": "TRaftRecoveryInduction",
+      "theorem": "RecoveryInvariantInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "full_safety_closure",
+      "module": "TRaftSafetyClosureInduction",
+      "theorem": "SafetyClosureInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "protocol_history_origins",
+      "module": "TRaftHistoryOriginProof",
+      "theorem": "ProtocolHistoryOrigins",
+      "accepted": true
+    },
+    {
+      "id": "protocol_epoch_bounded_knowledge",
+      "module": "TRaftEpochKnowledgeProof",
+      "theorem": "ProtocolEpochKnowledge",
+      "accepted": true
+    },
+    {
+      "id": "protocol_activation_certificates",
+      "module": "TRaftActivationCertificateProof",
+      "theorem": "ProtocolActiveRecoveryCertificates",
+      "accepted": true
+    },
+    {
+      "id": "conditional_evidence_agreement",
+      "module": "TRaftAgreementFromInvariant",
+      "theorem": "CandidateImpliesEvidenceAgreement",
+      "accepted": true
+    },
+    {
+      "id": "conditional_safety_consequences",
+      "module": "TRaftSafetyConsequences",
+      "theorem": "CandidateSafetyConsequences",
+      "accepted": true
+    },
+    {
+      "id": "recovery_creation_epoch_boundary",
+      "module": "TRaftRecoveryEpochProof",
+      "theorem": "RecoveryProposalBoundariesInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "prefix_evidence_preservation",
+      "module": "TRaftPrefixEvidenceInduction",
+      "theorem": "PrefixEvidenceInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "protocol_installed_log_sources",
+      "module": "TRaftCertifiedSourceProof",
+      "theorem": "ProtocolInstalledSource",
+      "accepted": true
+    },
+    {
+      "id": "certified_partition_history_preservation",
+      "module": "TRaftCertifiedHistoryProof",
+      "theorem": "CertifiedHistoriesInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "conditional_evidence_partition_order",
+      "module": "TRaftEvidenceOrderProof",
+      "theorem": "CandidateImpliesEvidenceOrder",
+      "accepted": true
+    },
+    {
+      "id": "recovery_report_fences_preservation",
+      "module": "TRaftReportFenceProof",
+      "theorem": "ReportFencesInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "client_request_identity",
+      "module": "TRaftClientPersistenceProof",
+      "theorem": "ClientRequestIdentityAlways",
+      "accepted": true
+    },
+    {
+      "id": "client_durable_cached_results",
+      "module": "TRaftClientPersistenceProof",
+      "theorem": "ClientCachedResultsAlwaysPersist",
+      "accepted": true
+    },
+    {
+      "id": "protocol_message_sources",
+      "module": "TRaftAckSourceProof",
+      "theorem": "ProtocolMessageSources",
+      "accepted": true
+    },
+    {
+      "id": "canonical_prefix_preservation",
+      "module": "TRaftCanonicalPrefixProof",
+      "theorem": "CanonicalPrefixesInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "entry_context_preservation",
+      "module": "TRaftEntryContextProof",
+      "theorem": "ExactEntryContextsInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "ack_origin_preservation",
+      "module": "TRaftAckOriginProof",
+      "theorem": "AckOriginInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "potential_commit_coverage",
+      "module": "TRaftPotentialCoverageProof",
+      "theorem": "PotentialCoverageInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "potential_commit_inheritance",
+      "module": "TRaftPotentialPreservationProof",
+      "theorem": "PotentialPreservationInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "conditional_committed_partition_agreement",
+      "module": "TRaftCertifiedPartitionProof",
+      "theorem": "CandidateCommittedPartitionsAgree",
+      "accepted": true
+    },
+    {
+      "id": "conditional_applied_partition_agreement",
+      "module": "TRaftCertifiedPartitionProof",
+      "theorem": "CandidateAppliedPartitionsAgree",
+      "accepted": true
+    },
+    {
+      "id": "conditional_partition_leader_completeness",
+      "module": "TRaftPartitionLeaderProof",
+      "theorem": "CandidatePartitionLeaderCompleteness",
+      "accepted": true
+    },
+    {
+      "id": "conditional_evidence_term_order",
+      "module": "TRaftEvidenceTermOrderProof",
+      "theorem": "EvidenceTermsOrderPartitions",
+      "accepted": true
+    },
+    {
+      "id": "commit_notice_authorization",
+      "module": "TRaftCommitNoticeProof",
+      "theorem": "CommitNoticeHasQuorumInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "recovery_context_closure",
+      "module": "TRaftRecoveredContextProof",
+      "theorem": "RecoveryMergePreservesContexts",
+      "accepted": true
+    },
+    {
+      "id": "new_entry_types",
+      "module": "TRaftCreatedEntryProof",
+      "theorem": "RecoveryCreationIsTypedAndCoherent",
+      "accepted": true
+    },
+    {
+      "id": "log_type_induction",
+      "module": "TRaftLogTypeProof",
+      "theorem": "LogTypesInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "type_induction",
+      "module": "TRaftTypeProof",
+      "theorem": "TypeOKInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "canonical_log_shape_induction",
+      "module": "TRaftCanonicalLogShapeProof",
+      "theorem": "CanonicalLogShapeInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "canonical_contexts_induction",
+      "module": "TRaftCanonicalContextProof",
+      "theorem": "CanonicalContextsInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "sublog_transport",
+      "module": "TRaftSublogAlgebra",
+      "theorem": "SublogTransport",
+      "accepted": true
+    },
+    {
+      "id": "canonical_proposal_links_induction",
+      "module": "TRaftCanonicalProposalProof",
+      "theorem": "ProposalCanonicalLinksInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "normal_receive_sublog",
+      "module": "TRaftReceiveSublogProof",
+      "theorem": "ReceiveKeepsCanonicalSublog",
+      "accepted": true
+    },
+    {
+      "id": "leader_canonical_equality",
+      "module": "TRaftLeaderCanonicalProof",
+      "theorem": "LeaderCanonicalEqualityInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "formal_sublogs_induction",
+      "module": "TRaftFormalSublogProof",
+      "theorem": "FormalSublogsInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "reported_sublogs_induction",
+      "module": "TRaftReportSublogProof",
+      "theorem": "ReportSublogsInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "formal_log_term_bound_induction",
+      "module": "TRaftFormalTermProof",
+      "theorem": "FormalTermBoundsInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "canonical_shape_induction",
+      "module": "TRaftCanonicalShapeInduction",
+      "theorem": "CanonicalShapeInductiveStep",
+      "accepted": true
+    },
+    {
+      "id": "client_partition_independence",
+      "module": "TRaftClientPartitionTemporal",
+      "theorem": "ClientPartitionIndependence",
+      "scope": "Get isolation and independent same-partition point operations; distinct from application agreement and client linearizability.",
+      "accepted": true
+    },
+    {
+      "id": "application_prefix_closure",
+      "module": "TRaftApplicationPrefixTemporal",
+      "theorem": "ApplicationPrefixesAlwaysClosed",
+      "accepted": true
+    },
+    {
+      "id": "client_cache_applied_origin",
+      "module": "TRaftClientApplicationTemporal",
+      "theorem": "ClientCacheHasAppliedRequestAlways",
+      "accepted": true
+    },
+    {
+      "id": "same_applied_set_application_agreement",
+      "module": "TRaftApplicationAgreement",
+      "theorem": "ClientSameAppliedSetAgreement",
+      "scope": "Equal applied sets determine equal database and persistent result cache; distinct from ready-result agreement at different progress.",
+      "accepted": true
+    },
+    {
+      "id": "first_evidence_partition_order",
+      "module": "TRaftEvidenceLinearizationOrder",
+      "theorem": "FirstEvidenceFormationRespectsPartitionOrder",
+      "scope": "Conditional transition lemma requiring pre/post Inv; it is connected to the protocol induction before use in the client proof.",
+      "accepted": true
+    },
+    {
+      "id": "unbounded_history_instantiation",
+      "module": "TRaftUnboundedHistoryProof",
+      "theorem": "UnboundedHistoryLifting",
+      "scope": "Unbounded parameter instance of canonical-history lifting; distinct from the finite-to-unbounded behavior/history mapping.",
+      "accepted": true
+    },
+    {
+      "id": "unbounded_protocol_safety",
+      "module": "TRaftUnboundedSafetyProof",
+      "theorem": "UnboundedProtocolSafety",
+      "accepted": true
+    },
+    {
+      "id": "unbounded_client_linearizability",
+      "module": "TRaftClientUnboundedProof",
+      "theorem": "UnboundedClientLinearizability",
+      "accepted": true
+    },
+    {
+      "id": "unbounded_application_agreement",
+      "module": "TRaftClientUnboundedProof",
+      "theorem": "UnboundedApplicationAgreement",
+      "accepted": true
+    },
+    {
+      "id": "bounded_physical_protocol_refinement",
+      "module": "TRaftBoundedProtocolRefinement",
+      "theorem": "BoundedPhysicalBehaviorRefinesUnbounded",
+      "scope": "Physical protocol projection; the full observer-history mapping is checked separately.",
+      "accepted": true
+    },
+    {
+      "id": "client_reply_sources",
+      "module": "TRaftClientReplySources",
+      "theorem": "ClientRepliesHaveDurableSources",
+      "scope": "Sent responses retain persistent cache sources and returned messages retain sent-response sources, including delayed replies.",
+      "accepted": true
+    },
+    {
+      "id": "bounded_client_to_unbounded_protocol_core",
+      "module": "TRaftClientCoreMapping",
+      "theorem": "BoundedClientRefinesUnboundedCore",
+      "accepted": true
+    },
+    {
+      "id": "capacity_boundary_starts_successor",
+      "module": "TRaftClientAdmissionProof",
+      "theorem": "CapacityBoundaryStartsSuccessor",
+      "scope": "Local size-boundary admission rule and inclusion of the previous client admission behavior; no liveness claim.",
+      "accepted": true
+    },
+    {
+      "id": "capacity_repair_preserves_existing_admission",
+      "module": "TRaftClientAdmissionProof",
+      "theorem": "ExistingAdmissionsArePreserved",
+      "scope": "Local size-boundary admission rule and inclusion of the previous client admission behavior; no liveness claim.",
+      "accepted": true
+    }
+  ]
+}

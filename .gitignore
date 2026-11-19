@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+reproducibility/config.json
+reproducibility/results/
+reproducibility/.build/
+.DS_Store
+tlaplus-proof/.work/
+tlaplus-proof/.tools/
+tlaplus-proof/.downloads/
+tlaplus-proof/.release/
+tlaplus-proof/**/.tlacache/
+tlaplus-proof/**/states/

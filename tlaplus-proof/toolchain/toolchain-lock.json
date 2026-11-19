@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "platform": "Linux x86_64",
+  "tlapm": {
+    "version": "bf665f4",
+    "release": "1.6.0-pre",
+    "source_commit": "bf665f4d162c1ae5010ca878578cd50a810ec205",
+    "url": "https://github.com/tlaplus/tlapm/releases/download/1.6.0-pre/tlapm-1.6.0-pre-x86_64-linux-gnu.tar.gz",
+    "archive_sha256": "1fcb037a300929d4bed8539511f65073fc19762abd9cea5260fe91d0f2d617df",
+    "official_elf_sha256": "bd1c09283a266f14595b6fdfcdf5ae895b40b27c6c3ba635a84b0aa59b9bed8a"
+  },
+  "tla2tools": {
+    "version": "2.0 2026-09-25",
+    "source_revision": "8f4bc8b73ad1202774a6bf70143436f8ba50aab0",
+    "source_url": "https://github.com/tlaplus/tlaplus/tree/8f4bc8b73ad1202774a6bf70143436f8ba50aab0",
+    "release_asset": "tla2tools.jar",
+    "sha256": "ab4694601923fd5ac06452abbf847c366a5054a3d739552085edd6ed986c29ec"
+  },
+  "compatibility_runtime": {
+    "package": "libc6_2.39-0ubuntu8.12_amd64.deb",
+    "sha256": "d821b41fc59cb4978ecd53bc83e5c964ac15d305c8d2ac4c8a35aebe55010fb9",
+    "signed_release_sha256": "a4dfe9c58d77db89e8b45240d1cc14a3e6dd9159bc29395aebfe6e893594dccb",
+    "package_index_sha256": "b799a4a5c316a2191dfb4b0f420652391a3bfd29350e43252887d9681c98c7f0"
+  },
+  "backends": {
+    "z3": "4.8.9",
+    "zenon": "0.8.4 [a268]",
+    "isabelle": "2025",
+    "polyml": "5.9.1",
+    "ls4": "included in pinned official TLAPM archive"
+  }
+}

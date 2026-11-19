@@ -1,0 +1,51 @@
+{
+  "accepted": true,
+  "completed": true,
+  "stages": [
+    {
+      "name": "sources",
+      "returncode": 0,
+      "seconds": 0.083
+    },
+    {
+      "name": "tlc-results",
+      "returncode": 0,
+      "seconds": 1.197
+    },
+    {
+      "name": "proof-results",
+      "returncode": 0,
+      "seconds": 0.135
+    },
+    {
+      "name": "acceptance-controls",
+      "returncode": 0,
+      "seconds": 2.413
+    },
+    {
+      "name": "evidence",
+      "returncode": 0,
+      "seconds": 89.618
+    }
+  ],
+  "publication_manifest_sha256": "1ab274d4b929f367b95a45722f7e62378713eb6f2b43c8597f28b4826acf442e",
+  "script_sha256": {
+    "scripts/artifact.py": "5ad1454ab4e0634db2d97efd05a707b9c89627d99a0fd8ebea66426cda5429f8",
+    "scripts/bootstrap.py": "4add64a0db050efca388dac4c17c0f0fe39110cda655857f24315eea22a67ff9",
+    "scripts/common.py": "9068924d9c2039eb83e326f175d113213fa7c4afb99493b0fbfd0fcee701c1f2",
+    "scripts/export_public_results.py": "c601bd74e060644781ddb0177163264b7c3b10e48cfcf46349451758e54a26a0",
+    "scripts/prepare_workspace.py": "4739101a7b247e64dacd1ce23fb0ae4ba8920365af8e26a5097f1f76e23a7244",
+    "scripts/support/acceptance.py": "6b284ceb7d03280fa9b0b0e1e87df122d3a98ea3bd1219b11c84db4185235e0a",
+    "scripts/support/audit_client_source_changes.py": "1e9c500d8b4c919a5b3fcfdb99c8876dd63078616ed494b5f87ec5a4a9b67f0c",
+    "scripts/support/bootstrap_modern.py": "44bbde486799ab0e471d938afb64c0ca831ac3e73197499fe23a61e4b013c721",
+    "scripts/support/run_checks.py": "c38b5c1e5078ecac70446c9eeb72d6bbf281921c11dae7263ddf9543cf69a1ed",
+    "scripts/support/run_proof_group.py": "e397e943dcf1604abcad8b5e058588deb0c68389c8f42d165dd2013cb8ecaaab",
+    "scripts/support/run_proofs.py": "2a74a6ed03de9425567e9cd7df63b3957512d1e19d4c7252986a14ad31564719",
+    "scripts/support/selftest_proof_group.py": "061875b5397c3442dff5f04a70b8bcd6e8a0154c9ca95c588b8161fc3f780406",
+    "scripts/support/selftest_runner.py": "2d3c3230c15e04a9a495d24b427ff2046b719f491046e665f5d3bcf52e060bad",
+    "scripts/support/tla_audit.py": "0bdf2b71e79fe8e19b40a4bbbd37e05b5cdb968ed17ef69c2f6e37a0e4b9f3ff",
+    "scripts/support/toolchain_audit.py": "b9d41be268781f50ab7d7e77e730f99eec50a052d84e8f4e43a4b71fb969e627",
+    "scripts/test_artifact.py": "4ef712a3210970efed6d64335f85527c523a5ab0231b2f381b08d71b61736043",
+    "scripts/verify_evidence.py": "b593427e29ff92ad7aba3a89afd99c1debc016d7f15508d3dd805f0da14c90ad"
+  }
+}

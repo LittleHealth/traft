@@ -1,0 +1,730 @@
+{
+  "format": 2,
+  "purpose": "Fail-closed acceptance: exact obligation coverage, matching source closure and separate verification of every imported local theorem module. TLC never discharges a proof target.",
+  "checked_modules": {
+    "TRaftFunctionProof": 2,
+    "TRaftApplicationOrderProof": 157,
+    "TRaftApplicationProof": 25,
+    "TRaftFiniteLogProof": 109,
+    "TRaftBoundaryProof": 135,
+    "TRaftBoundaryInduction": 17,
+    "TRaftQuorumProof": 43,
+    "TRaftElectionSupport": 64,
+    "TRaftElectionActivate": 36,
+    "TRaftElectionAdoptTerm": 125,
+    "TRaftElectionCrash": 42,
+    "TRaftElectionDeliverVote": 36,
+    "TRaftElectionFrames": 69,
+    "TRaftElectionGrantVote": 78,
+    "TRaftElectionStartElection": 165,
+    "TRaftElectionWinElection": 34,
+    "TRaftElectionTemporal": 33,
+    "TRaftControlSupport": 55,
+    "TRaftControlActivate": 60,
+    "TRaftControlAdoptTerm": 59,
+    "TRaftControlBuildRecovery": 65,
+    "TRaftControlConfirmProposal": 61,
+    "TRaftControlCrash": 80,
+    "TRaftControlDeliverReport": 56,
+    "TRaftControlFrames": 55,
+    "TRaftControlMakeReport": 90,
+    "TRaftControlStartElection": 84,
+    "TRaftControlWinElection": 60,
+    "TRaftControlTemporal": 34,
+    "TRaftProposalIdentityProof": 51,
+    "TRaftHistoryRefinementProof": 100,
+    "TRaftCanonicalDefinitionProof": 35,
+    "TRaftFiniteSupport": 109,
+    "TRaftFiniteAckEntry": 29,
+    "TRaftFiniteAckProposal": 29,
+    "TRaftFiniteActivate": 17,
+    "TRaftFiniteAdoptTerm": 17,
+    "TRaftFiniteAdvertiseCommit": 29,
+    "TRaftFiniteApplyEntry": 17,
+    "TRaftFiniteBuildRecovery": 58,
+    "TRaftFiniteCommitEntry": 29,
+    "TRaftFiniteConfirmProposal": 56,
+    "TRaftFiniteCopyProposalEntry": 36,
+    "TRaftFiniteCrash": 17,
+    "TRaftFiniteCreateEntry": 38,
+    "TRaftFiniteCreateSuccessor": 38,
+    "TRaftFiniteDeliverAck": 17,
+    "TRaftFiniteDeliverReport": 17,
+    "TRaftFiniteDeliverVote": 17,
+    "TRaftFiniteGrantVote": 28,
+    "TRaftFiniteLearnCommit": 17,
+    "TRaftFiniteLearnConfirmation": 44,
+    "TRaftFiniteMakeReport": 57,
+    "TRaftFiniteReceiveEntry": 38,
+    "TRaftFiniteRestart": 17,
+    "TRaftFiniteRetainProposal": 36,
+    "TRaftFiniteSendEntry": 29,
+    "TRaftFiniteStartElection": 44,
+    "TRaftFiniteWinElection": 29,
+    "TRaftFiniteTemporal": 43,
+    "TRaftHistoryProjectionProof": 7,
+    "TRaftCanonicalFiniteProof": 54,
+    "TRaftObserverClosureProof": 93,
+    "TRaftProjectionProof": 25,
+    "TRaftClientRefinementProof": 23,
+    "TRaftEvidenceProof": 61,
+    "TRaftCommitSupport": 61,
+    "TRaftCommitActions": 85,
+    "TRaftCommitFrames": 200,
+    "TRaftDurabilityProof": 280,
+    "TRaftCommitTemporal": 55,
+    "TRaftDiagnosticProof": 5,
+    "TRaftElectionProof": 19,
+    "TRaftEstablishedSafety": 25,
+    "TRaftHistoryFactsProof": 43,
+    "TRaftOfferProof": 130,
+    "TRaftInitProof": 214,
+    "TRaftLeaderHistoryFrames": 65,
+    "TRaftLeaderHistoryProof": 81,
+    "TRaftRecoveryInduction": 36,
+    "TRaftOriginSupport": 58,
+    "TRaftOriginFrames": 142,
+    "TRaftOriginActions": 63,
+    "TRaftRecoveryOriginInduction": 45,
+    "TRaftSafetyClosureInduction": 63,
+    "TRaftInvariantStepProof": 87,
+    "TRaftInvariantStutterProof": 336,
+    "TRaftStepProof": 82,
+    "TRaftPotentialProof": 42,
+    "TRaftRecoveryProof": 129,
+    "TRaftRecoveryMergeProof": 100,
+    "TRaftSafetyObligations": 12,
+    "TRaftActivationCertificateProof": 95,
+    "TRaftAgreementFromInvariant": 138,
+    "TRaftAppendOnlyProof": 98,
+    "TRaftBoundaryCountActions": 156,
+    "TRaftBoundaryCountFrames": 62,
+    "TRaftBoundaryCountSupport": 111,
+    "TRaftCanonicalTransitionSupport": 104,
+    "TRaftClosedHistoryProof": 50,
+    "TRaftContextOriginProof": 42,
+    "TRaftEpochKnowledgeProof": 161,
+    "TRaftHistoryOriginProof": 86,
+    "TRaftLogMatchingFromInvariant": 89,
+    "TRaftPrefixEvidenceInduction": 20,
+    "TRaftProtocolSafety": 8,
+    "TRaftRecoveryEpochProof": 76,
+    "TRaftSafetyConsequences": 71,
+    "TRaftTermAndVoteProof": 22,
+    "TRaftSafetyEntryContexts": 7,
+    "TRaftSafetyPartitionAgreement": 5,
+    "TRaftSafetyPartitionLeader": 5,
+    "TRaftSafetyPartitionApplication": 5,
+    "TRaftSafetyAppliedPreservation": 94,
+    "TRaftSafetyCommitNotice": 2,
+    "TRaftSafetyEvidenceOrder": 5,
+    "TRaftPrefixFollowerInduction": 63,
+    "TRaftPrefixOfferInduction": 77,
+    "TRaftPrefixAckInduction": 110,
+    "TRaftCertifiedSourceProof": 108,
+    "TRaftCertifiedHistoryProof": 45,
+    "TRaftRetainedFrames": 86,
+    "TRaftEvidenceOrderProof": 212,
+    "TRaftReportFenceProof": 141,
+    "TRaftClientPersistenceProof": 132,
+    "TRaftAckSourceFrames": 74,
+    "TRaftAckSourceProof": 92,
+    "TRaftCanonicalLeaderFrames": 143,
+    "TRaftCanonicalPrefixProof": 137,
+    "TRaftEntryContextProof": 74,
+    "TRaftPrefixContextSupport": 36,
+    "TRaftProposalEvidenceProof": 22,
+    "TRaftRecoveryContextProof": 49,
+    "TRaftAckOriginProof": 131,
+    "TRaftFollowerPrefixSupport": 81,
+    "TRaftFollowerReceiveProof": 132,
+    "TRaftPotentialPreservationProof": 151,
+    "TRaftPotentialCoverageProof": 179,
+    "TRaftPartitionEvidenceProof": 88,
+    "TRaftCertifiedPartitionProof": 150,
+    "TRaftPartitionLeaderProof": 105,
+    "TRaftEvidenceTermOrderProof": 80,
+    "TRaftCommitNoticeProof": 115,
+    "TRaftRecoveredContextProof": 172,
+    "TRaftCreatedEntryProof": 187,
+    "TRaftTypeFrames": 121,
+    "TRaftLogTypeProof": 215,
+    "TRaftTypeProof": 36,
+    "TRaftCanonicalUpdateProof": 74,
+    "TRaftCanonicalLogShapeProof": 173,
+    "TRaftCanonicalContextProof": 117,
+    "TRaftSublogSupport": 72,
+    "TRaftCanonicalProposalProof": 126,
+    "TRaftReceiveSublogProof": 58,
+    "TRaftLeaderCanonicalInclusion": 141,
+    "TRaftLeaderCanonicalProof": 62,
+    "TRaftFormalSublogProof": 98,
+    "TRaftReportSublogProof": 38,
+    "TRaftFormalTermProof": 91,
+    "TRaftCanonicalShapeInduction": 58,
+    "TRaftLogCountProof": 56,
+    "TRaftPointPartitionProof": 70,
+    "TRaftClientPartitionActions": 137,
+    "TRaftLogContextProof": 50,
+    "TRaftSublogAlgebra": 80,
+    "TRaftDeduplicatedCommutation": 72,
+    "TRaftClientPartitionInduction": 86,
+    "TRaftSequenceFoldProof": 124,
+    "TRaftClientPartitionTemporal": 64,
+    "TRaftClientRequestSources": 105,
+    "TRaftApplicationPrefixProof": 70,
+    "TRaftClientApplicationProof": 184,
+    "TRaftClientApplicationTemporal": 92,
+    "TRaftApplicationPrefixTemporal": 38,
+    "TRaftPointStoreFacts": 60,
+    "TRaftPointStoreUpdate": 219,
+    "TRaftApplicationInterpretation": 117,
+    "TRaftApplicationAgreement": 61,
+    "TRaftAppliedEvidencePrefix": 51,
+    "TRaftReadResultAgreement": 92,
+    "TRaftEvidenceLinearizationOrder": 70,
+    "TRaftUnboundedHistoryProof": 11,
+    "TRaftFiniteEntryOrder": 118,
+    "TRaftClientEvidenceInputs": 43,
+    "TRaftClientEvidenceAnswers": 67,
+    "TRaftPointStoreStep": 82,
+    "TRaftBoundedProtocolRefinement": 42,
+    "TRaftNormalCreationInstances": 54,
+    "TRaftOrderedApplicationProof": 79,
+    "TRaftPointStoreEvaluation": 30,
+    "TRaftClientReplySources": 83,
+    "TRaftClientOrderProof": 62,
+    "TRaftFoldSimulation": 112,
+    "TRaftWitnessStep": 143,
+    "TRaftClientHistoryFacts": 58,
+    "TRaftNormalSublogProof": 117,
+    "TRaftClientRealTimeStep": 66,
+    "TRaftWitnessFold": 105,
+    "TRaftEvidenceBatchInterpretation": 121,
+    "TRaftBoundedActionInstances": 135,
+    "TRaftClientCommandStability": 67,
+    "TRaftFiniteRequestOrder": 58,
+    "TRaftFoldConcatProof": 35,
+    "TRaftClientWitnessRepresentation": 99,
+    "TRaftClientReturnedWitness": 22,
+    "TRaftClientHistoryCompletion": 139,
+    "TRaftClientHistoryTemporal": 27,
+    "TRaftClientLinearizationContext": 37,
+    "TRaftClientWitnessStutter": 42,
+    "TRaftClientWitnessInduction": 36,
+    "TRaftClientLinearizability": 37,
+    "TRaftEpochClosureProof": 55,
+    "TRaftBoundedObserverInputs": 132,
+    "TRaftBoundedMappingAliases": 53,
+    "TRaftBoundedObserverStep": 19,
+    "TRaftBoundedObserverRefinement": 23,
+    "TRaftUnboundedSafetyProof": 37,
+    "TRaftClientSpecificationProof": 4,
+    "TRaftClientUnboundedProof": 22,
+    "TRaftBoundedParameterProof": 24,
+    "TRaftClientCoreMapping": 8,
+    "TRaftLiftedCoreAliases01": 20,
+    "TRaftLiftedCoreAliases02": 31,
+    "TRaftLiftedCoreAliases03": 25,
+    "TRaftLiftedCoreAliases04": 25,
+    "TRaftLiftedCoreAliases05": 41,
+    "TRaftLiftedCoreAliases06": 54,
+    "TRaftLiftedCoreAliases07": 22,
+    "TRaftLiftedCoreAliases08": 45,
+    "TRaftLiftedCoreAliases09": 30,
+    "TRaftLiftedCoreAliases10": 44,
+    "TRaftLiftedCoreAliases11": 38,
+    "TRaftUnboundedSafetyDefinitions": 9,
+    "TRaftUnboundedCoreAliases01": 23,
+    "TRaftUnboundedCoreAliases02": 31,
+    "TRaftUnboundedCoreAliases03": 25,
+    "TRaftUnboundedCoreAliases04": 26,
+    "TRaftUnboundedCoreAliases05": 42,
+    "TRaftUnboundedCoreAliases06": 55,
+    "TRaftUnboundedCoreAliases07": 23,
+    "TRaftUnboundedCoreAliases08": 45,
+    "TRaftUnboundedCoreAliases09": 30,
+    "TRaftUnboundedCoreAliases10": 44,
+    "TRaftUnboundedCoreAliases11": 38,
+    "TRaftLiftedCoreAliases07b": 21,
+    "TRaftLiftedCoreAliases08b": 31,
+    "TRaftUnboundedCoreAliases07b": 22,
+    "TRaftUnboundedCoreAliases08b": 31,
+    "TRaftLiftedSafetyParameters": 7,
+    "TRaftLiftedInitialIdentity": 7,
+    "TRaftLiftedNextIdentity": 4,
+    "TRaftLiftedSpecificationIdentity": 12,
+    "TRaftLiftedInvariantTransport": 5,
+    "TRaftLiftedSafetyTransport": 6,
+    "TRaftPointLiftParameters": 5,
+    "TRaftPointLiftInterface": 9,
+    "TRaftPointLiftInvariant": 4,
+    "TRaftPointLiftSourceInterface": 3,
+    "TRaftPointCoreAliases01": 20,
+    "TRaftPointCoreAliases02": 31,
+    "TRaftPointCoreAliases03": 25,
+    "TRaftPointCoreAliases04": 25,
+    "TRaftPointCoreAliases05": 41,
+    "TRaftPointCoreAliases06": 54,
+    "TRaftPointCoreAliases07": 22,
+    "TRaftPointCoreAliases07b": 21,
+    "TRaftPointCoreAliases08": 45,
+    "TRaftPointClientAliases01": 38,
+    "TRaftPointClientAliases02": 42,
+    "TRaftPointInvariantAliases01": 97,
+    "TRaftPointInvariantAliases02": 116,
+    "TRaftPointInvariantAliases03": 107,
+    "TRaftPointInvariantAliases04": 139,
+    "TRaftPointCoreAliases08b": 31,
+    "TRaftPointCoreAliases09": 30,
+    "TRaftPointCoreAliases10": 44,
+    "TRaftPointCoreAliases11": 38,
+    "TRaftUnboundedClientDefinitions": 13,
+    "TRaftUnboundedClientCoreAliases01": 23,
+    "TRaftUnboundedClientCoreAliases02": 32,
+    "TRaftUnboundedClientCoreAliases03": 25,
+    "TRaftUnboundedClientCoreAliases04": 26,
+    "TRaftUnboundedClientCoreAliases05": 42,
+    "TRaftUnboundedClientCoreAliases06": 57,
+    "TRaftUnboundedClientCoreAliases07": 23,
+    "TRaftUnboundedClientCoreAliases07b": 22,
+    "TRaftUnboundedClientCoreAliases08": 46,
+    "TRaftUnboundedClientCoreAliases08b": 31,
+    "TRaftUnboundedClientCoreAliases09": 30,
+    "TRaftUnboundedClientCoreAliases10": 44,
+    "TRaftUnboundedClientCoreAliases11": 38,
+    "TRaftUnboundedClientAliases01": 32,
+    "TRaftUnboundedClientAliases02": 45,
+    "TRaftUnboundedClientStateAliases": 16,
+    "TRaftUnboundedClientObserverIdentity": 2,
+    "TRaftUnboundedClientSpecificationIdentity": 14,
+    "TRaftUnboundedClientHistoryIdentity": 16,
+    "TRaftClientAdmissionProof": 7,
+    "TRaftClientTraceInterface": 15,
+    "TRaftClientTraceState": 11,
+    "TRaftClientTraceEvidence": 58,
+    "TRaftClientApplicationStutter": 7
+  },
+  "required_targets": [
+    {
+      "id": "initial_invariant",
+      "module": "TRaftInitProof",
+      "theorem": "InitEstablishesInvariant"
+    },
+    {
+      "id": "inductive_step",
+      "module": "TRaftInvariantStepProof",
+      "theorem": "InductiveStep"
+    },
+    {
+      "id": "observed_protocol_safety",
+      "module": "TRaftSafetyObligations",
+      "theorem": "ObservedProtocolSafety"
+    },
+    {
+      "id": "protocol_safety_without_ghost_assumption",
+      "module": "TRaftProtocolSafety",
+      "theorem": "ProtocolSafety",
+      "scope": "Reconstructs canonical history from protocol observations; every imported induction obligation must be independently checked."
+    },
+    {
+      "id": "core_and_history_refinement",
+      "module": "TRaftHistoryRefinementProof",
+      "theorem": "CoreAndHistoryRefinement"
+    },
+    {
+      "id": "canonical_history_definition",
+      "module": "TRaftCanonicalDefinitionProof",
+      "theorem": "CanonicalDefinitionAlways"
+    },
+    {
+      "id": "unbounded_core_and_history_refinement",
+      "module": "TRaftBoundedObserverRefinement",
+      "theorem": "UnboundedCoreRefinement",
+      "scope": "Embeds physical actions and maps partition history by upward authorization-epoch closure; requires complete protocol induction and mapping lemmas."
+    },
+    {
+      "id": "deterministic_application_agreement",
+      "module": "TRaftApplicationAgreement",
+      "theorem": "ApplicationAgreement",
+      "scope": "Same applied sets determine equal durable state, and replicas caching the same request agree even at different application progress."
+    },
+    {
+      "id": "client_linearizability",
+      "module": "TRaftClientLinearizability",
+      "theorem": "ClientLinearizability",
+      "scope": "The shared logged-read ClientSpec satisfies an independent point-store history predicate, preserving returned values and real-time order after pending-call completion."
+    },
+    {
+      "id": "client_temporal_refinement",
+      "module": "TRaftClientRefinementProof",
+      "theorem": "ClientTemporalRefinement"
+    },
+    {
+      "id": "client_shared_specification_identity",
+      "module": "TRaftClientSpecificationProof",
+      "theorem": "SharedClientSpecificationIdentity",
+      "scope": "Exact identity for the current shared ClientSpec. Unbounded equivalence to the historical recursive observer is excluded; independent recursive checks and bounded differential tests remain enabled."
+    },
+    {
+      "id": "protocol_six_established_safety_properties",
+      "module": "TRaftEstablishedSafety",
+      "theorem": "ProtocolEstablishedSafety"
+    },
+    {
+      "id": "client_projection_of_six_safety_properties",
+      "module": "TRaftEstablishedSafety",
+      "theorem": "ClientEstablishedSafety"
+    },
+    {
+      "id": "protocol_election_safety",
+      "module": "TRaftElectionTemporal",
+      "theorem": "ProtocolElectionSafety"
+    },
+    {
+      "id": "protocol_control_invariant",
+      "module": "TRaftControlTemporal",
+      "theorem": "ControlInvariantAlways"
+    },
+    {
+      "id": "unique_proposal_epoch",
+      "module": "TRaftProposalIdentityProof",
+      "theorem": "ProtocolUniqueProposalEpoch"
+    },
+    {
+      "id": "protocol_ack_durability",
+      "module": "TRaftDurabilityProof",
+      "theorem": "ProtocolAckDurability"
+    },
+    {
+      "id": "independent_commit_evidence",
+      "module": "TRaftDurabilityProof",
+      "theorem": "ProtocolIndependentEvidence"
+    },
+    {
+      "id": "protocol_commit_knowledge",
+      "module": "TRaftCommitTemporal",
+      "theorem": "ProtocolCommitKnowledgeSound"
+    },
+    {
+      "id": "finite_reachable_logs",
+      "module": "TRaftFiniteTemporal",
+      "theorem": "FiniteLogInvariantAlways"
+    },
+    {
+      "id": "normal_offer_provenance",
+      "module": "TRaftOfferProof",
+      "theorem": "ProtocolOfferProvenance"
+    },
+    {
+      "id": "leader_history_provenance",
+      "module": "TRaftLeaderHistoryProof",
+      "theorem": "ProtocolLeaderHistory"
+    },
+    {
+      "id": "application_partition_order",
+      "module": "TRaftApplicationOrderProof",
+      "theorem": "ProtocolApplicationOrder"
+    },
+    {
+      "id": "conditional_count_completeness",
+      "module": "TRaftBoundaryProof",
+      "theorem": "CountSafetyFromCandidate"
+    },
+    {
+      "id": "conditional_recovery_origin_step",
+      "module": "TRaftRecoveryOriginInduction",
+      "theorem": "RecoveryOriginInductiveStep"
+    },
+    {
+      "id": "entry_boundary_metadata_preservation",
+      "module": "TRaftBoundaryInduction",
+      "theorem": "EntryBoundaryInductiveStep"
+    },
+    {
+      "id": "recovery_invariant_preservation",
+      "module": "TRaftRecoveryInduction",
+      "theorem": "RecoveryInvariantInductiveStep"
+    },
+    {
+      "id": "full_safety_closure",
+      "module": "TRaftSafetyClosureInduction",
+      "theorem": "SafetyClosureInductiveStep"
+    },
+    {
+      "id": "protocol_history_origins",
+      "module": "TRaftHistoryOriginProof",
+      "theorem": "ProtocolHistoryOrigins"
+    },
+    {
+      "id": "protocol_epoch_bounded_knowledge",
+      "module": "TRaftEpochKnowledgeProof",
+      "theorem": "ProtocolEpochKnowledge"
+    },
+    {
+      "id": "protocol_activation_certificates",
+      "module": "TRaftActivationCertificateProof",
+      "theorem": "ProtocolActiveRecoveryCertificates"
+    },
+    {
+      "id": "conditional_evidence_agreement",
+      "module": "TRaftAgreementFromInvariant",
+      "theorem": "CandidateImpliesEvidenceAgreement"
+    },
+    {
+      "id": "conditional_safety_consequences",
+      "module": "TRaftSafetyConsequences",
+      "theorem": "CandidateSafetyConsequences"
+    },
+    {
+      "id": "recovery_creation_epoch_boundary",
+      "module": "TRaftRecoveryEpochProof",
+      "theorem": "RecoveryProposalBoundariesInductiveStep"
+    },
+    {
+      "id": "prefix_evidence_preservation",
+      "module": "TRaftPrefixEvidenceInduction",
+      "theorem": "PrefixEvidenceInductiveStep"
+    },
+    {
+      "id": "protocol_installed_log_sources",
+      "module": "TRaftCertifiedSourceProof",
+      "theorem": "ProtocolInstalledSource"
+    },
+    {
+      "id": "certified_partition_history_preservation",
+      "module": "TRaftCertifiedHistoryProof",
+      "theorem": "CertifiedHistoriesInductiveStep"
+    },
+    {
+      "id": "conditional_evidence_partition_order",
+      "module": "TRaftEvidenceOrderProof",
+      "theorem": "CandidateImpliesEvidenceOrder"
+    },
+    {
+      "id": "recovery_report_fences_preservation",
+      "module": "TRaftReportFenceProof",
+      "theorem": "ReportFencesInductiveStep"
+    },
+    {
+      "id": "client_request_identity",
+      "module": "TRaftClientPersistenceProof",
+      "theorem": "ClientRequestIdentityAlways"
+    },
+    {
+      "id": "client_durable_cached_results",
+      "module": "TRaftClientPersistenceProof",
+      "theorem": "ClientCachedResultsAlwaysPersist"
+    },
+    {
+      "id": "protocol_message_sources",
+      "module": "TRaftAckSourceProof",
+      "theorem": "ProtocolMessageSources"
+    },
+    {
+      "id": "canonical_prefix_preservation",
+      "module": "TRaftCanonicalPrefixProof",
+      "theorem": "CanonicalPrefixesInductiveStep"
+    },
+    {
+      "id": "entry_context_preservation",
+      "module": "TRaftEntryContextProof",
+      "theorem": "ExactEntryContextsInductiveStep"
+    },
+    {
+      "id": "ack_origin_preservation",
+      "module": "TRaftAckOriginProof",
+      "theorem": "AckOriginInductiveStep"
+    },
+    {
+      "id": "potential_commit_coverage",
+      "module": "TRaftPotentialCoverageProof",
+      "theorem": "PotentialCoverageInductiveStep"
+    },
+    {
+      "id": "potential_commit_inheritance",
+      "module": "TRaftPotentialPreservationProof",
+      "theorem": "PotentialPreservationInductiveStep"
+    },
+    {
+      "id": "conditional_committed_partition_agreement",
+      "module": "TRaftCertifiedPartitionProof",
+      "theorem": "CandidateCommittedPartitionsAgree"
+    },
+    {
+      "id": "conditional_applied_partition_agreement",
+      "module": "TRaftCertifiedPartitionProof",
+      "theorem": "CandidateAppliedPartitionsAgree"
+    },
+    {
+      "id": "conditional_partition_leader_completeness",
+      "module": "TRaftPartitionLeaderProof",
+      "theorem": "CandidatePartitionLeaderCompleteness"
+    },
+    {
+      "id": "conditional_evidence_term_order",
+      "module": "TRaftEvidenceTermOrderProof",
+      "theorem": "EvidenceTermsOrderPartitions"
+    },
+    {
+      "id": "commit_notice_authorization",
+      "module": "TRaftCommitNoticeProof",
+      "theorem": "CommitNoticeHasQuorumInductiveStep"
+    },
+    {
+      "id": "recovery_context_closure",
+      "module": "TRaftRecoveredContextProof",
+      "theorem": "RecoveryMergePreservesContexts"
+    },
+    {
+      "id": "new_entry_types",
+      "module": "TRaftCreatedEntryProof",
+      "theorem": "RecoveryCreationIsTypedAndCoherent"
+    },
+    {
+      "id": "log_type_induction",
+      "module": "TRaftLogTypeProof",
+      "theorem": "LogTypesInductiveStep"
+    },
+    {
+      "id": "type_induction",
+      "module": "TRaftTypeProof",
+      "theorem": "TypeOKInductiveStep"
+    },
+    {
+      "id": "canonical_log_shape_induction",
+      "module": "TRaftCanonicalLogShapeProof",
+      "theorem": "CanonicalLogShapeInductiveStep"
+    },
+    {
+      "id": "canonical_contexts_induction",
+      "module": "TRaftCanonicalContextProof",
+      "theorem": "CanonicalContextsInductiveStep"
+    },
+    {
+      "id": "sublog_transport",
+      "module": "TRaftSublogAlgebra",
+      "theorem": "SublogTransport"
+    },
+    {
+      "id": "canonical_proposal_links_induction",
+      "module": "TRaftCanonicalProposalProof",
+      "theorem": "ProposalCanonicalLinksInductiveStep"
+    },
+    {
+      "id": "normal_receive_sublog",
+      "module": "TRaftReceiveSublogProof",
+      "theorem": "ReceiveKeepsCanonicalSublog"
+    },
+    {
+      "id": "leader_canonical_equality",
+      "module": "TRaftLeaderCanonicalProof",
+      "theorem": "LeaderCanonicalEqualityInductiveStep"
+    },
+    {
+      "id": "formal_sublogs_induction",
+      "module": "TRaftFormalSublogProof",
+      "theorem": "FormalSublogsInductiveStep"
+    },
+    {
+      "id": "reported_sublogs_induction",
+      "module": "TRaftReportSublogProof",
+      "theorem": "ReportSublogsInductiveStep"
+    },
+    {
+      "id": "formal_log_term_bound_induction",
+      "module": "TRaftFormalTermProof",
+      "theorem": "FormalTermBoundsInductiveStep"
+    },
+    {
+      "id": "canonical_shape_induction",
+      "module": "TRaftCanonicalShapeInduction",
+      "theorem": "CanonicalShapeInductiveStep"
+    },
+    {
+      "id": "client_partition_independence",
+      "module": "TRaftClientPartitionTemporal",
+      "theorem": "ClientPartitionIndependence",
+      "scope": "Get isolation and independent same-partition point operations; distinct from application agreement and client linearizability."
+    },
+    {
+      "id": "application_prefix_closure",
+      "module": "TRaftApplicationPrefixTemporal",
+      "theorem": "ApplicationPrefixesAlwaysClosed"
+    },
+    {
+      "id": "client_cache_applied_origin",
+      "module": "TRaftClientApplicationTemporal",
+      "theorem": "ClientCacheHasAppliedRequestAlways"
+    },
+    {
+      "id": "same_applied_set_application_agreement",
+      "module": "TRaftApplicationAgreement",
+      "theorem": "ClientSameAppliedSetAgreement",
+      "scope": "Equal applied sets determine equal database and persistent result cache; distinct from ready-result agreement at different progress."
+    },
+    {
+      "id": "first_evidence_partition_order",
+      "module": "TRaftEvidenceLinearizationOrder",
+      "theorem": "FirstEvidenceFormationRespectsPartitionOrder",
+      "scope": "Conditional transition lemma requiring pre/post Inv; it is connected to the protocol induction before use in the client proof."
+    },
+    {
+      "id": "unbounded_history_instantiation",
+      "module": "TRaftUnboundedHistoryProof",
+      "theorem": "UnboundedHistoryLifting",
+      "scope": "Unbounded parameter instance of canonical-history lifting; distinct from the finite-to-unbounded behavior/history mapping."
+    },
+    {
+      "id": "unbounded_protocol_safety",
+      "module": "TRaftUnboundedSafetyProof",
+      "theorem": "UnboundedProtocolSafety"
+    },
+    {
+      "id": "unbounded_client_linearizability",
+      "module": "TRaftClientUnboundedProof",
+      "theorem": "UnboundedClientLinearizability"
+    },
+    {
+      "id": "unbounded_application_agreement",
+      "module": "TRaftClientUnboundedProof",
+      "theorem": "UnboundedApplicationAgreement"
+    },
+    {
+      "id": "bounded_physical_protocol_refinement",
+      "module": "TRaftBoundedProtocolRefinement",
+      "theorem": "BoundedPhysicalBehaviorRefinesUnbounded",
+      "scope": "Physical protocol projection; the full observer-history mapping is checked separately."
+    },
+    {
+      "id": "client_reply_sources",
+      "module": "TRaftClientReplySources",
+      "theorem": "ClientRepliesHaveDurableSources",
+      "scope": "Sent responses retain persistent cache sources and returned messages retain sent-response sources, including delayed replies."
+    },
+    {
+      "id": "bounded_client_to_unbounded_protocol_core",
+      "module": "TRaftClientCoreMapping",
+      "theorem": "BoundedClientRefinesUnboundedCore"
+    },
+    {
+      "id": "capacity_boundary_starts_successor",
+      "module": "TRaftClientAdmissionProof",
+      "theorem": "CapacityBoundaryStartsSuccessor",
+      "scope": "Local size-boundary admission rule and inclusion of the previous client admission behavior; no liveness claim."
+    },
+    {
+      "id": "capacity_repair_preserves_existing_admission",
+      "module": "TRaftClientAdmissionProof",
+      "theorem": "ExistingAdmissionsArePreserved",
+      "scope": "Local size-boundary admission rule and inclusion of the previous client admission behavior; no liveness claim."
+    }
+  ],
+  "excluded": [
+    "IoTDB implementation refinement",
+    "cross-group transactions",
+    "membership changes",
+    "snapshot and garbage collection",
+    "liveness and eventual convergence"
+  ]
+}

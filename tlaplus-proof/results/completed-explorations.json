@@ -1,0 +1,688 @@
+{
+  "scope": "completed_finite_exploration",
+  "count": 22,
+  "checks": [
+    {
+      "id": "protocol-tlc--quorum_guard",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/protocol/quorum_guard.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221426Z-bfs-quorum_guard-0741f166/result.json",
+      "result_sha256": "e0a0a3dd59b244ce49f2f111e3f56cea3f4b81834303e651450b1a98b86ad605",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 33,
+        "distinct_states": 32,
+        "states_on_queue": 0,
+        "search_depth": 32
+      },
+      "elapsed_seconds": 1.631
+    },
+    {
+      "id": "protocol-tlc--count_guard",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/protocol/count_guard.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221428Z-bfs-count_guard-a615a068/result.json",
+      "result_sha256": "afb7eb9b82b0fabdb4cbf1b89c9503c7c5cbd37d1e0dc6ca22d42f1d4bbbadcf",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 41,
+        "distinct_states": 40,
+        "states_on_queue": 0,
+        "search_depth": 40
+      },
+      "elapsed_seconds": 1.429
+    },
+    {
+      "id": "protocol-tlc--recovery",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/protocol/recovery.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221429Z-bfs-recovery-0a466aba/result.json",
+      "result_sha256": "9bf52d78fe71a88f3033c91c22a3109b1075fb7668ed8b562c3066d1f5768106",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 79,
+        "distinct_states": 78,
+        "states_on_queue": 0,
+        "search_depth": 78
+      },
+      "elapsed_seconds": 1.841
+    },
+    {
+      "id": "protocol-tlc--interrupted",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/protocol/interrupted.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221431Z-bfs-interrupted-1d6a2194/result.json",
+      "result_sha256": "d0e20be9ca75bc3bd56a268df5d5255cc0eccb50878c03662d22951b268d5db3",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 93,
+        "distinct_states": 92,
+        "states_on_queue": 0,
+        "search_depth": 92
+      },
+      "elapsed_seconds": 2.039
+    },
+    {
+      "id": "protocol-tlc--normal_boundary",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/protocol/normal_boundary.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221433Z-bfs-normal_boundary-da9956af/result.json",
+      "result_sha256": "5fd001324ed108c46f51b2ab1ff0c9cc3547e3a824aa991a8ed371fcc16304d0",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 88,
+        "distinct_states": 87,
+        "states_on_queue": 0,
+        "search_depth": 87
+      },
+      "elapsed_seconds": 2.039
+    },
+    {
+      "id": "protocol-tlc--uncommitted_rollback",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperScenarios.tla",
+      "config": "configs/protocol/uncommitted_rollback.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221435Z-bfs-uncommitted_rollback-d5040d8b/result.json",
+      "result_sha256": "4cf8b25dd442fcf465c0bc8be89dd7518a9ce021e7ccd41b619cec67a470e452",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 51,
+        "distinct_states": 50,
+        "states_on_queue": 0,
+        "search_depth": 50
+      },
+      "elapsed_seconds": 1.637
+    },
+    {
+      "id": "protocol-tlc--recovery_suffix_3steps",
+      "suite": "protocol-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftPaperSuffix.tla",
+      "config": "configs/protocol/recovery_suffix_3steps.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 2,
+        "heap": "2g",
+        "timeout_seconds": 60.0,
+        "max_disk_gb": 0.25,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/protocol-tlc/20261118T221447Z-bfs-recovery_suffix_3steps-35f52e9f/result.json",
+      "result_sha256": "bcb198c1e4aa841ba246afc3c3d4155f343fb5b9bac4b1ac387943abeaca7cd1",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 1319,
+        "distinct_states": 288,
+        "states_on_queue": 0,
+        "search_depth": 59
+      },
+      "elapsed_seconds": 3.264
+    },
+    {
+      "id": "invariant-tlc--quorum_guard",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftProofScenarios.tla",
+      "config": "configs/invariant/proof_quorum_guard.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221617Z-bfs-quorum_guard-a7e59cf5/result.json",
+      "result_sha256": "a8ce7deec1ef5526942a4a2415abe54b20d33c2ac71f79aa043d792939fe39ad",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 33,
+        "distinct_states": 32,
+        "states_on_queue": 0,
+        "search_depth": 32
+      },
+      "elapsed_seconds": 1.634
+    },
+    {
+      "id": "invariant-tlc--count_guard",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftProofScenarios.tla",
+      "config": "configs/invariant/proof_count_guard.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221619Z-bfs-count_guard-f544e4f9/result.json",
+      "result_sha256": "dd0f036328512291e6df21397c75ddd4cab7c99b5c7152728ca3e4cb91708329",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 41,
+        "distinct_states": 40,
+        "states_on_queue": 0,
+        "search_depth": 40
+      },
+      "elapsed_seconds": 2.042
+    },
+    {
+      "id": "invariant-tlc--recovery",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftProofScenarios.tla",
+      "config": "configs/invariant/proof_recovery.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221621Z-bfs-recovery-f6638233/result.json",
+      "result_sha256": "ae0eb13721376a16ed3e22d89a1979d022758780f3fb273ebbf41fec10695978",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 79,
+        "distinct_states": 78,
+        "states_on_queue": 0,
+        "search_depth": 78
+      },
+      "elapsed_seconds": 2.243
+    },
+    {
+      "id": "invariant-tlc--interrupted",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftProofScenarios.tla",
+      "config": "configs/invariant/proof_interrupted.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221623Z-bfs-interrupted-998cc3c5/result.json",
+      "result_sha256": "ff21744b869d18d08bf5a684e590943647a0a2a1d5826a7920f579238404a98a",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 93,
+        "distinct_states": 92,
+        "states_on_queue": 0,
+        "search_depth": 92
+      },
+      "elapsed_seconds": 2.447
+    },
+    {
+      "id": "invariant-tlc--normal_boundary",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftProofScenarios.tla",
+      "config": "configs/invariant/proof_normal_boundary.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221626Z-bfs-normal_boundary-30a042a6/result.json",
+      "result_sha256": "4907b533615400676ff37f35860095994e82bdda367b2cf1d5d923232e1fbebb",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 88,
+        "distinct_states": 87,
+        "states_on_queue": 0,
+        "search_depth": 87
+      },
+      "elapsed_seconds": 2.25
+    },
+    {
+      "id": "invariant-tlc--uncommitted_rollback",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftProofScenarios.tla",
+      "config": "configs/invariant/proof_uncommitted_rollback.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221628Z-bfs-uncommitted_rollback-b0f07b35/result.json",
+      "result_sha256": "c728feb47cb0d825852cf457969d8a7b48988fce70b17579f03a1672eed96233",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 51,
+        "distinct_states": 50,
+        "states_on_queue": 0,
+        "search_depth": 50
+      },
+      "elapsed_seconds": 1.84
+    },
+    {
+      "id": "invariant-tlc--normal_noop_self_ack",
+      "suite": "invariant-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftNoopSelfAckDiagnostic.tla",
+      "config": "configs/invariant/noop_self_ack_positive.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/invariant-tlc/20261118T221630Z-bfs-normal_noop_self_ack-6ec06ced/result.json",
+      "result_sha256": "b32b000ae0a550df6b7ec81a4253a0dd335e81b0db7116918172e31b978de5c5",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 25,
+        "distinct_states": 25,
+        "states_on_queue": 0,
+        "search_depth": 25
+      },
+      "elapsed_seconds": 1.84
+    },
+    {
+      "id": "client-tlc--point_operations",
+      "suite": "client-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftApplicationScenarios.tla",
+      "config": "configs/application/client_app_point_operations.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221640Z-bfs-point_operations-1e421266/result.json",
+      "result_sha256": "820d77cf1a8809405162ae9e0caabf54c08b3349dfe88457ced4bdbb16bcf85f",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 81,
+        "distinct_states": 79,
+        "states_on_queue": 0,
+        "search_depth": 79
+      },
+      "elapsed_seconds": 2.663
+    },
+    {
+      "id": "client-tlc--concurrent_overwrite",
+      "suite": "client-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftApplicationScenarios.tla",
+      "config": "configs/application/client_app_concurrent_overwrite.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221643Z-bfs-concurrent_overwrite-cf67974f/result.json",
+      "result_sha256": "d77f16acb181038a505d69a6db30cd16425447a160f6d6165b53ed1ef87ab261",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 69,
+        "distinct_states": 67,
+        "states_on_queue": 0,
+        "search_depth": 67
+      },
+      "elapsed_seconds": 2.252
+    },
+    {
+      "id": "client-tlc--dedup_restart",
+      "suite": "client-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftApplicationScenarios.tla",
+      "config": "configs/application/client_app_dedup_restart.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221645Z-bfs-dedup_restart-c336191e/result.json",
+      "result_sha256": "7dfdeedeb68c2b684303949fc9be1edbc4f8c3e044fdaf58cbff09cd06569327",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 115,
+        "distinct_states": 113,
+        "states_on_queue": 0,
+        "search_depth": 113
+      },
+      "elapsed_seconds": 2.659
+    },
+    {
+      "id": "client-tlc--recovery_retry",
+      "suite": "client-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftApplicationScenarios.tla",
+      "config": "configs/application/client_app_recovery_retry.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-tlc/20261118T221648Z-bfs-recovery_retry-8a4ccaa7/result.json",
+      "result_sha256": "b376b34c6f082e5347c33f52935599f72067a044aabeb1437445c6ab33205962",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 116,
+        "distinct_states": 114,
+        "states_on_queue": 0,
+        "search_depth": 114
+      },
+      "elapsed_seconds": 2.85
+    },
+    {
+      "id": "client-capacity--repaired_capacity_one",
+      "suite": "client-capacity",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftClientCapacityDiagnostic.tla",
+      "config": "configs/regressions/client_capacity_diagnostic.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/client-capacity/checks/20261118T221704Z-bfs-repaired_capacity_one-fdcde96a/result.json",
+      "result_sha256": "30937533b2cf74294ba4fa84e0f919cffd9a378fb28a4b99f899515e94242a8a",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 81,
+        "distinct_states": 79,
+        "states_on_queue": 0,
+        "search_depth": 79
+      },
+      "elapsed_seconds": 2.658
+    },
+    {
+      "id": "fold-equivalence-tlc--fold_point_operations",
+      "suite": "fold-equivalence-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftFoldClientScenarios.tla",
+      "config": "configs/observer/client_fold_point_operations.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/fold-equivalence-tlc/20261118T221706Z-bfs-fold_point_operations-1385cb98/result.json",
+      "result_sha256": "1db2256e3a4a528b2efd7db6c043abcc39258bb619155d016109ce9ddc2b3522",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 81,
+        "distinct_states": 79,
+        "states_on_queue": 0,
+        "search_depth": 79
+      },
+      "elapsed_seconds": 2.654
+    },
+    {
+      "id": "fold-equivalence-tlc--fold_recovery_retry",
+      "suite": "fold-equivalence-tlc",
+      "classification": "completed_finite_exploration",
+      "model": "models/TRaftFoldClientScenarios.tla",
+      "config": "configs/observer/client_fold_recovery_retry.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "1g",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.1,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/fold-equivalence-tlc/20261118T221709Z-bfs-fold_recovery_retry-c19cb1a4/result.json",
+      "result_sha256": "da59c65f0b13035ec15da13a07d646de19ccb32ae939288696154794de6f3aad",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 116,
+        "distinct_states": 114,
+        "states_on_queue": 0,
+        "search_depth": 114
+      },
+      "elapsed_seconds": 2.856
+    },
+    {
+      "id": "source-semantics--union_grouping",
+      "suite": "source-semantics",
+      "classification": "completed_finite_exploration",
+      "model": "parser-probe/UnionPrecedence.tla",
+      "config": "parser-probe/UnionPrecedence.cfg",
+      "mode": "bfs",
+      "expected_outcome": "exhaustive_ok",
+      "expected_invariant": null,
+      "resources": {
+        "workers": 1,
+        "heap": "512m",
+        "timeout_seconds": 20.0,
+        "max_disk_gb": 0.05,
+        "disk_accounting": "logical bytes; sampled every 2 seconds"
+      },
+      "seed": null,
+      "depth": null,
+      "simulate": null,
+      "overrides": {},
+      "evidence_result": "frozen-results/20261118T174404Z/source-semantics/tlc/20261118T174653Z-bfs-union_grouping-f4aed9bd/result.json",
+      "result_sha256": "0ebc5aa16933e014954ee770bc94368734b9d173ac1385524c3e4d51727fab3d",
+      "outcome": "exhaustive_ok",
+      "stats": {
+        "states_generated": 2,
+        "distinct_states": 1,
+        "states_on_queue": 0,
+        "search_depth": 1
+      },
+      "elapsed_seconds": 1.009
+    }
+  ]
+}

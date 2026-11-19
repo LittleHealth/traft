@@ -1,0 +1,338 @@
+\section{Correctness Proofs}
+\label{sec:appendix-correctness}
+The following proof sketches address the protocol safety properties stated in the paper under its fixed-membership, crash-recovery assumptions. The accompanying TLA$^+$ artifact provides machine-checked proofs and supplementary finite model checks.
+
+\noindent\textit{Precise recovery semantics.}
+The recovery rule in Section~\ref{subsubsec:traft-recovery} is interpreted
+as follows. A candidate collects reports from a majority, including itself,
+after the reporters adopt its term. Each report contains the replica's
+installed log and its complete durable recovery proposals, including those
+whose confirmation is unknown. For a proposal $p$, let $B(p)$ be its
+retained prefix together with its opening no-op, and let $t_p$ and
+$\rho_p$ be that no-op's creation term and partition index. A proposal is
+retained only after all of $B(p)$ is durable. Among reported proposals,
+select one with lexicographically maximal $(t_p,\rho_p)$. Let $U$ be the
+union of all installed log entries and all complete recovery results
+contained in the collected reports. The recovered log is
+\[
+  L = B(p) \cup
+      \{e\in U : \operatorname{term}(e)=t_p
+                     \land \operatorname{part}(e)\geq\rho_p\}.
+\]
+Thus, $B(p)$ is inherited in full, and reports from replicas at different
+ordinary-partition progress contribute extensions from its creation term.
+Original entry identities, indices, creation terms, partition indices,
+and contents are preserved. If no recovery proposal is reported, recovery
+starts from an empty log only when the reports also contain no entries.
+
+The candidate appends a new-term no-op immediately after $L$ in the next
+partition. Replicas may copy the result incrementally, but retain and
+acknowledge its recovery proposal only after the complete result is
+durable. Acknowledgment does not require prior commitment. After a majority
+has acknowledged, the candidate installs the result, commits its entries
+in partition order, and serves writes only after the recovered prefix and
+the new no-op are committed. See
+\texttt{Latest}, \texttt{ReportedEntries}, \texttt{Recovered}, and
+\texttt{BuildRecovery}, together with the recovery actions in
+\href{https://github.com/LittleHealth/traft/blob/traft-proof-v1/tlaplus-proof/models/TRaftCore.tla}{\texttt{TRaftCore.tla}}
+(tag \texttt{traft-proof-v1}).
+
+\subsection{Log Matching (Property~\ref{prop:log-matching})}
+\label{subsec:proof-log-matching}
+
+\begin{proof}[Proof sketch]
+Before serving in a new term, quorum-confirmed recovery establishes a
+common prefix and a new-term no-op. Within that term, the leader assigns
+fresh entry indices and opens ordinary successor partitions, fixing each
+preceding partition's membership. Under this shared recovery origin, a
+follower's entries in the preceding partition are a subset of the leader's
+fixed contents. Equality of its local distinct-entry count with the
+leader's final total and committed counts therefore establishes both
+local completeness and full commitment of that partition. The follower
+then persists the successor entry, advances its current partition, and
+acknowledges it; an ordinary boundary requires no separate recovery-proposal
+confirmation round. Commitment of the new entry still requires a majority
+of durable acknowledgments in the current term and commitment of all
+preceding partitions. Subsequent replication preserves the closed prefix.
+Across terms, the recovery-preservation argument in the proof of
+Property~\ref{prop:leader-completeness} retains that prefix,
+including through interrupted recovery. Thus matching terms and partition
+indices identify identical preceding partitions, while copies of the
+open partition may differ.
+\end{proof}
+
+\subsection{Leader Completeness (Property~\ref{prop:leader-completeness})}
+\label{subsec:proof-leader-completeness}
+
+\begin{proof}[Proof sketch]
+First consider the complete result of a quorum-acknowledged recovery proposal.
+Every later recovery quorum intersects its acknowledgment quorum. Term
+fencing ensures that the shared replica durably retained the proposal before
+reporting the higher term, and retained proposals are reported even if
+confirmation is unknown. The selected proposal is this proposal or a
+later one: the protocol creates at most one recovery proposal per term,
+and proposals from intervening terms preserve it by induction. Ordinary
+partition advances extend the installed log without creating new recovery
+proposals. This argument covers all
+recovery attempts, including interrupted ones, and preserves closed
+contents even before a partition is committed as a whole.
+
+For a committed entry $e$ not yet covered by such a proposal, suppose the
+first later recovery omits it. A replica in the intersection of the
+recovery and acknowledgment quorums reports the durable history containing
+$e$, together with its retained recovery proposals. Its recovery origin
+can precede $e$'s ordinary partition; an ordinary boundary creates no
+separate proposal.
+Recovery either inherits $e$ in the selected recovery result or includes it
+in the reported extensions defined above. Selecting a later-term proposal cannot
+omit $e$ without an earlier violating recovery, contradicting the choice
+of the first omission. Every valid recovery result therefore preserves
+committed entries, including those in open partitions. A Leader confirms
+this result before serving, and Leader Append-Only preserves it thereafter.
+Together, these arguments establish both partition and entry preservation.
+\end{proof}
+
+\subsection{State Machine Safety (Property~\ref{prop:state-machine-safety})}
+\label{subsec:proof-state-machine-safety}
+
+\begin{proof}[Proof sketch]
+Suppose two replicas apply different entries at the same log index.
+Both entries must be committed. In the same authorizing term, the
+LeaderCandidate's fixed recovery result and fresh-index assignment exclude
+two different entries at that index. In different terms, the preservation
+argument for Property~\ref{prop:leader-completeness} retains
+the earlier committed entry in every later valid recovery result,
+including interrupted attempts; replication cannot replace it.
+Both cases give a contradiction. The fixed-prefix preservation
+prevents two fully applied partitions at one partition index from having
+different contents.
+
+For execution-result agreement, replicas apply preceding partitions first
+and each entry at most once. Within a partition, the assumed independence
+of operations makes their order immaterial. Deterministic replicas that
+have applied the same committed entries therefore reach the same state;
+replicas with different applied subsets may temporarily differ.
+\end{proof}
+
+
+
+\section{Theoretical Proofs}
+\label{sec:appendix-proofs}
+\subsection{Proof of Theorem~\ref{thm:raft-amplification}}
+\begin{proof}
+The leader maintains an in-memory log cache of size $M$, which can retain at
+most $M/b$ average-sized entries.
+Because approximately $2\ell/\Lambda$ entries are generated
+during one expected round trip, the cache becomes saturated when the
+RTT-scale replication working set exceeds $M/b$.
+This yields the cache-saturation threshold for $\Lambda$
+\[
+\Lambda^*
+=
+\frac{2b\ell}{M}.
+\]
+
+When $\Lambda\geq\Lambda^*$, the RTT-scale working set fits in the cache, so
+all follower streams can reuse one shared disk-loaded copy, resulting in one
+entry-equivalent disk cost.
+When $\Lambda<\Lambda^*$, the working set exceeds the cache capacity.
+The entry may then need to be loaded independently for the remaining $f-1$
+follower streams, adding $f-1$ entry-equivalent disk costs.
+Combining the two cases yields
+Equation~\ref{eq:raft-amplification}.
+\end{proof}
+
+\subsection{Proof of Theorem~\ref{thm:traft-amplification}}
+\begin{proof}
+For \textsc{TRaft}, consider a partition containing $\theta\geq1$ entries.
+Let
+$\kappa:=\min\{\theta,w\}$
+denote the boundary-window size, the maximum number of entries in the
+partition that may overlap with the unfinished tail of the preceding
+partition.
+
+When $\Lambda\geq\Lambda^*$, the RTT-scale working set remains in the cache,
+and all entries incur only one shared disk cost.
+When $\Lambda<\Lambda^*$, at most the first $\kappa$ entries of the current
+partition are forced onto the cold path by the preceding partition.
+For these entries, the disk-read multiplicities are
+$1+(f-1)i/w$ for
+$i=w-\kappa+1,\ldots,w$; the remaining $\theta-\kappa$ entries retain unit
+multiplicity.
+Averaging over all $\theta$ entries gives
+\begin{align*}
+\psi_{\mathsf{D}}^{\mathsf{T}}
+&=
+1+
+\mathbb{I}[\Lambda<\Lambda^*]
+\frac{f-1}{w\theta}
+\sum_{i=w-\kappa+1}^{w}i \\
+&=
+1+
+(f-1)
+\frac{\kappa(2w-\kappa+1)}{2w\theta}
+\mathbb{I}[\Lambda<\Lambda^*],
+\end{align*}
+which proves Equation~\ref{eq:traft-psi} as claimed.
+\end{proof}
+
+\subsection{Proof of Theorem~\ref{thm:raft-disorder-amplification}}
+\begin{proof}
+For one follower, each advancement of the in-flight window exposes one head
+adjacent pair, which is inverted with probability $\alpha$. Under the
+window-level repair model, this inversion invalidates all $w$ in-flight entries
+and produces an expected repair cost of $\alpha w$ entry-equivalent
+units per entry.
+
+The follower channels are homogeneous and independent. Summing the expected
+repair cost over the $f$ followers gives $f\alpha w$. Because each
+retransmitted entry incurs one disk read and one network send under our
+accounting convention, the same result applies to both resources.
+\end{proof}
+
+\subsection{Proof of Theorem~\ref{thm:traft-disorder-amplification}}
+\begin{proof}
+Entries within the same partition may be replicated in parallel without
+strict-order repair. Consequently, only the $\kappa$ tail entries of the
+preceding partition can overlap with the first entry of the current partition.
+
+For one follower, the $i$-th closest entry in the preceding partition is
+overtaken by the first entry of the current partition with probability
+$\alpha_i$ and invalidates a suffix of length $w-i+1$. The expected number of
+retransmitted entries at one boundary is therefore given by
+\[
+\sum_{i=1}^{\kappa}\alpha_i(w-i+1).
+\]
+Multiplying by the $f$ followers and normalizing by the $\theta$ entries in the
+partition gives Equation~\ref{eq:traft-phi}. Each retransmitted
+entry contributes equally to disk-read and network-send costs.
+
+Moreover, since $F_{\Delta\ell}$ is nondecreasing and
+$i\Lambda\ge\Lambda$,
+\[
+\alpha_i
+=
+1-F_{\Delta\ell}(i\Lambda)
+\le
+1-F_{\Delta\ell}(\Lambda)
+=\alpha,
+\]
+and therefore we obtain
+\begin{align*}
+\phi_{\mathsf{D}}^{\mathsf{T}}
+=\phi_{\mathsf{N}}^{\mathsf{T}}
+&\le \frac{f}{\theta}\sum_{i=1}^{\kappa}\alpha w
+\le f\alpha w.
+\end{align*}
+Thus, \textsc{TRaft} never incurs greater disorder-induced amplification than Raft
+under the same replication-delay distribution and in-flight window size.
+\end{proof}
+
+\subsection{Expected Resource Costs}
+\label{subsec:expected-resource-cost}
+Combining Definition~\ref{def:replica-amplification} with the Raft
+factors gives
+\begin{align}
+\mathcal{C}_{\mathsf{D}}^{\mathsf{R}}
+&=2+(f-1)\mathbb{I}[\Lambda<\Lambda^*]+f\alpha w,\nonumber\\
+\mathcal{C}_{\mathsf{N}}^{\mathsf{R}}&=1+f+f\alpha w.
+\label{eq:appendix-raft-cost}
+\end{align}
+For TRaft, let $m=\min\{w,\Theta\}$. From
+Equation~\ref{eq:partition-size-distribution}, for every $1\leq i\leq m$,
+define the truncated inverse partition-size moment $H_i$ by averaging over $\theta$
+\begin{align*}
+\mathbb{E}_{\theta}\!\left[
+\frac{\mathbb{I}[\theta\geq i]}{\theta}
+\right]
+&=
+\sum_{k=i}^{\Theta}\frac{\Pr(\theta=k)}{k}\\
+&=
+\gamma\sum_{k=i}^{\Theta-1}\frac{(1-\gamma)^{k-1}}{k}
++\frac{(1-\gamma)^{\Theta-1}}{\Theta}
+=H_i.
+\end{align*}
+Setting $i=1$ yields
+$H_1=\mathbb{E}_{\theta}[1/\theta]$.
+
+Since $\kappa=\min\{\theta,w\}$, expand each conditional boundary term
+as a finite sum over $1\leq i\leq m$ using
+$\mathbb{I}[\theta\geq i]$. Taking expectations and applying
+Definition~\ref{def:replica-amplification} gives
+\begin{align}
+\mathcal{C}_{\mathsf{D}}^{\mathsf{T}}
+&=2+\frac{f-1}{w}\mathbb{I}[\Lambda<\Lambda^*]
+\sum_{i=1}^{m}(w-i+1)H_i\nonumber\\
+&\quad+f\sum_{i=1}^{m}\alpha_i(w-i+1)H_i,\nonumber\\
+\mathcal{C}_{\mathsf{N}}^{\mathsf{T}}
+&=1+f+f\sum_{i=1}^{m}\alpha_i(w-i+1)H_i.
+\label{eq:appendix-traft-cost}
+\end{align}
+
+\subsection{Proof of Corollary~\ref{cor:high-frequency-raft-throughput}}
+\begin{proof}
+As $\Lambda\to0$, the cache-saturation indicator converges to one,
+$w=\min(W,\lceil2\ell/\Lambda\rceil)$ converges to $W$, and symmetry of the
+difference between two i.i.d. continuous delays gives $\alpha\to1/2$.
+Substituting these limits into Equation~\ref{eq:appendix-raft-cost} gives
+\begin{align*}
+\lim_{\Lambda\to0}\mathcal{C}_{\mathsf{D}}^{\mathsf{R}}
+=\lim_{\Lambda\to0}\mathcal{C}_{\mathsf{N}}^{\mathsf{R}}
+=1+f+\frac{1}{2}fW.
+\end{align*}
+Applying Definition~\ref{def:resource-limited-throughput} then proves
+Equation~\ref{eq:high-frequency-raft-throughput}.
+\end{proof}
+
+\subsection{Proof of Corollary~\ref{cor:fully-disordered-limit}}
+\begin{proof}
+When $\gamma=1$, Equation~\ref{eq:partition-size-distribution} gives
+$\Pr(\theta=1)=1$. Hence, $H_1=1$, $H_i=0$ for $i\geq2$, and
+$\alpha_1=\alpha$. Substitution into
+the cost expressions in Appendix~\ref{subsec:expected-resource-cost} gives
+\begin{align*}
+\left.\mathcal{C}_{\mathsf{D}}^{\mathsf{T}}\right|_{\gamma=1}
+&=2+(f-1)\mathbb{I}[\Lambda<\Lambda^*]+f\alpha w
+=\mathcal{C}_{\mathsf{D}}^{\mathsf{R}},\\
+\left.\mathcal{C}_{\mathsf{N}}^{\mathsf{T}}\right|_{\gamma=1}
+&=1+f+f\alpha w
+=\mathcal{C}_{\mathsf{N}}^{\mathsf{R}}.
+\end{align*}
+Applying Definition~\ref{def:resource-limited-throughput} to equal costs
+proves the equality.
+\end{proof}
+
+\subsection{Proof of Corollary~\ref{cor:fully-ordered-limit}}
+\begin{proof}
+When $\gamma=0$, Equation~\ref{eq:partition-size-distribution} gives
+$\Pr(\theta=\Theta)=1$. Thus, $H_i=1/\Theta$ for every
+$1\leq i\leq m$, where $m=\min\{w,\Theta\}$. Substitution into
+the cost expressions in Appendix~\ref{subsec:expected-resource-cost} gives the finite-partition costs for this case
+\begin{align*}
+\left.\mathcal{C}_{\mathsf{D}}^{\mathsf{T}}\right|_{\gamma=0}
+&=2+\frac{(f-1)m(2w-m+1)}{2w\Theta}
+\mathbb{I}[\Lambda<\Lambda^*]\\
+&\quad+\frac{f}{\Theta}
+\sum_{i=1}^{m}\alpha_i(w-i+1),\\
+\left.\mathcal{C}_{\mathsf{N}}^{\mathsf{T}}\right|_{\gamma=0}
+&=1+f+\frac{f}{\Theta}
+\sum_{i=1}^{m}\alpha_i(w-i+1).
+\end{align*}
+For sufficiently large $\Theta>w$, $m=w$. The finite sums are then independent
+of $\Theta$, and all boundary-induced terms vanish at rate
+$O(1/\Theta)$ for fixed $w$. Consequently,
+\begin{align*}
+\lim_{\Theta\to\infty}\mathcal{C}_{\mathsf{D}}^{\mathsf{T}}
+&=\mathcal{C}_{\mathsf{D}}^{\mathsf{A}}=2, &
+\lim_{\Theta\to\infty}\mathcal{C}_{\mathsf{N}}^{\mathsf{T}}
+&=\mathcal{C}_{\mathsf{N}}^{\mathsf{A}}=1+f.
+\end{align*}
+Substitution into Equations~\ref{eq:appendix-traft-cost} and
+\ref{eq:resource-limited-throughput} proves
+Equation~\ref{eq:fully-ordered-limit}.
+\end{proof}
+
+
+
+
+\input{\AppendixRoot/experiments}

@@ -1,0 +1,2531 @@
+{
+  "frozen_source_manifest_sha256": "66916a17cdd5ef0ff5085ea162b6f78cd41bd73785ba167b7137e41c3f27e58a",
+  "files": [
+    {
+      "public_path": "models/ProofRecursiveFunctionProbe.tla",
+      "previous_public_path": "ProofRecursiveFunctionProbe.tla",
+      "frozen_path": "models/ProofRecursiveFunctionProbe.tla",
+      "sha256": "80dcddd4ad6fb4c3d525861bb0e5b9a8397c4f41d725a7af32eac5c3a8e7a84e"
+    },
+    {
+      "public_path": "models/ProofRecursiveOperatorProbe.tla",
+      "previous_public_path": "ProofRecursiveOperatorProbe.tla",
+      "frozen_path": "models/ProofRecursiveOperatorProbe.tla",
+      "sha256": "5eeb6330c102e0d1e6479eb2270fc0affe4584a95aafe24083e44781b04c6fab"
+    },
+    {
+      "public_path": "models/ProofToolNegative.tla",
+      "previous_public_path": "ProofToolNegative.tla",
+      "frozen_path": "models/ProofToolNegative.tla",
+      "sha256": "44e502b1911a5d6d6f3c76bd2c52ae827a3083a88e8a10069b3bd374058f42df"
+    },
+    {
+      "public_path": "models/ProofToolPositive.tla",
+      "previous_public_path": "ProofToolPositive.tla",
+      "frozen_path": "models/ProofToolPositive.tla",
+      "sha256": "2ac1c16354db2813cc3d4893374b4683675b0b3979820d5f86f0030bcfa6f4be"
+    },
+    {
+      "public_path": "models/ProofToolSMTNegative.tla",
+      "previous_public_path": "ProofToolSMTNegative.tla",
+      "frozen_path": "models/ProofToolSMTNegative.tla",
+      "sha256": "b1e9f8085ce279f2456a75df42f593cb9bcab097aeee2bcf658c5591a6cb1d83"
+    },
+    {
+      "public_path": "models/TRaftAckOriginProof.tla",
+      "previous_public_path": "TRaftAckOriginProof.tla",
+      "frozen_path": "models/TRaftAckOriginProof.tla",
+      "sha256": "92e6eeee20d6a184c2f0a978e1f7b8b92ad3b2c0bcb1eb4e68df3e1714115c7f"
+    },
+    {
+      "public_path": "models/TRaftAckSourceFrames.tla",
+      "previous_public_path": "TRaftAckSourceFrames.tla",
+      "frozen_path": "models/TRaftAckSourceFrames.tla",
+      "sha256": "f1f9289624950b6375bc2c65fb9e057e30d02489e3547eddcaf6aa6684319e7f"
+    },
+    {
+      "public_path": "models/TRaftAckSourceProof.tla",
+      "previous_public_path": "TRaftAckSourceProof.tla",
+      "frozen_path": "models/TRaftAckSourceProof.tla",
+      "sha256": "943f4750d596d315835a549470ba1aae7875099ab64538b55d555f5f3b73cea9"
+    },
+    {
+      "public_path": "models/TRaftAckSourceState.tla",
+      "previous_public_path": "TRaftAckSourceState.tla",
+      "frozen_path": "models/TRaftAckSourceState.tla",
+      "sha256": "e80d638aba64633a51b37117c37d4041f2275569afe92ee57d4e3540f27aa20f"
+    },
+    {
+      "public_path": "models/TRaftActivationCertificateProof.tla",
+      "previous_public_path": "TRaftActivationCertificateProof.tla",
+      "frozen_path": "models/TRaftActivationCertificateProof.tla",
+      "sha256": "3d6aa30ef168d4d5e7a72e98a23eab0dd85c51ce57a548dfc6b9344748098d21"
+    },
+    {
+      "public_path": "models/TRaftActivationDiagnostic.tla",
+      "previous_public_path": "TRaftActivationDiagnostic.tla",
+      "frozen_path": "models/TRaftActivationDiagnostic.tla",
+      "sha256": "365de22721c44aca34e9af9994656ab882daba7d84f1b278ce8981823cce8062"
+    },
+    {
+      "public_path": "models/TRaftAgreementFromInvariant.tla",
+      "previous_public_path": "TRaftAgreementFromInvariant.tla",
+      "frozen_path": "models/TRaftAgreementFromInvariant.tla",
+      "sha256": "251b643f3f7c1e6df1fb4065b1466ff28f7c9071001d9d7539026f193ac49ac0"
+    },
+    {
+      "public_path": "models/TRaftAppendOnlyProof.tla",
+      "previous_public_path": "TRaftAppendOnlyProof.tla",
+      "frozen_path": "models/TRaftAppendOnlyProof.tla",
+      "sha256": "c0c2afe60064a4bc0faeb12f77655fe04747762ef08662b32a855189ba0e96bf"
+    },
+    {
+      "public_path": "models/TRaftApplicationAgreement.tla",
+      "previous_public_path": "TRaftApplicationAgreement.tla",
+      "frozen_path": "models/TRaftApplicationAgreement.tla",
+      "sha256": "0d296ede7eff6c58cafa59e87395bea5bd5076db6db9260dc92ad68bf35a4e3a"
+    },
+    {
+      "public_path": "models/TRaftApplicationInterpretation.tla",
+      "previous_public_path": "TRaftApplicationInterpretation.tla",
+      "frozen_path": "models/TRaftApplicationInterpretation.tla",
+      "sha256": "a72432aec89b4ddbece9f2e8cad2850d4e928733ba16dd84b2409d8b2f4675b9"
+    },
+    {
+      "public_path": "models/TRaftApplicationOrderProof.tla",
+      "previous_public_path": "TRaftApplicationOrderProof.tla",
+      "frozen_path": "models/TRaftApplicationOrderProof.tla",
+      "sha256": "38ffe17b4c97e1c1fd0dcd246c8abf695e5a6c4750c85dfc40c09dbb1c19a0e2"
+    },
+    {
+      "public_path": "models/TRaftApplicationPrefixProof.tla",
+      "previous_public_path": "TRaftApplicationPrefixProof.tla",
+      "frozen_path": "models/TRaftApplicationPrefixProof.tla",
+      "sha256": "07f480c56356a973ae477b0b1acdaefa9cc4730b5edfaf4b92f43486ad270428"
+    },
+    {
+      "public_path": "models/TRaftApplicationPrefixTemporal.tla",
+      "previous_public_path": "TRaftApplicationPrefixTemporal.tla",
+      "frozen_path": "models/TRaftApplicationPrefixTemporal.tla",
+      "sha256": "64ad6785b067809faa074c18c5ed9605bfca4456b349b52d4b85ac15c3dbf8ee"
+    },
+    {
+      "public_path": "models/TRaftApplicationProof.tla",
+      "previous_public_path": "TRaftApplicationProof.tla",
+      "frozen_path": "models/TRaftApplicationProof.tla",
+      "sha256": "90b64f1fc5bd00caa39d43b7ddf75058ba684a8de0b1dc4b81b8aea7b92eb574"
+    },
+    {
+      "public_path": "models/TRaftApplicationScenarios.tla",
+      "previous_public_path": "TRaftApplicationScenarios.tla",
+      "frozen_path": "models/TRaftApplicationScenarios.tla",
+      "sha256": "e0b3e4be1c27f73336a6f0a3c33198e86318bd099ab072982822361c566db3b8"
+    },
+    {
+      "public_path": "models/TRaftAppliedEvidencePrefix.tla",
+      "previous_public_path": "TRaftAppliedEvidencePrefix.tla",
+      "frozen_path": "models/TRaftAppliedEvidencePrefix.tla",
+      "sha256": "673b8d7db9e14c55c1b8f3a135a83e187f096efec4d59e83dbcd178db8a34bc9"
+    },
+    {
+      "public_path": "models/TRaftAppliedHistoryDiagnostic.tla",
+      "previous_public_path": "TRaftAppliedHistoryDiagnostic.tla",
+      "frozen_path": "models/TRaftAppliedHistoryDiagnostic.tla",
+      "sha256": "a6c9a8e4e3941d8974e87b75ce3ee9544b21c6d79a32accf7ff658d70c5b25eb"
+    },
+    {
+      "public_path": "models/TRaftBoundaryCountActions.tla",
+      "previous_public_path": "TRaftBoundaryCountActions.tla",
+      "frozen_path": "models/TRaftBoundaryCountActions.tla",
+      "sha256": "df81e8056010a0a25638ec0fb0e24141fcbbe62a4c2868d66a759c4d6c244c47"
+    },
+    {
+      "public_path": "models/TRaftBoundaryCountDiagnostic.tla",
+      "previous_public_path": "TRaftBoundaryCountDiagnostic.tla",
+      "frozen_path": "models/TRaftBoundaryCountDiagnostic.tla",
+      "sha256": "e22e2a8e40d9d6359317082e1127e8987b48cd454b030ba779270edf0e8652e3"
+    },
+    {
+      "public_path": "models/TRaftBoundaryCountFrames.tla",
+      "previous_public_path": "TRaftBoundaryCountFrames.tla",
+      "frozen_path": "models/TRaftBoundaryCountFrames.tla",
+      "sha256": "2a59a28e296718e6fb58d8ec99600e6f963422730d1993940c642dd337e1691d"
+    },
+    {
+      "public_path": "models/TRaftBoundaryCountSupport.tla",
+      "previous_public_path": "TRaftBoundaryCountSupport.tla",
+      "frozen_path": "models/TRaftBoundaryCountSupport.tla",
+      "sha256": "9140264ace150da4b55018a3bc5ae94b0e5a72d5c9566acdc241f83016b282d5"
+    },
+    {
+      "public_path": "models/TRaftBoundaryInduction.tla",
+      "previous_public_path": "TRaftBoundaryInduction.tla",
+      "frozen_path": "models/TRaftBoundaryInduction.tla",
+      "sha256": "1e4f346e18b1dce8b7304949258ff3f025a275c88b89619e4a346f7a5fff8a17"
+    },
+    {
+      "public_path": "models/TRaftBoundaryProof.tla",
+      "previous_public_path": "TRaftBoundaryProof.tla",
+      "frozen_path": "models/TRaftBoundaryProof.tla",
+      "sha256": "b80a565913d90ad02e51fbf9cd63e29d4114c36738248774d818e768f5fed589"
+    },
+    {
+      "public_path": "models/TRaftBoundedActionInstances.tla",
+      "previous_public_path": "TRaftBoundedActionInstances.tla",
+      "frozen_path": "models/TRaftBoundedActionInstances.tla",
+      "sha256": "316c5cd44fc59f3c0bd597a488ca3368e0ce2c62b2c05d54f721520cdf7c1498"
+    },
+    {
+      "public_path": "models/TRaftBoundedMappingAliases.tla",
+      "previous_public_path": "TRaftBoundedMappingAliases.tla",
+      "frozen_path": "models/TRaftBoundedMappingAliases.tla",
+      "sha256": "d53216b42a1fb76d8f8d5acd595d609466555d303bcc9d61d18b8c6bb8dda1b9"
+    },
+    {
+      "public_path": "models/TRaftBoundedObserverInputs.tla",
+      "previous_public_path": "TRaftBoundedObserverInputs.tla",
+      "frozen_path": "models/TRaftBoundedObserverInputs.tla",
+      "sha256": "15495e0f0eae589825a0b0d15091bb9a4bbe98b39eb180d9ffe8b091882c39c5"
+    },
+    {
+      "public_path": "models/TRaftBoundedObserverRefinement.tla",
+      "previous_public_path": "TRaftBoundedObserverRefinement.tla",
+      "frozen_path": "models/TRaftBoundedObserverRefinement.tla",
+      "sha256": "4182895087c2eca8ddac2aacc8471d92366bbdfad7463ab1c806989e851cc988"
+    },
+    {
+      "public_path": "models/TRaftBoundedObserverState.tla",
+      "previous_public_path": "TRaftBoundedObserverState.tla",
+      "frozen_path": "models/TRaftBoundedObserverState.tla",
+      "sha256": "e7a0ddbfb28fe30dd20d5cd42bb010d05fb3b231cd49bfda595eb1deba874fd0"
+    },
+    {
+      "public_path": "models/TRaftBoundedObserverStep.tla",
+      "previous_public_path": "TRaftBoundedObserverStep.tla",
+      "frozen_path": "models/TRaftBoundedObserverStep.tla",
+      "sha256": "c79d2e6987b06592cbb8e58e9b3b45dc1e6eacd7668233679a9ac4782c958206"
+    },
+    {
+      "public_path": "models/TRaftBoundedParameterProof.tla",
+      "previous_public_path": "TRaftBoundedParameterProof.tla",
+      "frozen_path": "models/TRaftBoundedParameterProof.tla",
+      "sha256": "f6720f6e08c7b257ffc72d79f6b9b4bbb464a1353aa3df7e3685df014c2d652d"
+    },
+    {
+      "public_path": "models/TRaftBoundedProtocolRefinement.tla",
+      "previous_public_path": "TRaftBoundedProtocolRefinement.tla",
+      "frozen_path": "models/TRaftBoundedProtocolRefinement.tla",
+      "sha256": "a6f52dc59d04025bf7be0864ef050e27061eb4cb74e9447c7f987d42a08b6a65"
+    },
+    {
+      "public_path": "models/TRaftCanonicalContextProof.tla",
+      "previous_public_path": "TRaftCanonicalContextProof.tla",
+      "frozen_path": "models/TRaftCanonicalContextProof.tla",
+      "sha256": "cf4f9bdf00ab04884462d7cb2ed71833be61a1cb882056bcddd6a879148a9e01"
+    },
+    {
+      "public_path": "models/TRaftCanonicalDefinitionProof.tla",
+      "previous_public_path": "TRaftCanonicalDefinitionProof.tla",
+      "frozen_path": "models/TRaftCanonicalDefinitionProof.tla",
+      "sha256": "deae7e9d1ef3bd1df37383a5173c6a81eca2d225d20926d8a38c1fa83a971c37"
+    },
+    {
+      "public_path": "models/TRaftCanonicalFiniteProof.tla",
+      "previous_public_path": "TRaftCanonicalFiniteProof.tla",
+      "frozen_path": "models/TRaftCanonicalFiniteProof.tla",
+      "sha256": "fb08c2cb5043a28234e322ae64e8ddba34fbe9883cbb5a7443a6cd35236af88b"
+    },
+    {
+      "public_path": "models/TRaftCanonicalLeaderFrames.tla",
+      "previous_public_path": "TRaftCanonicalLeaderFrames.tla",
+      "frozen_path": "models/TRaftCanonicalLeaderFrames.tla",
+      "sha256": "68d5a61d6229a0738871f2d02c000ad2124c0750478fcb5632a06c9f79c7e885"
+    },
+    {
+      "public_path": "models/TRaftCanonicalLogShapeProof.tla",
+      "previous_public_path": "TRaftCanonicalLogShapeProof.tla",
+      "frozen_path": "models/TRaftCanonicalLogShapeProof.tla",
+      "sha256": "5cdb4768a0bdc3dd940ba0ac9123f6ff5eaa46f429e2dc23b578471c9fdae3d6"
+    },
+    {
+      "public_path": "models/TRaftCanonicalPrefixProof.tla",
+      "previous_public_path": "TRaftCanonicalPrefixProof.tla",
+      "frozen_path": "models/TRaftCanonicalPrefixProof.tla",
+      "sha256": "943e16f395634f77e52494a5750a7f771e16ac95033013edc3fa35a8edeb4d99"
+    },
+    {
+      "public_path": "models/TRaftCanonicalProposalProof.tla",
+      "previous_public_path": "TRaftCanonicalProposalProof.tla",
+      "frozen_path": "models/TRaftCanonicalProposalProof.tla",
+      "sha256": "189511683d8aebdd3cd95274e5aa1482637df417ff7889a422970d01b86bd5b7"
+    },
+    {
+      "public_path": "models/TRaftCanonicalShapeInduction.tla",
+      "previous_public_path": "TRaftCanonicalShapeInduction.tla",
+      "frozen_path": "models/TRaftCanonicalShapeInduction.tla",
+      "sha256": "12bb9d6cde76ca928400f639676ae5cfdfb35052af30784276413ba7d8c094a2"
+    },
+    {
+      "public_path": "models/TRaftCanonicalTransitionSupport.tla",
+      "previous_public_path": "TRaftCanonicalTransitionSupport.tla",
+      "frozen_path": "models/TRaftCanonicalTransitionSupport.tla",
+      "sha256": "48db1e8f54501fe41a70818e71efcf61c6a1782551aaf225eaa70f8adccb8bce"
+    },
+    {
+      "public_path": "models/TRaftCanonicalUpdateProof.tla",
+      "previous_public_path": "TRaftCanonicalUpdateProof.tla",
+      "frozen_path": "models/TRaftCanonicalUpdateProof.tla",
+      "sha256": "c7b5f2ae51acb82745364189f2b0d5105ab3a37cb386d4324fd81fcb56db8a70"
+    },
+    {
+      "public_path": "models/TRaftCertifiedHistoryProof.tla",
+      "previous_public_path": "TRaftCertifiedHistoryProof.tla",
+      "frozen_path": "models/TRaftCertifiedHistoryProof.tla",
+      "sha256": "1ba64c633cb702979cc1e2a7bd191fe9c1af95cb6a57eb98e3f05ba267f934de"
+    },
+    {
+      "public_path": "models/TRaftCertifiedPartitionProof.tla",
+      "previous_public_path": "TRaftCertifiedPartitionProof.tla",
+      "frozen_path": "models/TRaftCertifiedPartitionProof.tla",
+      "sha256": "8007616b2fbd26fac47fbefcfb7390491609b3ca79bcfd0efa7f0f4cbc6d79bc"
+    },
+    {
+      "public_path": "models/TRaftCertifiedSourceProof.tla",
+      "previous_public_path": "TRaftCertifiedSourceProof.tla",
+      "frozen_path": "models/TRaftCertifiedSourceProof.tla",
+      "sha256": "99f616dbf67c62a050fe15119733527169bfdaa2c63c1838f36f806064397c54"
+    },
+    {
+      "public_path": "models/TRaftCertifiedSourceState.tla",
+      "previous_public_path": "TRaftCertifiedSourceState.tla",
+      "frozen_path": "models/TRaftCertifiedSourceState.tla",
+      "sha256": "3f03e844b392283f02c41e301907337c21ed1d4c5c7f99ed77239c60ce40e8c4"
+    },
+    {
+      "public_path": "models/TRaftClientAdmissionProof.tla",
+      "previous_public_path": "TRaftClientAdmissionProof.tla",
+      "frozen_path": "models/TRaftClientAdmissionProof.tla",
+      "sha256": "e9cdeab91bbf98c7e4c2b98906b2606db1891c78ba520d914a8a20f359b5eca3"
+    },
+    {
+      "public_path": "models/TRaftClientApplicationProof.tla",
+      "previous_public_path": "TRaftClientApplicationProof.tla",
+      "frozen_path": "models/TRaftClientApplicationProof.tla",
+      "sha256": "45842ff76836cc414346af613f8de2055f039310f568a6a77ed24839b3904a2d"
+    },
+    {
+      "public_path": "models/TRaftClientApplicationStutter.tla",
+      "previous_public_path": "TRaftClientApplicationStutter.tla",
+      "frozen_path": "models/TRaftClientApplicationStutter.tla",
+      "sha256": "93cbe18b919da75b39cbc342d7fe786bfca6694b94dfeffa43dc9b7f7a761b29"
+    },
+    {
+      "public_path": "models/TRaftClientApplicationTemporal.tla",
+      "previous_public_path": "TRaftClientApplicationTemporal.tla",
+      "frozen_path": "models/TRaftClientApplicationTemporal.tla",
+      "sha256": "98faeeb830cabed92577543bf4850fe6f59f419b0d273ff70dec8b876a63a50b"
+    },
+    {
+      "public_path": "models/TRaftClientCapacityDiagnostic.tla",
+      "previous_public_path": "TRaftClientCapacityDiagnostic.tla",
+      "frozen_path": "models/TRaftClientCapacityDiagnostic.tla",
+      "sha256": "8645c444784241104478ebc1c4bda78cd6db45a7a7c9c0cac9db2d30bc652d6a"
+    },
+    {
+      "public_path": "models/TRaftClientCommandStability.tla",
+      "previous_public_path": "TRaftClientCommandStability.tla",
+      "frozen_path": "models/TRaftClientCommandStability.tla",
+      "sha256": "b4ba230c29363118166af08a718e19435929654840634cd9996bb2a01226a64d"
+    },
+    {
+      "public_path": "models/TRaftClientCore.tla",
+      "previous_public_path": "TRaftClientCore.tla",
+      "frozen_path": "models/TRaftClientCore.tla",
+      "sha256": "6aaf4bd60c7f5a398ce3a00cfc8e59397de0e2a360a516d8e8ddad02a2db0be4"
+    },
+    {
+      "public_path": "models/TRaftClientCoreMapping.tla",
+      "previous_public_path": "TRaftClientCoreMapping.tla",
+      "frozen_path": "models/TRaftClientCoreMapping.tla",
+      "sha256": "29ea803fc82068b77ba42c6678d475510d936ba186b34cb2372284b13ca787d2"
+    },
+    {
+      "public_path": "models/TRaftClientEvidenceAnswers.tla",
+      "previous_public_path": "TRaftClientEvidenceAnswers.tla",
+      "frozen_path": "models/TRaftClientEvidenceAnswers.tla",
+      "sha256": "607dd82bb63817b570e55ee6f3e52480471ed21bd95f2bab2af8d3e84620a32c"
+    },
+    {
+      "public_path": "models/TRaftClientEvidenceInputs.tla",
+      "previous_public_path": "TRaftClientEvidenceInputs.tla",
+      "frozen_path": "models/TRaftClientEvidenceInputs.tla",
+      "sha256": "138188fd4f886043ddeadbe8cc318f28e3850572b9a900d449d366f6124a5553"
+    },
+    {
+      "public_path": "models/TRaftClientHistoryCompletion.tla",
+      "previous_public_path": "TRaftClientHistoryCompletion.tla",
+      "frozen_path": "models/TRaftClientHistoryCompletion.tla",
+      "sha256": "6ed0812c2a9367bb0448a75191093d5a666daeb5dcdb385f54ae30879d1248f3"
+    },
+    {
+      "public_path": "models/TRaftClientHistoryFacts.tla",
+      "previous_public_path": "TRaftClientHistoryFacts.tla",
+      "frozen_path": "models/TRaftClientHistoryFacts.tla",
+      "sha256": "d38cd16b561236438fbfa1d9b531f18b4784228379689544467d022a8a33adfd"
+    },
+    {
+      "public_path": "models/TRaftClientHistoryTemporal.tla",
+      "previous_public_path": "TRaftClientHistoryTemporal.tla",
+      "frozen_path": "models/TRaftClientHistoryTemporal.tla",
+      "sha256": "0bcd96094fc8c0a670890ef0efc65eb903115fb047ff059e6534dc0b6baba608"
+    },
+    {
+      "public_path": "models/TRaftClientLinearizability.tla",
+      "previous_public_path": "TRaftClientLinearizability.tla",
+      "frozen_path": "models/TRaftClientLinearizability.tla",
+      "sha256": "2e17cfeacec1c93fbcb81fae269e5d0739893610340bded3439c8a8688c34fcb"
+    },
+    {
+      "public_path": "models/TRaftClientLinearizationContext.tla",
+      "previous_public_path": "TRaftClientLinearizationContext.tla",
+      "frozen_path": "models/TRaftClientLinearizationContext.tla",
+      "sha256": "074e54acc05b4bcef9accc36874b453e9f90d2e67dcc0ea9f0f6671be0595f5f"
+    },
+    {
+      "public_path": "models/TRaftClientLinearizationState.tla",
+      "previous_public_path": "TRaftClientLinearizationState.tla",
+      "frozen_path": "models/TRaftClientLinearizationState.tla",
+      "sha256": "5ac00fd23dc5ae3570e2b65fcd6c39762d168a978e3e0abb0cd4ea05de73a313"
+    },
+    {
+      "public_path": "models/TRaftClientOrderProof.tla",
+      "previous_public_path": "TRaftClientOrderProof.tla",
+      "frozen_path": "models/TRaftClientOrderProof.tla",
+      "sha256": "3c4583ae59420fdb45d62dedb64944afee0a0e68443dbc6b66ad578f76ed82e0"
+    },
+    {
+      "public_path": "models/TRaftClientPartitionActions.tla",
+      "previous_public_path": "TRaftClientPartitionActions.tla",
+      "frozen_path": "models/TRaftClientPartitionActions.tla",
+      "sha256": "2ef52ac18027c723d99bb0502d621944316f194c2e1b59119f7dc6a0379c5ba7"
+    },
+    {
+      "public_path": "models/TRaftClientPartitionInduction.tla",
+      "previous_public_path": "TRaftClientPartitionInduction.tla",
+      "frozen_path": "models/TRaftClientPartitionInduction.tla",
+      "sha256": "032edd9be4715f1a2b263e99aadb7bae6491bf75cfb9476f6099c340fe4cbf54"
+    },
+    {
+      "public_path": "models/TRaftClientPartitionTemporal.tla",
+      "previous_public_path": "TRaftClientPartitionTemporal.tla",
+      "frozen_path": "models/TRaftClientPartitionTemporal.tla",
+      "sha256": "c652c9ca9d4f7b20f57ce71f309081806a5024dc5dd7083156a96a7f5041947b"
+    },
+    {
+      "public_path": "models/TRaftClientPersistenceProof.tla",
+      "previous_public_path": "TRaftClientPersistenceProof.tla",
+      "frozen_path": "models/TRaftClientPersistenceProof.tla",
+      "sha256": "a7c5602e8d2dad1d6084eadd435fdc9c44e9b0fb81c2488b7e974b18ed8ebce0"
+    },
+    {
+      "public_path": "models/TRaftClientRealTimeStep.tla",
+      "previous_public_path": "TRaftClientRealTimeStep.tla",
+      "frozen_path": "models/TRaftClientRealTimeStep.tla",
+      "sha256": "5719e31eaa9dbc2cdfee77263a5a493aae11da577bc4cbf1192d8079f52cd3da"
+    },
+    {
+      "public_path": "models/TRaftClientRefinementProof.tla",
+      "previous_public_path": "TRaftClientRefinementProof.tla",
+      "frozen_path": "models/TRaftClientRefinementProof.tla",
+      "sha256": "eb7d433471fb13e7fa6333e9ee950a2a43e81bad9db3eda2fd0073476667bfc4"
+    },
+    {
+      "public_path": "models/TRaftClientReplySources.tla",
+      "previous_public_path": "TRaftClientReplySources.tla",
+      "frozen_path": "models/TRaftClientReplySources.tla",
+      "sha256": "6d99057421d98302f146deeeb5fd82063962eda58a2a50b1b0733cbd0c5c741e"
+    },
+    {
+      "public_path": "models/TRaftClientRequestSources.tla",
+      "previous_public_path": "TRaftClientRequestSources.tla",
+      "frozen_path": "models/TRaftClientRequestSources.tla",
+      "sha256": "1906f20f44708f9cfea729ea45515de4a4c90c79b308f8d242fe7835b5677f4f"
+    },
+    {
+      "public_path": "models/TRaftClientReturnedWitness.tla",
+      "previous_public_path": "TRaftClientReturnedWitness.tla",
+      "frozen_path": "models/TRaftClientReturnedWitness.tla",
+      "sha256": "85d94eebfe014774dff6fb38fd4e3f21178767154b52578444ccff4439993ce2"
+    },
+    {
+      "public_path": "models/TRaftClientScenarios.tla",
+      "previous_public_path": "TRaftClientScenarios.tla",
+      "frozen_path": "models/TRaftClientScenarios.tla",
+      "sha256": "40c44657016e282a1c7b05d95f8d20671491c0949b050de57ecc43697deb091d"
+    },
+    {
+      "public_path": "models/TRaftClientSpecificationProof.tla",
+      "previous_public_path": "TRaftClientSpecificationProof.tla",
+      "frozen_path": "models/TRaftClientSpecificationProof.tla",
+      "sha256": "8055328e49d41c8b9bee902df3b476f4eacfa2d0dea8955f31784554dd466796"
+    },
+    {
+      "public_path": "models/TRaftClientStateLemmas.tla",
+      "previous_public_path": "TRaftClientStateLemmas.tla",
+      "frozen_path": "models/TRaftClientStateLemmas.tla",
+      "sha256": "213f6ebe5b7cb12c635553e3a47619633ba87a259b5b84087b0ccc25bc432559"
+    },
+    {
+      "public_path": "models/TRaftClientTraceEvidence.tla",
+      "previous_public_path": "TRaftClientTraceEvidence.tla",
+      "frozen_path": "models/TRaftClientTraceEvidence.tla",
+      "sha256": "6b115fa0f75dc11d61849d8baffd4b0dc1bab11b4ebb005f550ae80bc163890e"
+    },
+    {
+      "public_path": "models/TRaftClientTraceInterface.tla",
+      "previous_public_path": "TRaftClientTraceInterface.tla",
+      "frozen_path": "models/TRaftClientTraceInterface.tla",
+      "sha256": "cffd99f1152ed04cece22fe8a68921094cdd97c1ae81742fdb77cc0e9ebad255"
+    },
+    {
+      "public_path": "models/TRaftClientTraceState.tla",
+      "previous_public_path": "TRaftClientTraceState.tla",
+      "frozen_path": "models/TRaftClientTraceState.tla",
+      "sha256": "0c092431527a2986a653f9b7df20857d2ebe35bb2a65c9227272a7715ac2a85c"
+    },
+    {
+      "public_path": "models/TRaftClientUnbounded.tla",
+      "previous_public_path": "TRaftClientUnbounded.tla",
+      "frozen_path": "models/TRaftClientUnbounded.tla",
+      "sha256": "c1df55539097a0928d121005d7e4550b52c1588707435613c745d6625393180d"
+    },
+    {
+      "public_path": "models/TRaftClientUnboundedProof.tla",
+      "previous_public_path": "TRaftClientUnboundedProof.tla",
+      "frozen_path": "models/TRaftClientUnboundedProof.tla",
+      "sha256": "3ac625309e86597371b2a5b73e05128f9616ea45eba778e9990058852c173194"
+    },
+    {
+      "public_path": "models/TRaftClientWitnessInduction.tla",
+      "previous_public_path": "TRaftClientWitnessInduction.tla",
+      "frozen_path": "models/TRaftClientWitnessInduction.tla",
+      "sha256": "d7d460dc542d26b5ae79c4ec7b63e33b6d664104e59dc8df96518fb26b8dca47"
+    },
+    {
+      "public_path": "models/TRaftClientWitnessRepresentation.tla",
+      "previous_public_path": "TRaftClientWitnessRepresentation.tla",
+      "frozen_path": "models/TRaftClientWitnessRepresentation.tla",
+      "sha256": "7afb5ef8ec8dcbf17b9153223d69b8cfe5cc6f0ae3edc272fae6e3a7b60a2b9b"
+    },
+    {
+      "public_path": "models/TRaftClientWitnessStutter.tla",
+      "previous_public_path": "TRaftClientWitnessStutter.tla",
+      "frozen_path": "models/TRaftClientWitnessStutter.tla",
+      "sha256": "fccb08d67a40cf87f4160d7f85bfd15bb7ba06b70bd7568179ced3ab19da6d55"
+    },
+    {
+      "public_path": "models/TRaftClients.tla",
+      "previous_public_path": "TRaftClients.tla",
+      "frozen_path": "models/TRaftClients.tla",
+      "sha256": "53ce11d152645ffec22c0097dba58a5ab0c3feb6bfc74dde73d7b3929787ec24"
+    },
+    {
+      "public_path": "models/TRaftClosedHistoryProof.tla",
+      "previous_public_path": "TRaftClosedHistoryProof.tla",
+      "frozen_path": "models/TRaftClosedHistoryProof.tla",
+      "sha256": "608e862cfb5f3420a0ae8f5ee4a18dd6304de3ea36724e0895648ebff6b18133"
+    },
+    {
+      "public_path": "models/TRaftClosedHistoryState.tla",
+      "previous_public_path": "TRaftClosedHistoryState.tla",
+      "frozen_path": "models/TRaftClosedHistoryState.tla",
+      "sha256": "ba56ed3c516fccdb10e7538cf5827b552ecb5c6fbe82406fea710ca97add93ce"
+    },
+    {
+      "public_path": "models/TRaftCommitActions.tla",
+      "previous_public_path": "TRaftCommitActions.tla",
+      "frozen_path": "models/TRaftCommitActions.tla",
+      "sha256": "493443cce5f425bda63eaf6dfc532f4bd3ee1e5a8e0fee64ea9d430d098afc31"
+    },
+    {
+      "public_path": "models/TRaftCommitFrames.tla",
+      "previous_public_path": "TRaftCommitFrames.tla",
+      "frozen_path": "models/TRaftCommitFrames.tla",
+      "sha256": "5b8001d404b30601b55c52d4920be2d9a6e529f22dfbf66497809972ac2a165c"
+    },
+    {
+      "public_path": "models/TRaftCommitNoticeProof.tla",
+      "previous_public_path": "TRaftCommitNoticeProof.tla",
+      "frozen_path": "models/TRaftCommitNoticeProof.tla",
+      "sha256": "18be4546adfa0a5fff05413075f6263204132faf204acd5a0cf0b677a5875136"
+    },
+    {
+      "public_path": "models/TRaftCommitState.tla",
+      "previous_public_path": "TRaftCommitState.tla",
+      "frozen_path": "models/TRaftCommitState.tla",
+      "sha256": "4b8ae2de7414bde634e967b07b291770b9cee691132f27e3f87c77e53dfdee05"
+    },
+    {
+      "public_path": "models/TRaftCommitSupport.tla",
+      "previous_public_path": "TRaftCommitSupport.tla",
+      "frozen_path": "models/TRaftCommitSupport.tla",
+      "sha256": "1c232cc1e2660e115e00bcccdc4344bc3d1fb0a042450a37786b6d8640a46929"
+    },
+    {
+      "public_path": "models/TRaftCommitTemporal.tla",
+      "previous_public_path": "TRaftCommitTemporal.tla",
+      "frozen_path": "models/TRaftCommitTemporal.tla",
+      "sha256": "48167724872a56d1c95a6edce124f629c03632d21226fad802d0b4207e475747"
+    },
+    {
+      "public_path": "models/TRaftContextOriginDiagnostic.tla",
+      "previous_public_path": "TRaftContextOriginDiagnostic.tla",
+      "frozen_path": "models/TRaftContextOriginDiagnostic.tla",
+      "sha256": "86c4bd22df679c2a1b870e626dbe663170179c92751a9562e4c86a3974e03ebd"
+    },
+    {
+      "public_path": "models/TRaftContextOriginProof.tla",
+      "previous_public_path": "TRaftContextOriginProof.tla",
+      "frozen_path": "models/TRaftContextOriginProof.tla",
+      "sha256": "d9f83653fef7c9f7614062382cbbc7c3ca73ac21895614e4a1783dd0092ebc41"
+    },
+    {
+      "public_path": "models/TRaftContextOriginState.tla",
+      "previous_public_path": "TRaftContextOriginState.tla",
+      "frozen_path": "models/TRaftContextOriginState.tla",
+      "sha256": "1d4ad239f960f0847dccb82b817c8a7d386fb30a883f36a28454d5e229d634e9"
+    },
+    {
+      "public_path": "models/TRaftControlActivate.tla",
+      "previous_public_path": "TRaftControlActivate.tla",
+      "frozen_path": "models/TRaftControlActivate.tla",
+      "sha256": "bbd40c8ffd32744d735e47616900cdee8e380ebed3bec1e0eea7187a13e2bbd0"
+    },
+    {
+      "public_path": "models/TRaftControlAdoptTerm.tla",
+      "previous_public_path": "TRaftControlAdoptTerm.tla",
+      "frozen_path": "models/TRaftControlAdoptTerm.tla",
+      "sha256": "301b8fa2908bda07fb15e8a58667279b2edb6cc99f545b29d53a2881c96d9295"
+    },
+    {
+      "public_path": "models/TRaftControlBuildRecovery.tla",
+      "previous_public_path": "TRaftControlBuildRecovery.tla",
+      "frozen_path": "models/TRaftControlBuildRecovery.tla",
+      "sha256": "eec8ecbbb1e9dd007fbc5987574fcc2a0fd3d5aa6fc5f40f03c6dc3a0024f3ba"
+    },
+    {
+      "public_path": "models/TRaftControlConfirmProposal.tla",
+      "previous_public_path": "TRaftControlConfirmProposal.tla",
+      "frozen_path": "models/TRaftControlConfirmProposal.tla",
+      "sha256": "fb4e3bb8e8072840f5c81f3da66f7f1136ff546f46b78bcfc1fb2f7f2377ae8c"
+    },
+    {
+      "public_path": "models/TRaftControlCrash.tla",
+      "previous_public_path": "TRaftControlCrash.tla",
+      "frozen_path": "models/TRaftControlCrash.tla",
+      "sha256": "44fcab60c10d85ac72dac7b1306e6f20ae34eb2cb466be6e71162bc953d2f96d"
+    },
+    {
+      "public_path": "models/TRaftControlDeliverReport.tla",
+      "previous_public_path": "TRaftControlDeliverReport.tla",
+      "frozen_path": "models/TRaftControlDeliverReport.tla",
+      "sha256": "8a72d83da82e126e82c8cd38bc0356873ef496579e2d925b686660b2f1e6e5cf"
+    },
+    {
+      "public_path": "models/TRaftControlFrames.tla",
+      "previous_public_path": "TRaftControlFrames.tla",
+      "frozen_path": "models/TRaftControlFrames.tla",
+      "sha256": "44e8a53b774ed304b17b39c520c348a2a6ced0a610969ea836736c76a55fe0eb"
+    },
+    {
+      "public_path": "models/TRaftControlMakeReport.tla",
+      "previous_public_path": "TRaftControlMakeReport.tla",
+      "frozen_path": "models/TRaftControlMakeReport.tla",
+      "sha256": "838336bd1f72f8307f95e1cd8e12513eef4f7e7a151d4701e5627aa2cfe5ddbb"
+    },
+    {
+      "public_path": "models/TRaftControlStartElection.tla",
+      "previous_public_path": "TRaftControlStartElection.tla",
+      "frozen_path": "models/TRaftControlStartElection.tla",
+      "sha256": "ae7408112ac5fb365d337ce8d28e8f8aa6eacdc3945541eb14704dfb72ae51dd"
+    },
+    {
+      "public_path": "models/TRaftControlState.tla",
+      "previous_public_path": "TRaftControlState.tla",
+      "frozen_path": "models/TRaftControlState.tla",
+      "sha256": "88eb56e6df229c53afcd71a55d8bc2dc39456ca3e5ebeacb05ded6a8d990fb0e"
+    },
+    {
+      "public_path": "models/TRaftControlSupport.tla",
+      "previous_public_path": "TRaftControlSupport.tla",
+      "frozen_path": "models/TRaftControlSupport.tla",
+      "sha256": "14c2cd8f416ec756e81db0cf85727a56e9d8783754605ad191a367b1d6ab4acd"
+    },
+    {
+      "public_path": "models/TRaftControlTemporal.tla",
+      "previous_public_path": "TRaftControlTemporal.tla",
+      "frozen_path": "models/TRaftControlTemporal.tla",
+      "sha256": "3442ed1e03e13061b34c797a1ae22edb4064003946f685f5a21daa9df6d5559e"
+    },
+    {
+      "public_path": "models/TRaftControlWinElection.tla",
+      "previous_public_path": "TRaftControlWinElection.tla",
+      "frozen_path": "models/TRaftControlWinElection.tla",
+      "sha256": "2e27d9a812a378d5c94c687d4373a597440b12d921cbdded7b73a25aebb67b53"
+    },
+    {
+      "public_path": "models/TRaftCore.tla",
+      "previous_public_path": "TRaftCore.tla",
+      "frozen_path": "models/TRaftCore.tla",
+      "sha256": "ee46650795d927a5c8204955565618240fea89af415ce50dc91ef6283223ec25"
+    },
+    {
+      "public_path": "models/TRaftCreatedEntryProof.tla",
+      "previous_public_path": "TRaftCreatedEntryProof.tla",
+      "frozen_path": "models/TRaftCreatedEntryProof.tla",
+      "sha256": "ca5efc06f9dd339c2f4e821b49064c3dc76576f792b1c023a686c0eb5268d53f"
+    },
+    {
+      "public_path": "models/TRaftDeduplicatedCommutation.tla",
+      "previous_public_path": "TRaftDeduplicatedCommutation.tla",
+      "frozen_path": "models/TRaftDeduplicatedCommutation.tla",
+      "sha256": "e140200d30781d221c9d4dfa6c49bca461e70dbff2ffda45f0b918e9e78952d8"
+    },
+    {
+      "public_path": "models/TRaftDiagnosticProof.tla",
+      "previous_public_path": "TRaftDiagnosticProof.tla",
+      "frozen_path": "models/TRaftDiagnosticProof.tla",
+      "sha256": "80c9e2e8309147d96b6b0f59b2a2210f05fb6e57f58d69b1a649e5ea34fcf9ab"
+    },
+    {
+      "public_path": "models/TRaftDurabilityProof.tla",
+      "previous_public_path": "TRaftDurabilityProof.tla",
+      "frozen_path": "models/TRaftDurabilityProof.tla",
+      "sha256": "663c88d44c3b662e764773ff17b88942e3638d544106b0d25fc419ae98df2189"
+    },
+    {
+      "public_path": "models/TRaftDurabilityState.tla",
+      "previous_public_path": "TRaftDurabilityState.tla",
+      "frozen_path": "models/TRaftDurabilityState.tla",
+      "sha256": "2bedfa2ff1c7b36ac2073a20e08b72e490ce8bbc5a6473e950d83c4a5a4c4aac"
+    },
+    {
+      "public_path": "models/TRaftElectionActivate.tla",
+      "previous_public_path": "TRaftElectionActivate.tla",
+      "frozen_path": "models/TRaftElectionActivate.tla",
+      "sha256": "3bb1df6409272dd25a64d223f97ae2ba904a65812e4004a37e9288003c447139"
+    },
+    {
+      "public_path": "models/TRaftElectionAdoptTerm.tla",
+      "previous_public_path": "TRaftElectionAdoptTerm.tla",
+      "frozen_path": "models/TRaftElectionAdoptTerm.tla",
+      "sha256": "efc81f318f06ebc3a54f9b4b12e0c0608b27979ae24786095a0748b6a20fa212"
+    },
+    {
+      "public_path": "models/TRaftElectionCrash.tla",
+      "previous_public_path": "TRaftElectionCrash.tla",
+      "frozen_path": "models/TRaftElectionCrash.tla",
+      "sha256": "179768296789aa409486f155cba136a8f31797f7a64305fe7432abe1583cd1a8"
+    },
+    {
+      "public_path": "models/TRaftElectionDeliverVote.tla",
+      "previous_public_path": "TRaftElectionDeliverVote.tla",
+      "frozen_path": "models/TRaftElectionDeliverVote.tla",
+      "sha256": "9f7f51658ad0b5c8c6904781de72a943a185ef96fe61e27a963033f34349c077"
+    },
+    {
+      "public_path": "models/TRaftElectionFrames.tla",
+      "previous_public_path": "TRaftElectionFrames.tla",
+      "frozen_path": "models/TRaftElectionFrames.tla",
+      "sha256": "be5fdc90f34b6046546c13c0f85fb852c67d3d0741dc43e08f96b41ad42688c7"
+    },
+    {
+      "public_path": "models/TRaftElectionGrantVote.tla",
+      "previous_public_path": "TRaftElectionGrantVote.tla",
+      "frozen_path": "models/TRaftElectionGrantVote.tla",
+      "sha256": "ea9f5445f6bff64cd8c1bc211fe9695d3d2238b6793f8d3e2963e193d212f418"
+    },
+    {
+      "public_path": "models/TRaftElectionProof.tla",
+      "previous_public_path": "TRaftElectionProof.tla",
+      "frozen_path": "models/TRaftElectionProof.tla",
+      "sha256": "1525e7484a9eb6157bda6450c896e5d6e1a679fa3ea7ad15e591eb0eff7458ed"
+    },
+    {
+      "public_path": "models/TRaftElectionStartElection.tla",
+      "previous_public_path": "TRaftElectionStartElection.tla",
+      "frozen_path": "models/TRaftElectionStartElection.tla",
+      "sha256": "021f905cc8a8f036f8a3da73ac247e62cd5bc0b745fbc6725bffc4b649f3cddc"
+    },
+    {
+      "public_path": "models/TRaftElectionState.tla",
+      "previous_public_path": "TRaftElectionState.tla",
+      "frozen_path": "models/TRaftElectionState.tla",
+      "sha256": "6789f8d8f687b914b5acf5a37830e0cd25dc1e3d257f4e79966e1a8fa60ae8e0"
+    },
+    {
+      "public_path": "models/TRaftElectionSupport.tla",
+      "previous_public_path": "TRaftElectionSupport.tla",
+      "frozen_path": "models/TRaftElectionSupport.tla",
+      "sha256": "e9a273412261375ffa4e95b306ea4019e4ecb33d911e4cde2644eae0431079e7"
+    },
+    {
+      "public_path": "models/TRaftElectionTemporal.tla",
+      "previous_public_path": "TRaftElectionTemporal.tla",
+      "frozen_path": "models/TRaftElectionTemporal.tla",
+      "sha256": "610d617028ad7c39042c4f08c42f51af7568c3b65d5c91bfe52562f770dc63be"
+    },
+    {
+      "public_path": "models/TRaftElectionWinElection.tla",
+      "previous_public_path": "TRaftElectionWinElection.tla",
+      "frozen_path": "models/TRaftElectionWinElection.tla",
+      "sha256": "d3a03ce892aed042b20241fcbeb73eae0393935ee3dec84dde8c379ba8db1d29"
+    },
+    {
+      "public_path": "models/TRaftEntryContextProof.tla",
+      "previous_public_path": "TRaftEntryContextProof.tla",
+      "frozen_path": "models/TRaftEntryContextProof.tla",
+      "sha256": "6c6e240a2249d97fb101d27c41be226b1b5711c8e18bb512250d29a4d821f56e"
+    },
+    {
+      "public_path": "models/TRaftEntryOrderState.tla",
+      "previous_public_path": "TRaftEntryOrderState.tla",
+      "frozen_path": "models/TRaftEntryOrderState.tla",
+      "sha256": "2607f6e79b00333c1a00d04b531f99211de4dcfc9853a73526b5ae58c9625e2a"
+    },
+    {
+      "public_path": "models/TRaftEpochClosureProof.tla",
+      "previous_public_path": "TRaftEpochClosureProof.tla",
+      "frozen_path": "models/TRaftEpochClosureProof.tla",
+      "sha256": "643d6794acc03e9bae5b7931795387270334b4306df82ac4fb4d64c83fb3f57b"
+    },
+    {
+      "public_path": "models/TRaftEpochKnowledgeProof.tla",
+      "previous_public_path": "TRaftEpochKnowledgeProof.tla",
+      "frozen_path": "models/TRaftEpochKnowledgeProof.tla",
+      "sha256": "408fa807c3683964ee12dd134d5bdb643fadc95a537844232c6c0ac2397f363b"
+    },
+    {
+      "public_path": "models/TRaftEpochKnowledgeState.tla",
+      "previous_public_path": "TRaftEpochKnowledgeState.tla",
+      "frozen_path": "models/TRaftEpochKnowledgeState.tla",
+      "sha256": "8995f4ce5842d4dcd94d4e641e312cc3d1216f77ac19a6084653f83e48dce27e"
+    },
+    {
+      "public_path": "models/TRaftEstablishedSafety.tla",
+      "previous_public_path": "TRaftEstablishedSafety.tla",
+      "frozen_path": "models/TRaftEstablishedSafety.tla",
+      "sha256": "ac3f08600117f9b3cae5ca692a16be982c282aeb513320ed78aefeb728712299"
+    },
+    {
+      "public_path": "models/TRaftEvidenceBatchInterpretation.tla",
+      "previous_public_path": "TRaftEvidenceBatchInterpretation.tla",
+      "frozen_path": "models/TRaftEvidenceBatchInterpretation.tla",
+      "sha256": "54dc113739aaed56939f15718a27d585aabba2cbbd54de4e1d5cb06108266217"
+    },
+    {
+      "public_path": "models/TRaftEvidenceLinearizationOrder.tla",
+      "previous_public_path": "TRaftEvidenceLinearizationOrder.tla",
+      "frozen_path": "models/TRaftEvidenceLinearizationOrder.tla",
+      "sha256": "110c92260071a8409b69c4dbfea313e09eba0a63d2ada5796051053b82acaf0f"
+    },
+    {
+      "public_path": "models/TRaftEvidenceOrderDiagnostic.tla",
+      "previous_public_path": "TRaftEvidenceOrderDiagnostic.tla",
+      "frozen_path": "models/TRaftEvidenceOrderDiagnostic.tla",
+      "sha256": "ea0ce589b1d1f37fd33a04caf7b3d04519052da2890e2da1b83b8b38b041fb07"
+    },
+    {
+      "public_path": "models/TRaftEvidenceOrderProof.tla",
+      "previous_public_path": "TRaftEvidenceOrderProof.tla",
+      "frozen_path": "models/TRaftEvidenceOrderProof.tla",
+      "sha256": "abb5e666a4ac04073d73674138520178d2a7c010ba2c196bc3c6bbbd31145e07"
+    },
+    {
+      "public_path": "models/TRaftEvidenceProof.tla",
+      "previous_public_path": "TRaftEvidenceProof.tla",
+      "frozen_path": "models/TRaftEvidenceProof.tla",
+      "sha256": "cf7af35b752ea85e4f319023a6d7a35c534457cd13dadf178686ba84b33bc085"
+    },
+    {
+      "public_path": "models/TRaftEvidenceTermOrderProof.tla",
+      "previous_public_path": "TRaftEvidenceTermOrderProof.tla",
+      "frozen_path": "models/TRaftEvidenceTermOrderProof.tla",
+      "sha256": "5deb423880901695522497246301da34d6cb0ad64a7eedfc50e52c1683907966"
+    },
+    {
+      "public_path": "models/TRaftFiniteAckEntry.tla",
+      "previous_public_path": "TRaftFiniteAckEntry.tla",
+      "frozen_path": "models/TRaftFiniteAckEntry.tla",
+      "sha256": "848e5a90f442d8ead5a88f81a3c56ead9684916cbe2a8d94a4d2cd8e9a08ac4d"
+    },
+    {
+      "public_path": "models/TRaftFiniteAckProposal.tla",
+      "previous_public_path": "TRaftFiniteAckProposal.tla",
+      "frozen_path": "models/TRaftFiniteAckProposal.tla",
+      "sha256": "df44d34b38375085555ba273eaedc338ceef812c3f4c915acd92ab8f13bec688"
+    },
+    {
+      "public_path": "models/TRaftFiniteActivate.tla",
+      "previous_public_path": "TRaftFiniteActivate.tla",
+      "frozen_path": "models/TRaftFiniteActivate.tla",
+      "sha256": "30e39d80c1691f44741c7fdcdc992798bbfb11bec19c68f45e5556012e4c1a5c"
+    },
+    {
+      "public_path": "models/TRaftFiniteAdoptTerm.tla",
+      "previous_public_path": "TRaftFiniteAdoptTerm.tla",
+      "frozen_path": "models/TRaftFiniteAdoptTerm.tla",
+      "sha256": "91ab537daa1cf75e4cf9f8ef057baf1ddb26e4c17bc27afb2d52b731d99cb131"
+    },
+    {
+      "public_path": "models/TRaftFiniteAdvertiseCommit.tla",
+      "previous_public_path": "TRaftFiniteAdvertiseCommit.tla",
+      "frozen_path": "models/TRaftFiniteAdvertiseCommit.tla",
+      "sha256": "67841fee60286247384f3d2c18847fdded9a28c31cefa223256fdf88ec32adc0"
+    },
+    {
+      "public_path": "models/TRaftFiniteApplyEntry.tla",
+      "previous_public_path": "TRaftFiniteApplyEntry.tla",
+      "frozen_path": "models/TRaftFiniteApplyEntry.tla",
+      "sha256": "3fcb411d55ab0f6a6d3c48c781236e91d7ad5bf137d7587b37999cffc21d5a91"
+    },
+    {
+      "public_path": "models/TRaftFiniteBuildRecovery.tla",
+      "previous_public_path": "TRaftFiniteBuildRecovery.tla",
+      "frozen_path": "models/TRaftFiniteBuildRecovery.tla",
+      "sha256": "cb67a53cc48d3dc9c28135def03b70b329e96d77af3eee8935dc9902078d83a0"
+    },
+    {
+      "public_path": "models/TRaftFiniteCommitEntry.tla",
+      "previous_public_path": "TRaftFiniteCommitEntry.tla",
+      "frozen_path": "models/TRaftFiniteCommitEntry.tla",
+      "sha256": "be5889d30444b1df1e39a59a059d5cf13595f506ff07f0c62eb5245ed3cc2b3b"
+    },
+    {
+      "public_path": "models/TRaftFiniteConfirmProposal.tla",
+      "previous_public_path": "TRaftFiniteConfirmProposal.tla",
+      "frozen_path": "models/TRaftFiniteConfirmProposal.tla",
+      "sha256": "5138402b377f21a8a29a0a90f97c734d4f4903fc6f7e3f5bcbadd2d28c18bac9"
+    },
+    {
+      "public_path": "models/TRaftFiniteCopyProposalEntry.tla",
+      "previous_public_path": "TRaftFiniteCopyProposalEntry.tla",
+      "frozen_path": "models/TRaftFiniteCopyProposalEntry.tla",
+      "sha256": "85af29a649f001598d466c26cab16160435d56c14cedcf37c342d58de934997f"
+    },
+    {
+      "public_path": "models/TRaftFiniteCrash.tla",
+      "previous_public_path": "TRaftFiniteCrash.tla",
+      "frozen_path": "models/TRaftFiniteCrash.tla",
+      "sha256": "9a414a393ce7b49910c3f73930b40de8a32e20afb2061f69cc85dabf4b7e4baf"
+    },
+    {
+      "public_path": "models/TRaftFiniteCreateEntry.tla",
+      "previous_public_path": "TRaftFiniteCreateEntry.tla",
+      "frozen_path": "models/TRaftFiniteCreateEntry.tla",
+      "sha256": "6d3be52ebbd7c5cc6350588ec120a28e917f742f84c77267c629bb6a80f89e43"
+    },
+    {
+      "public_path": "models/TRaftFiniteCreateSuccessor.tla",
+      "previous_public_path": "TRaftFiniteCreateSuccessor.tla",
+      "frozen_path": "models/TRaftFiniteCreateSuccessor.tla",
+      "sha256": "45d21ffa78ba7decb9bd769722b5844812b15aa4b4bf93283c8a86aa9e3ac743"
+    },
+    {
+      "public_path": "models/TRaftFiniteDeliverAck.tla",
+      "previous_public_path": "TRaftFiniteDeliverAck.tla",
+      "frozen_path": "models/TRaftFiniteDeliverAck.tla",
+      "sha256": "e7b005e9b7ca984d4f7c8f6edfb4dade1ff81331c0be307d2720cdada691c8ec"
+    },
+    {
+      "public_path": "models/TRaftFiniteDeliverReport.tla",
+      "previous_public_path": "TRaftFiniteDeliverReport.tla",
+      "frozen_path": "models/TRaftFiniteDeliverReport.tla",
+      "sha256": "979efc4dfbade4ca2fe15afc0aedc38452869b39b4594206ca2672f059876356"
+    },
+    {
+      "public_path": "models/TRaftFiniteDeliverVote.tla",
+      "previous_public_path": "TRaftFiniteDeliverVote.tla",
+      "frozen_path": "models/TRaftFiniteDeliverVote.tla",
+      "sha256": "4de33fb308293224df723e4f1f08efebaf4437baa826af75e49b6d7aef079b06"
+    },
+    {
+      "public_path": "models/TRaftFiniteEntryOrder.tla",
+      "previous_public_path": "TRaftFiniteEntryOrder.tla",
+      "frozen_path": "models/TRaftFiniteEntryOrder.tla",
+      "sha256": "3bd772626f99980439d5274467b5b31d788ccdb9484fc1110a76b3d62e0871e1"
+    },
+    {
+      "public_path": "models/TRaftFiniteGrantVote.tla",
+      "previous_public_path": "TRaftFiniteGrantVote.tla",
+      "frozen_path": "models/TRaftFiniteGrantVote.tla",
+      "sha256": "88f665c759d8d318fb5b2ab51429e8e8690393124f5b6524d12341f86cb75d57"
+    },
+    {
+      "public_path": "models/TRaftFiniteLearnCommit.tla",
+      "previous_public_path": "TRaftFiniteLearnCommit.tla",
+      "frozen_path": "models/TRaftFiniteLearnCommit.tla",
+      "sha256": "5f6f61ef59f78eef1c0f63f5ad11d38ddb811da817c20b04451ecad37fae36e4"
+    },
+    {
+      "public_path": "models/TRaftFiniteLearnConfirmation.tla",
+      "previous_public_path": "TRaftFiniteLearnConfirmation.tla",
+      "frozen_path": "models/TRaftFiniteLearnConfirmation.tla",
+      "sha256": "a59780cefbfa79a2ecff3b831df5c023d8f82308f6b222a0190fc814d9b4564c"
+    },
+    {
+      "public_path": "models/TRaftFiniteLogProof.tla",
+      "previous_public_path": "TRaftFiniteLogProof.tla",
+      "frozen_path": "models/TRaftFiniteLogProof.tla",
+      "sha256": "3df827c5343a9fe070f7c2269f582b9595888b36d2a2eabf5469351a84bbe527"
+    },
+    {
+      "public_path": "models/TRaftFiniteMakeReport.tla",
+      "previous_public_path": "TRaftFiniteMakeReport.tla",
+      "frozen_path": "models/TRaftFiniteMakeReport.tla",
+      "sha256": "eb0ad597a55b67844352907ab102ce768a392249cdb716be4dfaa6a434cd28a2"
+    },
+    {
+      "public_path": "models/TRaftFiniteReceiveEntry.tla",
+      "previous_public_path": "TRaftFiniteReceiveEntry.tla",
+      "frozen_path": "models/TRaftFiniteReceiveEntry.tla",
+      "sha256": "923bd4cd485b417dec8d5256eac2c872ffa120a2b2b19eb3de4f60d2d3480333"
+    },
+    {
+      "public_path": "models/TRaftFiniteRequestOrder.tla",
+      "previous_public_path": "TRaftFiniteRequestOrder.tla",
+      "frozen_path": "models/TRaftFiniteRequestOrder.tla",
+      "sha256": "411f8ee2a4d887667b92d8522e2d90cc6a11c521eeea4b123929b69184013e88"
+    },
+    {
+      "public_path": "models/TRaftFiniteRestart.tla",
+      "previous_public_path": "TRaftFiniteRestart.tla",
+      "frozen_path": "models/TRaftFiniteRestart.tla",
+      "sha256": "3c402cd2505e71be1104846b6c62e8acc2b90126ab7a042a47fd526ded3feb6a"
+    },
+    {
+      "public_path": "models/TRaftFiniteRetainProposal.tla",
+      "previous_public_path": "TRaftFiniteRetainProposal.tla",
+      "frozen_path": "models/TRaftFiniteRetainProposal.tla",
+      "sha256": "770a1ad1a889bf3d83d01a41547564d1c05f6200582d6f74f7683771f3e22f66"
+    },
+    {
+      "public_path": "models/TRaftFiniteSendEntry.tla",
+      "previous_public_path": "TRaftFiniteSendEntry.tla",
+      "frozen_path": "models/TRaftFiniteSendEntry.tla",
+      "sha256": "2349f143a2c0ba9cc7be0c3ab0e50298660d591d7786462d57f367a21fed48c0"
+    },
+    {
+      "public_path": "models/TRaftFiniteStartElection.tla",
+      "previous_public_path": "TRaftFiniteStartElection.tla",
+      "frozen_path": "models/TRaftFiniteStartElection.tla",
+      "sha256": "12356a1e45e43e866c65e00d474e54f3bd6178b43d4fe40949dfbd3c5fcac6b9"
+    },
+    {
+      "public_path": "models/TRaftFiniteState.tla",
+      "previous_public_path": "TRaftFiniteState.tla",
+      "frozen_path": "models/TRaftFiniteState.tla",
+      "sha256": "9b06b1862e297b48a053f0ce0abd215521ad9f41d6a284cfbfc6358a6d68ffda"
+    },
+    {
+      "public_path": "models/TRaftFiniteSupport.tla",
+      "previous_public_path": "TRaftFiniteSupport.tla",
+      "frozen_path": "models/TRaftFiniteSupport.tla",
+      "sha256": "db5f3d993c57405ecfd6947f472fca86699b8ab6c3bfe94ef2a012d3c2eb13e8"
+    },
+    {
+      "public_path": "models/TRaftFiniteTemporal.tla",
+      "previous_public_path": "TRaftFiniteTemporal.tla",
+      "frozen_path": "models/TRaftFiniteTemporal.tla",
+      "sha256": "f51f13787b196256e20212a8a84e03d6ddb32467e89fcc8204f742b2d90c331a"
+    },
+    {
+      "public_path": "models/TRaftFiniteWinElection.tla",
+      "previous_public_path": "TRaftFiniteWinElection.tla",
+      "frozen_path": "models/TRaftFiniteWinElection.tla",
+      "sha256": "772d616e573e7c68793aa048e704bd69f9fbba7522683acae249b34f79655a28"
+    },
+    {
+      "public_path": "models/TRaftFoldClientScenarios.tla",
+      "previous_public_path": "TRaftFoldClientScenarios.tla",
+      "frozen_path": "models/TRaftFoldClientScenarios.tla",
+      "sha256": "01320a33e2c6009e6a4ccaacdd0b7337b290e939bed78d1ba4f46d1c9ad4d651"
+    },
+    {
+      "public_path": "models/TRaftFoldConcatProof.tla",
+      "previous_public_path": "TRaftFoldConcatProof.tla",
+      "frozen_path": "models/TRaftFoldConcatProof.tla",
+      "sha256": "bbaa1d887e5d075f6bbcbe0d2d913d71f93224693147b1473f783b2bdb1a39e2"
+    },
+    {
+      "public_path": "models/TRaftFoldSimulation.tla",
+      "previous_public_path": "TRaftFoldSimulation.tla",
+      "frozen_path": "models/TRaftFoldSimulation.tla",
+      "sha256": "f293390f73ad3487fb97335619ab2364e4a655a8a42371b39cd93af4c13dcc20"
+    },
+    {
+      "public_path": "models/TRaftFollowerPrefixSupport.tla",
+      "previous_public_path": "TRaftFollowerPrefixSupport.tla",
+      "frozen_path": "models/TRaftFollowerPrefixSupport.tla",
+      "sha256": "2e73bc6beef7d529d010991599d9f5540e0f814bfc250da233ef101fb1829a97"
+    },
+    {
+      "public_path": "models/TRaftFollowerReceiveProof.tla",
+      "previous_public_path": "TRaftFollowerReceiveProof.tla",
+      "frozen_path": "models/TRaftFollowerReceiveProof.tla",
+      "sha256": "e645022bcee3c21f0121c20172e2faf8c774159ad9b00c1eac8bb0626cacd06a"
+    },
+    {
+      "public_path": "models/TRaftFormalSublogProof.tla",
+      "previous_public_path": "TRaftFormalSublogProof.tla",
+      "frozen_path": "models/TRaftFormalSublogProof.tla",
+      "sha256": "05862555dc23360eb10746d084a50fa9f5606071160e645e4afc28f10a668055"
+    },
+    {
+      "public_path": "models/TRaftFormalTermProof.tla",
+      "previous_public_path": "TRaftFormalTermProof.tla",
+      "frozen_path": "models/TRaftFormalTermProof.tla",
+      "sha256": "e0c431d9aa1ab7a6061ef3d5acbcf8135e310a4d2e4c3c92b00feebf998b14c0"
+    },
+    {
+      "public_path": "models/TRaftFunctionProof.tla",
+      "previous_public_path": "TRaftFunctionProof.tla",
+      "frozen_path": "models/TRaftFunctionProof.tla",
+      "sha256": "25a66f441685bf42b9d76a554e4fe3b55806298dd47290b0d4a01253d2d32d80"
+    },
+    {
+      "public_path": "models/TRaftHistoryFactsProof.tla",
+      "previous_public_path": "TRaftHistoryFactsProof.tla",
+      "frozen_path": "models/TRaftHistoryFactsProof.tla",
+      "sha256": "dbab55f9bd1ec2d17226c89629b1e1aaf927a76520abc0bf5a340c8903041721"
+    },
+    {
+      "public_path": "models/TRaftHistoryOriginProof.tla",
+      "previous_public_path": "TRaftHistoryOriginProof.tla",
+      "frozen_path": "models/TRaftHistoryOriginProof.tla",
+      "sha256": "18e87aafa3af632553907a95f91df17e3f730598946a8d38426f87aa147a0269"
+    },
+    {
+      "public_path": "models/TRaftHistoryOriginState.tla",
+      "previous_public_path": "TRaftHistoryOriginState.tla",
+      "frozen_path": "models/TRaftHistoryOriginState.tla",
+      "sha256": "d9060c87f07fb8b5c3b2d94835c4adc609c5486b47fcb348ba9a7d0fd0bbac44"
+    },
+    {
+      "public_path": "models/TRaftHistoryProjectionProof.tla",
+      "previous_public_path": "TRaftHistoryProjectionProof.tla",
+      "frozen_path": "models/TRaftHistoryProjectionProof.tla",
+      "sha256": "cc71b03b6c56501a6c6d65155d6867c9c7e1a0ef3521e396245871a3c5d56d35"
+    },
+    {
+      "public_path": "models/TRaftHistoryRefinementProof.tla",
+      "previous_public_path": "TRaftHistoryRefinementProof.tla",
+      "frozen_path": "models/TRaftHistoryRefinementProof.tla",
+      "sha256": "c8473258568cadb5ebfeef8e7bfd28f39b05dc7990b806a7427152d0b3bbc038"
+    },
+    {
+      "public_path": "models/TRaftInductionDiagnostic.tla",
+      "previous_public_path": "TRaftInductionDiagnostic.tla",
+      "frozen_path": "models/TRaftInductionDiagnostic.tla",
+      "sha256": "35412c73d2b5f361750bb12ab2046ad5eb5a8605e5b41402c7793d6f19421d3d"
+    },
+    {
+      "public_path": "models/TRaftInitProof.tla",
+      "previous_public_path": "TRaftInitProof.tla",
+      "frozen_path": "models/TRaftInitProof.tla",
+      "sha256": "735381e08b67c6c1c315f5ee79f949ad47841e012752671482e3cbe73f5d152f"
+    },
+    {
+      "public_path": "models/TRaftInvariantDefinitions.tla",
+      "previous_public_path": "TRaftInvariantDefinitions.tla",
+      "frozen_path": "models/TRaftInvariantDefinitions.tla",
+      "sha256": "5ff0788d98a4db8cc3ff136ff28abd553a5e62b37b288c2fa2292d645c5395a0"
+    },
+    {
+      "public_path": "models/TRaftInvariantStepProof.tla",
+      "previous_public_path": "TRaftInvariantStepProof.tla",
+      "frozen_path": "models/TRaftInvariantStepProof.tla",
+      "sha256": "17ea23d1991140e68c6e6accb8914f902cafd5eaffd58f6ab48540497d41102b"
+    },
+    {
+      "public_path": "models/TRaftInvariantStutterProof.tla",
+      "previous_public_path": "TRaftInvariantStutterProof.tla",
+      "frozen_path": "models/TRaftInvariantStutterProof.tla",
+      "sha256": "2d6674e5969647ca22b46efb6b5a00039aaccd919893cbd1cd64ecf974a4cc69"
+    },
+    {
+      "public_path": "models/TRaftLeaderCanonicalInclusion.tla",
+      "previous_public_path": "TRaftLeaderCanonicalInclusion.tla",
+      "frozen_path": "models/TRaftLeaderCanonicalInclusion.tla",
+      "sha256": "cf3d38124dd6d52fdf5e9e3d9d28a91f95ff3112fd41f0b8b71450ec1a5d1d18"
+    },
+    {
+      "public_path": "models/TRaftLeaderCanonicalProof.tla",
+      "previous_public_path": "TRaftLeaderCanonicalProof.tla",
+      "frozen_path": "models/TRaftLeaderCanonicalProof.tla",
+      "sha256": "6434362d7d3ab33907ddabc6e4fd686411fa9efb80fb1a68e6ef33c318997f79"
+    },
+    {
+      "public_path": "models/TRaftLeaderHistoryFrames.tla",
+      "previous_public_path": "TRaftLeaderHistoryFrames.tla",
+      "frozen_path": "models/TRaftLeaderHistoryFrames.tla",
+      "sha256": "d2f597aaae807918e3f41a340973b9c1157aabeeb1b7cdcb2167961603eb72be"
+    },
+    {
+      "public_path": "models/TRaftLeaderHistoryProof.tla",
+      "previous_public_path": "TRaftLeaderHistoryProof.tla",
+      "frozen_path": "models/TRaftLeaderHistoryProof.tla",
+      "sha256": "4ae411222095c72783a7d17900fc33f3b12fb423dbb3d51944c47e517a610eca"
+    },
+    {
+      "public_path": "models/TRaftLeaderHistoryState.tla",
+      "previous_public_path": "TRaftLeaderHistoryState.tla",
+      "frozen_path": "models/TRaftLeaderHistoryState.tla",
+      "sha256": "b23cadbe0815d8cf9f91094c32631db67cda9283b604e6a0742fbe3910d45104"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases01.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases01.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases01.tla",
+      "sha256": "45d1309d206ca3c2b49998fa8498ef1122fa05a52c5b24780ce1653902bf6066"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases02.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases02.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases02.tla",
+      "sha256": "c1b8664d207adabef16b43a79c9a9583e8876139e10f7a48d58919ef52dcc6a0"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases03.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases03.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases03.tla",
+      "sha256": "af0431b29aada652bbba52a6d33e53a4ea454f006aadeac8328329b6c8adb18c"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases04.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases04.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases04.tla",
+      "sha256": "6b2a2182d8565e8f30f2f2eacc920bbe68ea5e81a6df42659478d75c358d9ade"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases05.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases05.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases05.tla",
+      "sha256": "2fc16c821c12c0813d153fa81242001bb156bdd3e86abffbbca289c54954101b"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases06.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases06.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases06.tla",
+      "sha256": "97c16cfecb745b8614c86abb0c5f560ab987b58dfe272f4599272fa5ffee0f2c"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases07.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases07.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases07.tla",
+      "sha256": "b42796a027689ba7d36bb15e03e988f22ce157313fc2dd351bd541d0302ff671"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases07b.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases07b.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases07b.tla",
+      "sha256": "941d360f1e3aa47dc7ab43153582ee39d2058103d231aa3ffeb8bf6b1c75b0cf"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases08.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases08.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases08.tla",
+      "sha256": "8ee4bbc2ea93dc4ca9967a010b39c04bf83834cd440cc25c9010887fa5c82af4"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases08b.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases08b.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases08b.tla",
+      "sha256": "fb905b9d337a0eee389171ed04f7324d58c8364fc28a0d770033f52884af6647"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases09.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases09.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases09.tla",
+      "sha256": "202a9c663cb2ffd662056bf1e0fd7a7b6f06215c0e2f67f0b254721efddb9718"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases10.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases10.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases10.tla",
+      "sha256": "048f6fee829587c8e2bf595770a1f82a2c819faa53ba6fcbee4f233b0168d249"
+    },
+    {
+      "public_path": "models/TRaftLiftedCoreAliases11.tla",
+      "previous_public_path": "TRaftLiftedCoreAliases11.tla",
+      "frozen_path": "models/TRaftLiftedCoreAliases11.tla",
+      "sha256": "ec13207b6ee7131741e8813f708b54b3017793a2d2b02f817c7d2b127a7923d4"
+    },
+    {
+      "public_path": "models/TRaftLiftedInitialIdentity.tla",
+      "previous_public_path": "TRaftLiftedInitialIdentity.tla",
+      "frozen_path": "models/TRaftLiftedInitialIdentity.tla",
+      "sha256": "acab7627ef2e1ed0014aa34acaa964084cdbab8f5954a1bfe0fd494abd14a6a6"
+    },
+    {
+      "public_path": "models/TRaftLiftedInvariantTransport.tla",
+      "previous_public_path": "TRaftLiftedInvariantTransport.tla",
+      "frozen_path": "models/TRaftLiftedInvariantTransport.tla",
+      "sha256": "883f578717f4e61bb94f981f125ee1ba2736b4fb25dca13697dda898b22fbcb8"
+    },
+    {
+      "public_path": "models/TRaftLiftedNextIdentity.tla",
+      "previous_public_path": "TRaftLiftedNextIdentity.tla",
+      "frozen_path": "models/TRaftLiftedNextIdentity.tla",
+      "sha256": "a8f166b7bcfb7e3b427b3f8ee904d1f5482e9ff506df3c02dd8b36c03d5b7ba6"
+    },
+    {
+      "public_path": "models/TRaftLiftedProtocolDefinitions.tla",
+      "previous_public_path": "TRaftLiftedProtocolDefinitions.tla",
+      "frozen_path": "models/TRaftLiftedProtocolDefinitions.tla",
+      "sha256": "9ef5237d1024f9c987cdc27373f7f42f183ae7270bcb7be7d9f6b8eb03aec2a6"
+    },
+    {
+      "public_path": "models/TRaftLiftedSafetyParameters.tla",
+      "previous_public_path": "TRaftLiftedSafetyParameters.tla",
+      "frozen_path": "models/TRaftLiftedSafetyParameters.tla",
+      "sha256": "81a98d53a427ce993b6d26d9bf6d594e1e02dfaa7d463180b762276fc00e383e"
+    },
+    {
+      "public_path": "models/TRaftLiftedSafetyTransport.tla",
+      "previous_public_path": "TRaftLiftedSafetyTransport.tla",
+      "frozen_path": "models/TRaftLiftedSafetyTransport.tla",
+      "sha256": "6e88a119883578745abba0f9ec574103cc3f5c9c10876e9cf7f401336a32511d"
+    },
+    {
+      "public_path": "models/TRaftLiftedSpecificationIdentity.tla",
+      "previous_public_path": "TRaftLiftedSpecificationIdentity.tla",
+      "frozen_path": "models/TRaftLiftedSpecificationIdentity.tla",
+      "sha256": "d808cdf7945ade2652f214e4720ec0abadb2cbcc0b6d3a068cc1fee4a769e7b9"
+    },
+    {
+      "public_path": "models/TRaftLogContextProof.tla",
+      "previous_public_path": "TRaftLogContextProof.tla",
+      "frozen_path": "models/TRaftLogContextProof.tla",
+      "sha256": "2df087499e7c9557cfe31275b08cd97480a0eadc705ef5a1365b1b7fc55701b1"
+    },
+    {
+      "public_path": "models/TRaftLogContextState.tla",
+      "previous_public_path": "TRaftLogContextState.tla",
+      "frozen_path": "models/TRaftLogContextState.tla",
+      "sha256": "5e57b4fb4c1b7caa59abd65980ec86e09040fc60ff35efbe0213875616ae0965"
+    },
+    {
+      "public_path": "models/TRaftLogCountProof.tla",
+      "previous_public_path": "TRaftLogCountProof.tla",
+      "frozen_path": "models/TRaftLogCountProof.tla",
+      "sha256": "9c7b101b6a52ef7c2363d2fca7b3a3047583d865d26b0dc1f9c2bffc19ced7c2"
+    },
+    {
+      "public_path": "models/TRaftLogMatchingFromInvariant.tla",
+      "previous_public_path": "TRaftLogMatchingFromInvariant.tla",
+      "frozen_path": "models/TRaftLogMatchingFromInvariant.tla",
+      "sha256": "5535bec85954fe39f315da5f621bd21fbc20cc5b069aa67b0a149feb3c4eaef9"
+    },
+    {
+      "public_path": "models/TRaftLogTypeProof.tla",
+      "previous_public_path": "TRaftLogTypeProof.tla",
+      "frozen_path": "models/TRaftLogTypeProof.tla",
+      "sha256": "f26a99fdbdbb252cdac911672ce8c908b2d8b7d71b3402554d05a511832fcf17"
+    },
+    {
+      "public_path": "models/TRaftNoopSelfAckDiagnostic.tla",
+      "previous_public_path": "TRaftNoopSelfAckDiagnostic.tla",
+      "frozen_path": "models/TRaftNoopSelfAckDiagnostic.tla",
+      "sha256": "bbc41f3632e5ef465ec664c58fb62c955b27268557ae6e1326fba170f86ee5e8"
+    },
+    {
+      "public_path": "models/TRaftNormalCreationInstances.tla",
+      "previous_public_path": "TRaftNormalCreationInstances.tla",
+      "frozen_path": "models/TRaftNormalCreationInstances.tla",
+      "sha256": "381ab784cb5b912c49537388c5dea0e5eeab75a102b6795eec350def20e2e2ae"
+    },
+    {
+      "public_path": "models/TRaftNormalSublogProof.tla",
+      "previous_public_path": "TRaftNormalSublogProof.tla",
+      "frozen_path": "models/TRaftNormalSublogProof.tla",
+      "sha256": "cc73d2b4ee66d39e974b5717973097df6b5a20699b45a40394d6d1e00e03ef6f"
+    },
+    {
+      "public_path": "models/TRaftObserverClosureProof.tla",
+      "previous_public_path": "TRaftObserverClosureProof.tla",
+      "frozen_path": "models/TRaftObserverClosureProof.tla",
+      "sha256": "b28cda92825112c53009cedd0ae14674667aec475548624dd72c78a75388a5e8"
+    },
+    {
+      "public_path": "models/TRaftObserverPassivityDiagnostic.tla",
+      "previous_public_path": "TRaftObserverPassivityDiagnostic.tla",
+      "frozen_path": "models/TRaftObserverPassivityDiagnostic.tla",
+      "sha256": "7bd94288780a3d7596c2e6d38e9b5a5dc35c3ce0b0071d7d57089ca52f05f85b"
+    },
+    {
+      "public_path": "models/TRaftOfferDiagnostic.tla",
+      "previous_public_path": "TRaftOfferDiagnostic.tla",
+      "frozen_path": "models/TRaftOfferDiagnostic.tla",
+      "sha256": "40334ffc8755ddc0923a8a4834fd74c7f369a41667c0710f471cd8fe2e22434d"
+    },
+    {
+      "public_path": "models/TRaftOfferOneStepDiagnostic.tla",
+      "previous_public_path": "TRaftOfferOneStepDiagnostic.tla",
+      "frozen_path": "models/TRaftOfferOneStepDiagnostic.tla",
+      "sha256": "d986befbc351bb63b89c962a96486a0c6cbbb29934c783940d37136e885685e6"
+    },
+    {
+      "public_path": "models/TRaftOfferProof.tla",
+      "previous_public_path": "TRaftOfferProof.tla",
+      "frozen_path": "models/TRaftOfferProof.tla",
+      "sha256": "801dac6ff8c499812ca5cc946287994a8296dabf1c5a8a80abed0bb6e1a84d66"
+    },
+    {
+      "public_path": "models/TRaftOfferState.tla",
+      "previous_public_path": "TRaftOfferState.tla",
+      "frozen_path": "models/TRaftOfferState.tla",
+      "sha256": "f00cc5f8316314c324a2f5d529f17d2cc851d02c29879fd9ff5db45b174fc15d"
+    },
+    {
+      "public_path": "models/TRaftOrderedApplicationProof.tla",
+      "previous_public_path": "TRaftOrderedApplicationProof.tla",
+      "frozen_path": "models/TRaftOrderedApplicationProof.tla",
+      "sha256": "cd7e8d6c08c15c7c79a00dddb75dca495139e2a7c19749c99b509339e076d0ff"
+    },
+    {
+      "public_path": "models/TRaftOriginActions.tla",
+      "previous_public_path": "TRaftOriginActions.tla",
+      "frozen_path": "models/TRaftOriginActions.tla",
+      "sha256": "7a8c3c0fddf6e4711f94632c1d03d2646b33f1a5c342a34656d94b60f457d4b2"
+    },
+    {
+      "public_path": "models/TRaftOriginFrames.tla",
+      "previous_public_path": "TRaftOriginFrames.tla",
+      "frozen_path": "models/TRaftOriginFrames.tla",
+      "sha256": "e000095b07cf791cd1ebf6fc4570f658308aa3984d1ba9c98dc768ecdf0b10cb"
+    },
+    {
+      "public_path": "models/TRaftOriginSupport.tla",
+      "previous_public_path": "TRaftOriginSupport.tla",
+      "frozen_path": "models/TRaftOriginSupport.tla",
+      "sha256": "009ff52cdc3ca7ac62887ba6d3bca6a3acfb2c08b9ec88a8f738c9bb392c7287"
+    },
+    {
+      "public_path": "models/TRaftPaper.tla",
+      "previous_public_path": "TRaftPaper.tla",
+      "frozen_path": "models/TRaftPaper.tla",
+      "sha256": "265366a2053809571ecba806c71a078cadbfa2b7cde3f9c63d605994151fd2f3"
+    },
+    {
+      "public_path": "models/TRaftPaperScenarios.tla",
+      "previous_public_path": "TRaftPaperScenarios.tla",
+      "frozen_path": "models/TRaftPaperScenarios.tla",
+      "sha256": "1e69aed6f5c636231e993f4051b9ad05eccf157377d6a643abf44beaa65e7925"
+    },
+    {
+      "public_path": "models/TRaftPaperSuffix.tla",
+      "previous_public_path": "TRaftPaperSuffix.tla",
+      "frozen_path": "models/TRaftPaperSuffix.tla",
+      "sha256": "c9e294bfb464e7d501ac6cd144eade862799a9c47d20031f033fb4106e4cf999"
+    },
+    {
+      "public_path": "models/TRaftPartialPartitionHistoryDiagnostic.tla",
+      "previous_public_path": "TRaftPartialPartitionHistoryDiagnostic.tla",
+      "frozen_path": "models/TRaftPartialPartitionHistoryDiagnostic.tla",
+      "sha256": "5a609f3626b8d90c51573cb340a3f39253eaebaf973bcab965abd6b5277362b6"
+    },
+    {
+      "public_path": "models/TRaftPartitionEvidenceProof.tla",
+      "previous_public_path": "TRaftPartitionEvidenceProof.tla",
+      "frozen_path": "models/TRaftPartitionEvidenceProof.tla",
+      "sha256": "578dd4a6a601535992eca63d3588162d7998be45cc9a27b441ce4ad1466792a1"
+    },
+    {
+      "public_path": "models/TRaftPartitionLeaderProof.tla",
+      "previous_public_path": "TRaftPartitionLeaderProof.tla",
+      "frozen_path": "models/TRaftPartitionLeaderProof.tla",
+      "sha256": "1a74b5447cb603eb22976a420ca4ae3fc3ab955b5f87b3344202fdc22cb2f889"
+    },
+    {
+      "public_path": "models/TRaftPointClientAliases01.tla",
+      "previous_public_path": "TRaftPointClientAliases01.tla",
+      "frozen_path": "models/TRaftPointClientAliases01.tla",
+      "sha256": "f0bb4c7124e7bc08a4aa6eddd2857549e5d277f238d6df76d054df3047501129"
+    },
+    {
+      "public_path": "models/TRaftPointClientAliases02.tla",
+      "previous_public_path": "TRaftPointClientAliases02.tla",
+      "frozen_path": "models/TRaftPointClientAliases02.tla",
+      "sha256": "7c78afbe2a0052486d935c73aab1addb439f01450e8f2ae4de5663a1e258b9dc"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases01.tla",
+      "previous_public_path": "TRaftPointCoreAliases01.tla",
+      "frozen_path": "models/TRaftPointCoreAliases01.tla",
+      "sha256": "c1e90bbd3f5cb3f520c663f885ce59a97647c1fe9a94c2546739b1c91d9f2ef3"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases02.tla",
+      "previous_public_path": "TRaftPointCoreAliases02.tla",
+      "frozen_path": "models/TRaftPointCoreAliases02.tla",
+      "sha256": "0ec92498d7a66eb075f1b5a5442b73ccc2176ad063f68a0ed27bf0fb69ee5342"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases03.tla",
+      "previous_public_path": "TRaftPointCoreAliases03.tla",
+      "frozen_path": "models/TRaftPointCoreAliases03.tla",
+      "sha256": "3a351fc789583edf8629874f6eee8f75fd88b5e69c7aabadff62aba0b6140482"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases04.tla",
+      "previous_public_path": "TRaftPointCoreAliases04.tla",
+      "frozen_path": "models/TRaftPointCoreAliases04.tla",
+      "sha256": "4372d3388faa60075be0df9b0146fef81adf57409636b714a70474cee990aff9"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases05.tla",
+      "previous_public_path": "TRaftPointCoreAliases05.tla",
+      "frozen_path": "models/TRaftPointCoreAliases05.tla",
+      "sha256": "c5fb086d901a3cbacb0541fa8a564a8e14754497cb5ce761feb0344199956c76"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases06.tla",
+      "previous_public_path": "TRaftPointCoreAliases06.tla",
+      "frozen_path": "models/TRaftPointCoreAliases06.tla",
+      "sha256": "1fd2753e907ae1d8c919da4400f513e02999d5da26a8ed5e0feba325b6539c39"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases07.tla",
+      "previous_public_path": "TRaftPointCoreAliases07.tla",
+      "frozen_path": "models/TRaftPointCoreAliases07.tla",
+      "sha256": "522505aa3a2eec071711442d977a4d7f9fd8a5be2139ef0a844227c6147b7c65"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases07b.tla",
+      "previous_public_path": "TRaftPointCoreAliases07b.tla",
+      "frozen_path": "models/TRaftPointCoreAliases07b.tla",
+      "sha256": "b6648399648a4748e7eb256db4a3508382f3c6cadac1e329f4f670ed73abbb7e"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases08.tla",
+      "previous_public_path": "TRaftPointCoreAliases08.tla",
+      "frozen_path": "models/TRaftPointCoreAliases08.tla",
+      "sha256": "e956b34a817d8bf3aa5e126c3347769f40120ea26f691d9898ad5ef97fb0c245"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases08b.tla",
+      "previous_public_path": "TRaftPointCoreAliases08b.tla",
+      "frozen_path": "models/TRaftPointCoreAliases08b.tla",
+      "sha256": "86cffdd9158ed4b6daa813d5e488f83f3d4328d8eefaa8923953f0c0f1a49b6e"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases09.tla",
+      "previous_public_path": "TRaftPointCoreAliases09.tla",
+      "frozen_path": "models/TRaftPointCoreAliases09.tla",
+      "sha256": "f1e7e3e0a14f380e9c32d66e12d1050e1f9d2c01306804eb8ce7bfe9978b3424"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases10.tla",
+      "previous_public_path": "TRaftPointCoreAliases10.tla",
+      "frozen_path": "models/TRaftPointCoreAliases10.tla",
+      "sha256": "cf3b8afcec6a4ea75b5f87474b8255bcf2d2cf4eb481cb1b16c6e2f91218bee5"
+    },
+    {
+      "public_path": "models/TRaftPointCoreAliases11.tla",
+      "previous_public_path": "TRaftPointCoreAliases11.tla",
+      "frozen_path": "models/TRaftPointCoreAliases11.tla",
+      "sha256": "7c8d457115d6d9969a6f2b6b6238df55a22efe0a80b7a479b710befe46e43a04"
+    },
+    {
+      "public_path": "models/TRaftPointInvariantAliases01.tla",
+      "previous_public_path": "TRaftPointInvariantAliases01.tla",
+      "frozen_path": "models/TRaftPointInvariantAliases01.tla",
+      "sha256": "52f74356e97376ee7956b15e3cc09c2e5dfaacd738d6c0b898b0da9b853280e1"
+    },
+    {
+      "public_path": "models/TRaftPointInvariantAliases02.tla",
+      "previous_public_path": "TRaftPointInvariantAliases02.tla",
+      "frozen_path": "models/TRaftPointInvariantAliases02.tla",
+      "sha256": "c4ad0355f4ff8d90f0537ea585a104f6b19765a4b59e2eb98636ec1c534375ca"
+    },
+    {
+      "public_path": "models/TRaftPointInvariantAliases03.tla",
+      "previous_public_path": "TRaftPointInvariantAliases03.tla",
+      "frozen_path": "models/TRaftPointInvariantAliases03.tla",
+      "sha256": "20f33b700dfa76337de09a17c9397e1e36973cfbc5cb36939900908e7e502ff0"
+    },
+    {
+      "public_path": "models/TRaftPointInvariantAliases04.tla",
+      "previous_public_path": "TRaftPointInvariantAliases04.tla",
+      "frozen_path": "models/TRaftPointInvariantAliases04.tla",
+      "sha256": "7c4fd6cb393d6a79798cc4079ac165125104ddabdcc8b714d092e0b5820d5014"
+    },
+    {
+      "public_path": "models/TRaftPointLiftDefinitions.tla",
+      "previous_public_path": "TRaftPointLiftDefinitions.tla",
+      "frozen_path": "models/TRaftPointLiftDefinitions.tla",
+      "sha256": "a30f20cabb4373e2dcda23c880ad5577e3ee3f9d614e8b5c85156b8aa26118f7"
+    },
+    {
+      "public_path": "models/TRaftPointLiftInterface.tla",
+      "previous_public_path": "TRaftPointLiftInterface.tla",
+      "frozen_path": "models/TRaftPointLiftInterface.tla",
+      "sha256": "76c204fce4aa9db6051d3e3c6bf010a2ffba3d24f4dfb325fa76847c449e83b6"
+    },
+    {
+      "public_path": "models/TRaftPointLiftInvariant.tla",
+      "previous_public_path": "TRaftPointLiftInvariant.tla",
+      "frozen_path": "models/TRaftPointLiftInvariant.tla",
+      "sha256": "3afd6938871bb968d66cc0adc26537379de1df57dea40c7a385ec9e48f195dba"
+    },
+    {
+      "public_path": "models/TRaftPointLiftParameters.tla",
+      "previous_public_path": "TRaftPointLiftParameters.tla",
+      "frozen_path": "models/TRaftPointLiftParameters.tla",
+      "sha256": "3080a6f4c5f208a9e2fae79098e8b1ba9acce3610dfcd63fa6ff9399eeacf053"
+    },
+    {
+      "public_path": "models/TRaftPointLiftSourceInterface.tla",
+      "previous_public_path": "TRaftPointLiftSourceInterface.tla",
+      "frozen_path": "models/TRaftPointLiftSourceInterface.tla",
+      "sha256": "30584f10458512d2ebd1065fba4fb400397cc554c4d2409dff9f6ffa6c5680e4"
+    },
+    {
+      "public_path": "models/TRaftPointPartitionProof.tla",
+      "previous_public_path": "TRaftPointPartitionProof.tla",
+      "frozen_path": "models/TRaftPointPartitionProof.tla",
+      "sha256": "c1d338801a0fc18849b8ee48f96ab8c979d3e2ba6764f1378fdb0093a9350dbe"
+    },
+    {
+      "public_path": "models/TRaftPointStoreEvaluation.tla",
+      "previous_public_path": "TRaftPointStoreEvaluation.tla",
+      "frozen_path": "models/TRaftPointStoreEvaluation.tla",
+      "sha256": "995b83c8785e9d7f56dfcccb60058cd35bd6dd6af21963d491baa967fe1b7b14"
+    },
+    {
+      "public_path": "models/TRaftPointStoreFacts.tla",
+      "previous_public_path": "TRaftPointStoreFacts.tla",
+      "frozen_path": "models/TRaftPointStoreFacts.tla",
+      "sha256": "f858995a0b6c2af010f0c287fed8f2a5d38fa5f45ea2c01d44dbb252f8e5d438"
+    },
+    {
+      "public_path": "models/TRaftPointStoreState.tla",
+      "previous_public_path": "TRaftPointStoreState.tla",
+      "frozen_path": "models/TRaftPointStoreState.tla",
+      "sha256": "1d5e1b1d7bfca3f2ad4f515a549f21f6e461e3ff1891aa148ba6f0b47225bc19"
+    },
+    {
+      "public_path": "models/TRaftPointStoreStep.tla",
+      "previous_public_path": "TRaftPointStoreStep.tla",
+      "frozen_path": "models/TRaftPointStoreStep.tla",
+      "sha256": "ccc6ac5dde126c0ecee86316c7b6e9d035f6fb4b36a2171dabaaefc55dcb85f3"
+    },
+    {
+      "public_path": "models/TRaftPointStoreUpdate.tla",
+      "previous_public_path": "TRaftPointStoreUpdate.tla",
+      "frozen_path": "models/TRaftPointStoreUpdate.tla",
+      "sha256": "2dbc6d07157f232ab1190cfb81c34bcfddf2811b105ee433cfff2fd615f1f40a"
+    },
+    {
+      "public_path": "models/TRaftPotentialCoverageProof.tla",
+      "previous_public_path": "TRaftPotentialCoverageProof.tla",
+      "frozen_path": "models/TRaftPotentialCoverageProof.tla",
+      "sha256": "a5f09b8ec3db6b1c94562795061e8c795739311eee6dbe7527c2d4a1e050c93b"
+    },
+    {
+      "public_path": "models/TRaftPotentialPreservationProof.tla",
+      "previous_public_path": "TRaftPotentialPreservationProof.tla",
+      "frozen_path": "models/TRaftPotentialPreservationProof.tla",
+      "sha256": "66fda36158ae49d60f062bcdf346a5e168c0307abf7f989e975515ede63bd503"
+    },
+    {
+      "public_path": "models/TRaftPotentialProof.tla",
+      "previous_public_path": "TRaftPotentialProof.tla",
+      "frozen_path": "models/TRaftPotentialProof.tla",
+      "sha256": "d89937281c0e6448606ec31b57a154dce5bd9f6f82b1356c06f60c2fd280c8fb"
+    },
+    {
+      "public_path": "models/TRaftPrefixAckInduction.tla",
+      "previous_public_path": "TRaftPrefixAckInduction.tla",
+      "frozen_path": "models/TRaftPrefixAckInduction.tla",
+      "sha256": "72aecbab59a329702797b8b89d9c5684faa42f2bf1b2bf5f73ec201e455237c2"
+    },
+    {
+      "public_path": "models/TRaftPrefixContextSupport.tla",
+      "previous_public_path": "TRaftPrefixContextSupport.tla",
+      "frozen_path": "models/TRaftPrefixContextSupport.tla",
+      "sha256": "e6ec7db4ab182f7f14d18fc32b5119648ddfc6fef318e610eb7e6e58046494f8"
+    },
+    {
+      "public_path": "models/TRaftPrefixEvidenceInduction.tla",
+      "previous_public_path": "TRaftPrefixEvidenceInduction.tla",
+      "frozen_path": "models/TRaftPrefixEvidenceInduction.tla",
+      "sha256": "87fc6286406f9a6bdcb933b67248ac253a7e59189c9edabcc8c61d46dc6866e6"
+    },
+    {
+      "public_path": "models/TRaftPrefixEvidenceState.tla",
+      "previous_public_path": "TRaftPrefixEvidenceState.tla",
+      "frozen_path": "models/TRaftPrefixEvidenceState.tla",
+      "sha256": "8f377ebe7347b146187260d202becbab6362369bf900f7aa150cb3bfeb147ce4"
+    },
+    {
+      "public_path": "models/TRaftPrefixFollowerInduction.tla",
+      "previous_public_path": "TRaftPrefixFollowerInduction.tla",
+      "frozen_path": "models/TRaftPrefixFollowerInduction.tla",
+      "sha256": "625cd4ffde0bec187e7257979f98dcded12a548963da5def579a30a48aa3ddb3"
+    },
+    {
+      "public_path": "models/TRaftPrefixOfferInduction.tla",
+      "previous_public_path": "TRaftPrefixOfferInduction.tla",
+      "frozen_path": "models/TRaftPrefixOfferInduction.tla",
+      "sha256": "de93e32f45d90968e69bcd79dc75d1fb6d432b6c59a1e0a060ee071089c41c90"
+    },
+    {
+      "public_path": "models/TRaftProjectionProof.tla",
+      "previous_public_path": "TRaftProjectionProof.tla",
+      "frozen_path": "models/TRaftProjectionProof.tla",
+      "sha256": "4d7950e144aa9b284c096fe3f1b395cd4fbeaca65d50fc7571d40f3485321bb7"
+    },
+    {
+      "public_path": "models/TRaftProofFinite.tla",
+      "previous_public_path": "TRaftProofFinite.tla",
+      "frozen_path": "models/TRaftProofFinite.tla",
+      "sha256": "4360632d26b31d83a529eca44ffc2bcedc651bde3f93c749fbc3a40d132f48e7"
+    },
+    {
+      "public_path": "models/TRaftProofScenarios.tla",
+      "previous_public_path": "TRaftProofScenarios.tla",
+      "frozen_path": "models/TRaftProofScenarios.tla",
+      "sha256": "391e54a43911a213b2f7c81e9efe71695221f4445b2c2ba6d48b7b91a05cb4bc"
+    },
+    {
+      "public_path": "models/TRaftProofState.tla",
+      "previous_public_path": "TRaftProofState.tla",
+      "frozen_path": "models/TRaftProofState.tla",
+      "sha256": "5dbae1c2c507285473d238b03945d3f1fd527928afc69f6ef3675fd328ec72da"
+    },
+    {
+      "public_path": "models/TRaftProposalEvidenceProof.tla",
+      "previous_public_path": "TRaftProposalEvidenceProof.tla",
+      "frozen_path": "models/TRaftProposalEvidenceProof.tla",
+      "sha256": "fc0403ba74bd305492615b239e143d9819978c89f2b80e3119cfce7fe39822aa"
+    },
+    {
+      "public_path": "models/TRaftProposalIdentityProof.tla",
+      "previous_public_path": "TRaftProposalIdentityProof.tla",
+      "frozen_path": "models/TRaftProposalIdentityProof.tla",
+      "sha256": "f87a40bf1fbea873e1329241a08edf1bf07f211021d05cb7a06d313d429b24e4"
+    },
+    {
+      "public_path": "models/TRaftProtocolSafety.tla",
+      "previous_public_path": "TRaftProtocolSafety.tla",
+      "frozen_path": "models/TRaftProtocolSafety.tla",
+      "sha256": "97d9fb5f347aa997268ef4147d3bd33ac0ea3681d4744d94764248f9ca311dbe"
+    },
+    {
+      "public_path": "models/TRaftQuorumProof.tla",
+      "previous_public_path": "TRaftQuorumProof.tla",
+      "frozen_path": "models/TRaftQuorumProof.tla",
+      "sha256": "565e2e8823351803be9d2d23b904b6ef0f05d985297bd1914d9d271abbc9b374"
+    },
+    {
+      "public_path": "models/TRaftReadResultAgreement.tla",
+      "previous_public_path": "TRaftReadResultAgreement.tla",
+      "frozen_path": "models/TRaftReadResultAgreement.tla",
+      "sha256": "cd51af6ed60c0f6f584f06787060fe8a8f94b4eae3dd6cf1a081fc5dd8fec413"
+    },
+    {
+      "public_path": "models/TRaftReceiveSublogProof.tla",
+      "previous_public_path": "TRaftReceiveSublogProof.tla",
+      "frozen_path": "models/TRaftReceiveSublogProof.tla",
+      "sha256": "ffc74aeca6148a71f38f86f59d101057802914e52f855b5867cd06c46d627ae3"
+    },
+    {
+      "public_path": "models/TRaftRecoveredContextProof.tla",
+      "previous_public_path": "TRaftRecoveredContextProof.tla",
+      "frozen_path": "models/TRaftRecoveredContextProof.tla",
+      "sha256": "ba541e0af5299cb723d00d5a89e8ab370d21817fea1271a359ed46bf9defdfdc"
+    },
+    {
+      "public_path": "models/TRaftRecoveryContextProof.tla",
+      "previous_public_path": "TRaftRecoveryContextProof.tla",
+      "frozen_path": "models/TRaftRecoveryContextProof.tla",
+      "sha256": "3a7ddee0ddaff7ca8726537ec226285fd7813f53f4dd35b6c2d63e60ddd09f12"
+    },
+    {
+      "public_path": "models/TRaftRecoveryEpochProof.tla",
+      "previous_public_path": "TRaftRecoveryEpochProof.tla",
+      "frozen_path": "models/TRaftRecoveryEpochProof.tla",
+      "sha256": "46a7778756f52245009376b5989033feeab28c9f1051d58c654011e14157d04f"
+    },
+    {
+      "public_path": "models/TRaftRecoveryHistoryDiagnostic.tla",
+      "previous_public_path": "TRaftRecoveryHistoryDiagnostic.tla",
+      "frozen_path": "models/TRaftRecoveryHistoryDiagnostic.tla",
+      "sha256": "4613b093b4f340fd3f350321bde21f06a18401fe69a0c414f427711f068aee49"
+    },
+    {
+      "public_path": "models/TRaftRecoveryInduction.tla",
+      "previous_public_path": "TRaftRecoveryInduction.tla",
+      "frozen_path": "models/TRaftRecoveryInduction.tla",
+      "sha256": "45174b24aa08d02417051b26552f241a86c128f7d269990a3d8c09c37cc069bd"
+    },
+    {
+      "public_path": "models/TRaftRecoveryMergeProof.tla",
+      "previous_public_path": "TRaftRecoveryMergeProof.tla",
+      "frozen_path": "models/TRaftRecoveryMergeProof.tla",
+      "sha256": "3e63017c6f2b668936929b1baacf06ab63a3bb89d7ef73d52fb1ffc82b0eb2f1"
+    },
+    {
+      "public_path": "models/TRaftRecoveryOriginInduction.tla",
+      "previous_public_path": "TRaftRecoveryOriginInduction.tla",
+      "frozen_path": "models/TRaftRecoveryOriginInduction.tla",
+      "sha256": "63e5b67b81c0069d714119aee888f457e60a0ace0b466a4c02f953c1e3aee19e"
+    },
+    {
+      "public_path": "models/TRaftRecoveryProof.tla",
+      "previous_public_path": "TRaftRecoveryProof.tla",
+      "frozen_path": "models/TRaftRecoveryProof.tla",
+      "sha256": "aa9cf4ac211bcbe76f5a5bb8486eb2b0ee57ea09fe2fe85e7cbd016b810cc631"
+    },
+    {
+      "public_path": "models/TRaftReportFenceProof.tla",
+      "previous_public_path": "TRaftReportFenceProof.tla",
+      "frozen_path": "models/TRaftReportFenceProof.tla",
+      "sha256": "a209307d8d606c12b3894c8fb411a1d11a1a21fc26c5a1620f95c28f849d2189"
+    },
+    {
+      "public_path": "models/TRaftReportSublogProof.tla",
+      "previous_public_path": "TRaftReportSublogProof.tla",
+      "frozen_path": "models/TRaftReportSublogProof.tla",
+      "sha256": "ad17923f0c8de4a2ceddca457518db3a9f9fe12858afc3bc3e8d5d4b6515f9e2"
+    },
+    {
+      "public_path": "models/TRaftRetainedFrames.tla",
+      "previous_public_path": "TRaftRetainedFrames.tla",
+      "frozen_path": "models/TRaftRetainedFrames.tla",
+      "sha256": "d0fee84295080417d479c0922277b8244704eb07cf38d463a22b14b5d1f2aec0"
+    },
+    {
+      "public_path": "models/TRaftSafetyAppliedPreservation.tla",
+      "previous_public_path": "TRaftSafetyAppliedPreservation.tla",
+      "frozen_path": "models/TRaftSafetyAppliedPreservation.tla",
+      "sha256": "ca0bd0ffd20602e05ced6ecada707288e7fbd7b4bc0cdcfd8f6b7599e23f5b39"
+    },
+    {
+      "public_path": "models/TRaftSafetyClosureInduction.tla",
+      "previous_public_path": "TRaftSafetyClosureInduction.tla",
+      "frozen_path": "models/TRaftSafetyClosureInduction.tla",
+      "sha256": "badc08d4c40b8680fce85cde8dfa575377e1c9ecd552eb295111cf12e5e3e93b"
+    },
+    {
+      "public_path": "models/TRaftSafetyCommitNotice.tla",
+      "previous_public_path": "TRaftSafetyCommitNotice.tla",
+      "frozen_path": "models/TRaftSafetyCommitNotice.tla",
+      "sha256": "b2261645defda66104a37a95f94870e5e1a22954dcfb473e88d697563a836f89"
+    },
+    {
+      "public_path": "models/TRaftSafetyConsequences.tla",
+      "previous_public_path": "TRaftSafetyConsequences.tla",
+      "frozen_path": "models/TRaftSafetyConsequences.tla",
+      "sha256": "8f5146918f48627b5602773601a4efff8be50d6b9453e298511db8f848a4c984"
+    },
+    {
+      "public_path": "models/TRaftSafetyEntryContexts.tla",
+      "previous_public_path": "TRaftSafetyEntryContexts.tla",
+      "frozen_path": "models/TRaftSafetyEntryContexts.tla",
+      "sha256": "378b2319d8a1a890f3382482198f9b5d23c8e3b3b8c60d4249de36a71a939b2a"
+    },
+    {
+      "public_path": "models/TRaftSafetyEvidenceOrder.tla",
+      "previous_public_path": "TRaftSafetyEvidenceOrder.tla",
+      "frozen_path": "models/TRaftSafetyEvidenceOrder.tla",
+      "sha256": "f79e9fd6d0fd306c9a4313dd0a4a2395554f35ebff5291d178c02cd3a5f45597"
+    },
+    {
+      "public_path": "models/TRaftSafetyObligations.tla",
+      "previous_public_path": "TRaftSafetyObligations.tla",
+      "frozen_path": "models/TRaftSafetyObligations.tla",
+      "sha256": "3c863f90fd24213559798a587d354ecc45dd8660a8e08dff51adc69b1aef4513"
+    },
+    {
+      "public_path": "models/TRaftSafetyPartitionAgreement.tla",
+      "previous_public_path": "TRaftSafetyPartitionAgreement.tla",
+      "frozen_path": "models/TRaftSafetyPartitionAgreement.tla",
+      "sha256": "2739ced58f482c141611ce25da99ce0423ed04e028a6e1dd922a48d80b010802"
+    },
+    {
+      "public_path": "models/TRaftSafetyPartitionApplication.tla",
+      "previous_public_path": "TRaftSafetyPartitionApplication.tla",
+      "frozen_path": "models/TRaftSafetyPartitionApplication.tla",
+      "sha256": "9bef204d6c4d24f23627d2bea4798e6063997806ae686ca0e4cd01df7d1e9ac7"
+    },
+    {
+      "public_path": "models/TRaftSafetyPartitionLeader.tla",
+      "previous_public_path": "TRaftSafetyPartitionLeader.tla",
+      "frozen_path": "models/TRaftSafetyPartitionLeader.tla",
+      "sha256": "05eb6275acbe3a62b461a630d9dae376427fa8fedd5c1cf4a47a52f90d3ddc58"
+    },
+    {
+      "public_path": "models/TRaftSequenceFold.tla",
+      "previous_public_path": "TRaftSequenceFold.tla",
+      "frozen_path": "models/TRaftSequenceFold.tla",
+      "sha256": "1692f8523cdc1d02437772885f9283e6b0be513711795ee2fa592b98b27f8de8"
+    },
+    {
+      "public_path": "models/TRaftSequenceFoldProof.tla",
+      "previous_public_path": "TRaftSequenceFoldProof.tla",
+      "frozen_path": "models/TRaftSequenceFoldProof.tla",
+      "sha256": "1f28e73659509619783653c3b1ac5d5c445e7b4d27263e2a4c46dec8fa5af8fb"
+    },
+    {
+      "public_path": "models/TRaftSharedClientSpecification.tla",
+      "previous_public_path": "TRaftSharedClientSpecification.tla",
+      "frozen_path": "models/TRaftSharedClientSpecification.tla",
+      "sha256": "c8489f0af9975078d6a5edead85facc17398bb4f8f9f4c0c2ff9d44ab6ac8c38"
+    },
+    {
+      "public_path": "models/TRaftStepProof.tla",
+      "previous_public_path": "TRaftStepProof.tla",
+      "frozen_path": "models/TRaftStepProof.tla",
+      "sha256": "8e8b4d95827807891d7bd427cbfecfc05a722fa012084f16ae7c81fdf837d1cb"
+    },
+    {
+      "public_path": "models/TRaftSublogAlgebra.tla",
+      "previous_public_path": "TRaftSublogAlgebra.tla",
+      "frozen_path": "models/TRaftSublogAlgebra.tla",
+      "sha256": "5656ebb6810e2ba8820242eb915cc966d750da0788c619122e06a5ddd981ce96"
+    },
+    {
+      "public_path": "models/TRaftSublogSupport.tla",
+      "previous_public_path": "TRaftSublogSupport.tla",
+      "frozen_path": "models/TRaftSublogSupport.tla",
+      "sha256": "32ce09069a53092476657313bcc5c3e7030a26e9e4a56e74f303f28d63e7111e"
+    },
+    {
+      "public_path": "models/TRaftTermAndVoteProof.tla",
+      "previous_public_path": "TRaftTermAndVoteProof.tla",
+      "frozen_path": "models/TRaftTermAndVoteProof.tla",
+      "sha256": "3ca529bc8670a8319fd2db7e0bb3ecf750dd4421f66d6dc86d2effb0ab31537f"
+    },
+    {
+      "public_path": "models/TRaftTypeFrames.tla",
+      "previous_public_path": "TRaftTypeFrames.tla",
+      "frozen_path": "models/TRaftTypeFrames.tla",
+      "sha256": "0691bb28a500fac0621e96306a682df4dfbe1b4b1c845d07b3130f1052a5b5bd"
+    },
+    {
+      "public_path": "models/TRaftTypeProof.tla",
+      "previous_public_path": "TRaftTypeProof.tla",
+      "frozen_path": "models/TRaftTypeProof.tla",
+      "sha256": "6a1293ca4869f5724bedcdc95ffa1509af15b22368fb67d57f999af57642751e"
+    },
+    {
+      "public_path": "models/TRaftUnbounded.tla",
+      "previous_public_path": "TRaftUnbounded.tla",
+      "frozen_path": "models/TRaftUnbounded.tla",
+      "sha256": "9bd861c669b7c0bcdbdb7c500817c55dbcb0fdca5765f4a7f26dd53f82ab2668"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientAliases01.tla",
+      "previous_public_path": "TRaftUnboundedClientAliases01.tla",
+      "frozen_path": "models/TRaftUnboundedClientAliases01.tla",
+      "sha256": "1d4fa9f1da18b5b9c907087f182e82a4d8adc4a7ac9026d4e5ad7e50103d6144"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientAliases02.tla",
+      "previous_public_path": "TRaftUnboundedClientAliases02.tla",
+      "frozen_path": "models/TRaftUnboundedClientAliases02.tla",
+      "sha256": "f9c2eb0220303ed9277425137b7181494dc46f6402952b369423d60e1bf7fc7c"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases01.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases01.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases01.tla",
+      "sha256": "c2eb5fe4b40c818ba418fbeafa6ad85fd0c6a1aba2a900f17de62bd469a29fd4"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases02.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases02.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases02.tla",
+      "sha256": "a9e9975ec5c1b17662e41e4240aaf0517add4ae5e04790e3a6db367829ace346"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases03.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases03.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases03.tla",
+      "sha256": "5c20f0e4c57554a78013c6d3dea1184ef87ba041b8823677d38c816705d3fea3"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases04.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases04.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases04.tla",
+      "sha256": "4ee6eedb7f71d4e3071f83984e5732b71f287d15d5659ea332f2dce2a89cf740"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases05.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases05.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases05.tla",
+      "sha256": "bf9f9a2de66acb88c4e7303aee28d85fa897d03640ca80d35cfe18f61c74c861"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases06.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases06.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases06.tla",
+      "sha256": "11374872440f3ace3c96a9dcf94db08eaa6f7890e4f1cc85b3c9f457677ee3ce"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases07.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases07.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases07.tla",
+      "sha256": "2d3cd096b7d1f9c7f647e13f689978dd1ac909c731862271b6df2540d75fff61"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases07b.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases07b.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases07b.tla",
+      "sha256": "cf5720fc29cc3373043f3f6ae4e66090823fb3118fb62f593635c16ca2086cbb"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases08.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases08.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases08.tla",
+      "sha256": "41be2058f59479b09f1ae6d0fc88f219ccd9d1186932e1eef9482d043a45d82b"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases08b.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases08b.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases08b.tla",
+      "sha256": "ff67fe5daba7bce5268cf745da68c9c75784a004d40740d2ecdc2c57e893abba"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases09.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases09.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases09.tla",
+      "sha256": "53b481bdfdd74a4b6b08353afa2c4c257261abbb4e3a74c6aea9852233aad36d"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases10.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases10.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases10.tla",
+      "sha256": "ace05bb8b9064d72168fd1f5fa35524bbb39f397ba5ab41ea3df3f2af86e0cf8"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientCoreAliases11.tla",
+      "previous_public_path": "TRaftUnboundedClientCoreAliases11.tla",
+      "frozen_path": "models/TRaftUnboundedClientCoreAliases11.tla",
+      "sha256": "472a052b9759a81b449e813c1e0d75347cad8ce6cf1018df2bb94274ba3c85a0"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientDefinitions.tla",
+      "previous_public_path": "TRaftUnboundedClientDefinitions.tla",
+      "frozen_path": "models/TRaftUnboundedClientDefinitions.tla",
+      "sha256": "c59b9a0abd4021312a13c266c54b8fe7258b09af358cc947abebf475aeae0987"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientHistoryIdentity.tla",
+      "previous_public_path": "TRaftUnboundedClientHistoryIdentity.tla",
+      "frozen_path": "models/TRaftUnboundedClientHistoryIdentity.tla",
+      "sha256": "8d68a48d2749253583d530a88bd290d1f57485e892724f966afde63b0a7e1f75"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientObserverIdentity.tla",
+      "previous_public_path": "TRaftUnboundedClientObserverIdentity.tla",
+      "frozen_path": "models/TRaftUnboundedClientObserverIdentity.tla",
+      "sha256": "66076ee62c9d04c2480e8163cb11f535b7a534f33aa7fbfd4c5eda970ce7a080"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientSpecificationIdentity.tla",
+      "previous_public_path": "TRaftUnboundedClientSpecificationIdentity.tla",
+      "frozen_path": "models/TRaftUnboundedClientSpecificationIdentity.tla",
+      "sha256": "aaa795e6858029350c8ceca0f2e5e9beee790caa48088fa642687012e3896d4e"
+    },
+    {
+      "public_path": "models/TRaftUnboundedClientStateAliases.tla",
+      "previous_public_path": "TRaftUnboundedClientStateAliases.tla",
+      "frozen_path": "models/TRaftUnboundedClientStateAliases.tla",
+      "sha256": "8d49b190ce271304b558db109020c1b07bda3bd8ccd7622b38fccc0967cbf7f2"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases01.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases01.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases01.tla",
+      "sha256": "005917e5c95950147bb73298d9b1405c6cf09f6e8f2ae647f24e70ff37372d50"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases02.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases02.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases02.tla",
+      "sha256": "46686eebead0b2a5c1a3fb2dd4063b611d55821a9073911c89e33f2ca923d842"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases03.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases03.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases03.tla",
+      "sha256": "a05aaaef35c620b83a5674b928d197fa1bb6a1f71286e3d4cbcbc4dc165c068e"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases04.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases04.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases04.tla",
+      "sha256": "f8e1615eb48ba985bd3766c6f618064c064f43517115d47d15fc8cce5b360715"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases05.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases05.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases05.tla",
+      "sha256": "eca22079843d1ab6fb1a04011b8da12d944c9a5efd55fc405ac34bd985e5ab8a"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases06.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases06.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases06.tla",
+      "sha256": "15a75fafd6c9bc1b14cfec90295458d13a5a91f8eced2cd11aaf7c2fae8e36f6"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases07.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases07.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases07.tla",
+      "sha256": "c1dd96f6f5ccff6b3647a3a9a87f0771289202eeb81f7907c10dea0a794fef09"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases07b.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases07b.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases07b.tla",
+      "sha256": "fae1158a2743caf8acb7272532886edf51e34d1ab35f4524a4bcab5f20373d70"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases08.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases08.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases08.tla",
+      "sha256": "3715f65c0273e9e9817c46724626f3924e18b7669e2a09e51929d34f43250477"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases08b.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases08b.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases08b.tla",
+      "sha256": "cf23d5bfcb33870f75dcd400723e832a3cb7d119c51022e5df7b471c474ceff0"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases09.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases09.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases09.tla",
+      "sha256": "b6493604a1000494ecb89797deeb9ae1824e3b955653375265ea80589bcc2571"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases10.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases10.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases10.tla",
+      "sha256": "22c1e922c911638bc7a9f5d9a441b62743df063425e23a1643422f166a28533e"
+    },
+    {
+      "public_path": "models/TRaftUnboundedCoreAliases11.tla",
+      "previous_public_path": "TRaftUnboundedCoreAliases11.tla",
+      "frozen_path": "models/TRaftUnboundedCoreAliases11.tla",
+      "sha256": "335565964beff4cde9995e9f88a5792768b4d0f3f095c73a9ac47ac85da80dac"
+    },
+    {
+      "public_path": "models/TRaftUnboundedHistoryProof.tla",
+      "previous_public_path": "TRaftUnboundedHistoryProof.tla",
+      "frozen_path": "models/TRaftUnboundedHistoryProof.tla",
+      "sha256": "521ee560268cd376a86f1ad5bf25315958c039319de636928eaf6b69d25a21dc"
+    },
+    {
+      "public_path": "models/TRaftUnboundedSafetyDefinitions.tla",
+      "previous_public_path": "TRaftUnboundedSafetyDefinitions.tla",
+      "frozen_path": "models/TRaftUnboundedSafetyDefinitions.tla",
+      "sha256": "d103d83a484bc20858a40f0eb6f4e83c0543892cb5c49737c76dce58c0e5743b"
+    },
+    {
+      "public_path": "models/TRaftUnboundedSafetyProof.tla",
+      "previous_public_path": "TRaftUnboundedSafetyProof.tla",
+      "frozen_path": "models/TRaftUnboundedSafetyProof.tla",
+      "sha256": "0e4f94d05e3c552af1dcd362a84ea668267c68e410e411f76bd94fb454a50907"
+    },
+    {
+      "public_path": "models/TRaftWitnessFold.tla",
+      "previous_public_path": "TRaftWitnessFold.tla",
+      "frozen_path": "models/TRaftWitnessFold.tla",
+      "sha256": "d6ca47b368b60dedef74a1f94938e30490f3d8539a5c63c7ae84f1dfeb9d90c2"
+    },
+    {
+      "public_path": "models/TRaftWitnessStep.tla",
+      "previous_public_path": "TRaftWitnessStep.tla",
+      "frozen_path": "models/TRaftWitnessStep.tla",
+      "sha256": "7dd4f7873b31150be53f49efc29473fd4b17dab098bb3df63a3d6b07ec8ee951"
+    },
+    {
+      "public_path": "baseline/TRaftClientCore-before-shared-observer.tla",
+      "previous_public_path": "baseline/TRaftClientCore-before-shared-observer.tla",
+      "frozen_path": "baseline/TRaftClientCore-before-shared-observer.tla",
+      "sha256": "e87f7f94d069dfad217b61f47466134a27859e11a712ee3dcc7947eaba215746"
+    },
+    {
+      "public_path": "baseline/TRaftClients-before-shared-observer.tla",
+      "previous_public_path": "baseline/TRaftClients-before-shared-observer.tla",
+      "frozen_path": "baseline/TRaftClients-before-shared-observer.tla",
+      "sha256": "a4924cde851b047cc716f2b972c03861b6e276f48619f152688dd6e4776eecb4"
+    },
+    {
+      "public_path": "baseline/TRaftCore-before-continuation.tla",
+      "previous_public_path": "baseline/TRaftCore-before-continuation.tla",
+      "frozen_path": "baseline/TRaftCore-before-continuation.tla",
+      "sha256": "a0ef9ef91afe550c617dd3723f6b01763e8a9b1ea619d856cb70a1df82af3560"
+    },
+    {
+      "public_path": "baseline/TRaftPaper.tla",
+      "previous_public_path": "baseline/TRaftPaper.tla",
+      "frozen_path": "baseline/TRaftPaper.tla",
+      "sha256": "1cfb34f421369e75d7e60c309f5df61ddb6afb15edbc0919317c43277bb0958e"
+    },
+    {
+      "public_path": "parser-probe/UnionPrecedence.cfg",
+      "previous_public_path": "parser-probe/UnionPrecedence.cfg",
+      "frozen_path": "parser-probe/models/UnionPrecedence.cfg",
+      "sha256": "cab7b9e893ee2d25d0dbed20bec6cc83dac432b707bfa7e52f0fb77b6957d4bb"
+    },
+    {
+      "public_path": "parser-probe/UnionPrecedence.tla",
+      "previous_public_path": "parser-probe/UnionPrecedence.tla",
+      "frozen_path": "parser-probe/models/UnionPrecedence.tla",
+      "sha256": "3fef7676459cad73e8eef905765a3266cd2c48291e8eea8bcca6dffa0b637b54"
+    },
+    {
+      "public_path": "parser-probe/UnionPrecedenceProof.tla",
+      "previous_public_path": "parser-probe/UnionPrecedenceProof.tla",
+      "frozen_path": "parser-probe/models/UnionPrecedenceProof.tla",
+      "sha256": "7af230b8cfbea2b27f03993f6bf36e06bd0f1179ab350471b3707d067034b211"
+    },
+    {
+      "public_path": "toolchain/runtime/InRelease",
+      "previous_public_path": "tool-runtime/InRelease",
+      "frozen_path": "tool-runtime/InRelease",
+      "sha256": "a4dfe9c58d77db89e8b45240d1cc14a3e6dd9159bc29395aebfe6e893594dccb"
+    },
+    {
+      "public_path": "toolchain/runtime/Packages.xz",
+      "previous_public_path": "tool-runtime/Packages.xz",
+      "frozen_path": "tool-runtime/Packages.xz",
+      "sha256": "b799a4a5c316a2191dfb4b0f420652391a3bfd29350e43252887d9681c98c7f0"
+    },
+    {
+      "public_path": "scripts/support/run_checks.py",
+      "previous_public_path": "run_checks.py",
+      "frozen_path": "models/run_checks.py",
+      "sha256": "c38b5c1e5078ecac70446c9eeb72d6bbf281921c11dae7263ddf9543cf69a1ed"
+    },
+    {
+      "public_path": "scripts/support/run_proofs.py",
+      "previous_public_path": "run_proofs.py",
+      "frozen_path": "models/run_proofs.py",
+      "sha256": "2a74a6ed03de9425567e9cd7df63b3957512d1e19d4c7252986a14ad31564719"
+    },
+    {
+      "public_path": "scripts/support/run_proof_group.py",
+      "previous_public_path": "run_proof_group.py",
+      "frozen_path": "models/run_proof_group.py",
+      "sha256": "e397e943dcf1604abcad8b5e058588deb0c68389c8f42d165dd2013cb8ecaaab"
+    },
+    {
+      "public_path": "scripts/support/tla_audit.py",
+      "previous_public_path": "tla_audit.py",
+      "frozen_path": "models/tla_audit.py",
+      "sha256": "0bdf2b71e79fe8e19b40a4bbbd37e05b5cdb968ed17ef69c2f6e37a0e4b9f3ff"
+    },
+    {
+      "public_path": "scripts/support/toolchain_audit.py",
+      "previous_public_path": "toolchain_audit.py",
+      "frozen_path": "toolchain_audit.py",
+      "sha256": "b9d41be268781f50ab7d7e77e730f99eec50a052d84e8f4e43a4b71fb969e627"
+    },
+    {
+      "public_path": "scripts/support/selftest_runner.py",
+      "previous_public_path": "selftest_runner.py",
+      "frozen_path": "selftest_runner.py",
+      "sha256": "2d3c3230c15e04a9a495d24b427ff2046b719f491046e665f5d3bcf52e060bad"
+    },
+    {
+      "public_path": "scripts/support/selftest_proof_group.py",
+      "previous_public_path": "selftest_proof_group.py",
+      "frozen_path": "selftest_proof_group.py",
+      "sha256": "061875b5397c3442dff5f04a70b8bcd6e8a0154c9ca95c588b8161fc3f780406"
+    },
+    {
+      "public_path": "scripts/support/acceptance.py",
+      "previous_public_path": "acceptance.py",
+      "frozen_path": "acceptance.py",
+      "sha256": "6b284ceb7d03280fa9b0b0e1e87df122d3a98ea3bd1219b11c84db4185235e0a"
+    },
+    {
+      "public_path": "scripts/support/audit_client_source_changes.py",
+      "previous_public_path": "audit_client_source_changes.py",
+      "frozen_path": "audit_client_source_changes.py",
+      "sha256": "1e9c500d8b4c919a5b3fcfdb99c8876dd63078616ed494b5f87ec5a4a9b67f0c"
+    },
+    {
+      "public_path": "scripts/support/bootstrap_modern.py",
+      "previous_public_path": "bootstrap_modern.py",
+      "frozen_path": "bootstrap_modern.py",
+      "sha256": "44bbde486799ab0e471d938afb64c0ca831ac3e73197499fe23a61e4b013c721"
+    },
+    {
+      "public_path": "manifests/proof-obligations.json",
+      "previous_public_path": "proof-obligations.json",
+      "frozen_path": "proof-obligations.json",
+      "sha256": "51cdf4af45b5b312ca49256114e6cdde5898dda56912edb20e8bbef87fdba281"
+    },
+    {
+      "public_path": "configs/protocol/quorum_guard.cfg",
+      "previous_public_path": "quorum_guard.cfg",
+      "frozen_path": "models/quorum_guard.cfg",
+      "sha256": "ae15402f16ae221252882b4dccabd09c3e5bba13bf43eaf7adb2bcaf4fd1aae5"
+    },
+    {
+      "public_path": "configs/protocol/count_guard.cfg",
+      "previous_public_path": "count_guard.cfg",
+      "frozen_path": "models/count_guard.cfg",
+      "sha256": "6472d7f9cefc393dcd3d29adb05a56ff2cf10cb1edd220b7224b11938f613a64"
+    },
+    {
+      "public_path": "configs/protocol/recovery.cfg",
+      "previous_public_path": "recovery.cfg",
+      "frozen_path": "models/recovery.cfg",
+      "sha256": "c0b727e49ebbf8638eb696bf7d754bcaff2764630ce1456eb394c8531368ed21"
+    },
+    {
+      "public_path": "configs/protocol/interrupted.cfg",
+      "previous_public_path": "interrupted.cfg",
+      "frozen_path": "models/interrupted.cfg",
+      "sha256": "ccedbd7c2e740290fa2684f5524de33f691c9bcad897b50a34caf4eb30c0bef4"
+    },
+    {
+      "public_path": "configs/protocol/normal_boundary.cfg",
+      "previous_public_path": "normal_boundary.cfg",
+      "frozen_path": "models/normal_boundary.cfg",
+      "sha256": "a86ed658bab0b27ee57ffea2928b1b56c2bc794b8c359bb8d37f8aee42f8c1ad"
+    },
+    {
+      "public_path": "configs/protocol/uncommitted_rollback.cfg",
+      "previous_public_path": "uncommitted_rollback.cfg",
+      "frozen_path": "models/uncommitted_rollback.cfg",
+      "sha256": "65312366788525594e74cdb07ba26ef9095a68c6285c0bf23323549f0a1f4630"
+    },
+    {
+      "public_path": "configs/negative-controls/mut_no_quorum.cfg",
+      "previous_public_path": "mut_no_quorum.cfg",
+      "frozen_path": "models/mut_no_quorum.cfg",
+      "sha256": "7705afdea6fc5cfc4b1a15a6af20dd618d21b9978ec3b9f0525eb39b2dc53af3"
+    },
+    {
+      "public_path": "configs/negative-controls/mut_skip_boundary_commit.cfg",
+      "previous_public_path": "mut_skip_boundary_commit.cfg",
+      "frozen_path": "models/mut_skip_boundary_commit.cfg",
+      "sha256": "8fca20276da4ccebcc0cfe668d3f5425acda10a345898975f3b5d802cab1b058"
+    },
+    {
+      "public_path": "configs/negative-controls/mut_early_recovery.cfg",
+      "previous_public_path": "mut_early_recovery.cfg",
+      "frozen_path": "models/mut_early_recovery.cfg",
+      "sha256": "eefc467ae62dc197674a38602ffe4a14a8f2a4de615591ebb74b11498ae0bb9f"
+    },
+    {
+      "public_path": "configs/negative-controls/mut_drop_pending.cfg",
+      "previous_public_path": "mut_drop_pending.cfg",
+      "frozen_path": "models/mut_drop_pending.cfg",
+      "sha256": "03743e81d11369e26cf148e72b40dcc620dd2a45bf86e073e3409a2fd26bd53e"
+    },
+    {
+      "public_path": "configs/negative-controls/mut_skip_recovery_union.cfg",
+      "previous_public_path": "mut_skip_recovery_union.cfg",
+      "frozen_path": "models/mut_skip_recovery_union.cfg",
+      "sha256": "4e3011eb968173098e3b9edf912352f46705accc48e9cf3961d8fdaf1b685af3"
+    },
+    {
+      "public_path": "configs/protocol/recovery_suffix_3steps.cfg",
+      "previous_public_path": "recovery_suffix_3steps.cfg",
+      "frozen_path": "models/recovery_suffix_3steps.cfg",
+      "sha256": "1c3b52fc92181b3f19e627ce4c4dfb2e3390359870b7020bc592729dd6787e73"
+    },
+    {
+      "public_path": "configs/sampling/T3_I6_sim.cfg",
+      "previous_public_path": "T3_I6_sim.cfg",
+      "frozen_path": "models/T3_I6_sim.cfg",
+      "sha256": "a4a4390313bfc5e3f9a1adca5f6cf2ccc434ded26b1c42a55474fedc55acb0b4"
+    },
+    {
+      "public_path": "configs/invariant/proof_quorum_guard.cfg",
+      "previous_public_path": "proof_quorum_guard.cfg",
+      "frozen_path": "models/proof_quorum_guard.cfg",
+      "sha256": "4bef0a97bd6792ec081fcd15c878bbe102f4aaf6e61263348ad844748adebe6e"
+    },
+    {
+      "public_path": "configs/invariant/proof_count_guard.cfg",
+      "previous_public_path": "proof_count_guard.cfg",
+      "frozen_path": "models/proof_count_guard.cfg",
+      "sha256": "869417e40196fdbec2b5b13e0e0c81925cfa24a84ad0af894cffaf2bf1c21df6"
+    },
+    {
+      "public_path": "configs/invariant/proof_recovery.cfg",
+      "previous_public_path": "proof_recovery.cfg",
+      "frozen_path": "models/proof_recovery.cfg",
+      "sha256": "39095316a1efd3791ec05d924d3021b4c5d9b0dd0bf29120dfdb570658140dcb"
+    },
+    {
+      "public_path": "configs/invariant/proof_interrupted.cfg",
+      "previous_public_path": "proof_interrupted.cfg",
+      "frozen_path": "models/proof_interrupted.cfg",
+      "sha256": "2335751b693add70b1e557656416a5f6d634635a632731554a784ae33e4a27c0"
+    },
+    {
+      "public_path": "configs/invariant/proof_normal_boundary.cfg",
+      "previous_public_path": "proof_normal_boundary.cfg",
+      "frozen_path": "models/proof_normal_boundary.cfg",
+      "sha256": "6d0aa199a1fd3a95b540512d26bb6e866d2b887c211e2f7ec9d6a679e4112ae0"
+    },
+    {
+      "public_path": "configs/invariant/proof_uncommitted_rollback.cfg",
+      "previous_public_path": "proof_uncommitted_rollback.cfg",
+      "frozen_path": "models/proof_uncommitted_rollback.cfg",
+      "sha256": "b291e689bfca6fa43f78bbe18a415b9482cae378b3be99853a0e5d22234168fd"
+    },
+    {
+      "public_path": "configs/invariant/noop_self_ack_positive.cfg",
+      "previous_public_path": "noop_self_ack_positive.cfg",
+      "frozen_path": "models/noop_self_ack_positive.cfg",
+      "sha256": "9fcb31d1ad4f36564f35023304ada66ddea19638e84acdd042b379be02d3d7f3"
+    },
+    {
+      "public_path": "configs/sampling/proof_init_sample.cfg",
+      "previous_public_path": "proof_init_sample.cfg",
+      "frozen_path": "models/proof_init_sample.cfg",
+      "sha256": "4a971bebbfb2584c3339a16068ee08eadd4e56cd6a60f4e9a745e885c6403fb5"
+    },
+    {
+      "public_path": "configs/application/client_app_point_operations.cfg",
+      "previous_public_path": "client_app_point_operations.cfg",
+      "frozen_path": "models/client_app_point_operations.cfg",
+      "sha256": "f0b8e38fcebae92bc46e9cd776a6767ada127af7c091061a52240dedbf6ea8df"
+    },
+    {
+      "public_path": "configs/application/client_app_concurrent_overwrite.cfg",
+      "previous_public_path": "client_app_concurrent_overwrite.cfg",
+      "frozen_path": "models/client_app_concurrent_overwrite.cfg",
+      "sha256": "10cc24a5ebd1f70444c8af7347042848f51263e536d11ce5406303bc6344854e"
+    },
+    {
+      "public_path": "configs/application/client_app_dedup_restart.cfg",
+      "previous_public_path": "client_app_dedup_restart.cfg",
+      "frozen_path": "models/client_app_dedup_restart.cfg",
+      "sha256": "00f02a24d0f109c2f0d6984e33eb6d0097b733c18413d25f6a0bce72378d7950"
+    },
+    {
+      "public_path": "configs/application/client_app_recovery_retry.cfg",
+      "previous_public_path": "client_app_recovery_retry.cfg",
+      "frozen_path": "models/client_app_recovery_retry.cfg",
+      "sha256": "01b466f93bfb700382e443b41947f0d4189b824992799f7fe710f20319766d26"
+    },
+    {
+      "public_path": "configs/negative-controls/client_mut_read_without_barrier.cfg",
+      "previous_public_path": "client_mut_read_without_barrier.cfg",
+      "frozen_path": "models/client_mut_read_without_barrier.cfg",
+      "sha256": "022de5a72cf75abec46f0d37c67812fa51397dd45681f549f555ef51ba68c0e9"
+    },
+    {
+      "public_path": "configs/negative-controls/client_mut_early_reply.cfg",
+      "previous_public_path": "client_mut_early_reply.cfg",
+      "frozen_path": "models/client_mut_early_reply.cfg",
+      "sha256": "16638e5569da88801fca0458557c8449c8b7a6799c4e37ea5a6b0c906a486762"
+    },
+    {
+      "public_path": "configs/negative-controls/client_mut_lose_dedup.cfg",
+      "previous_public_path": "client_mut_lose_dedup.cfg",
+      "frozen_path": "models/client_mut_lose_dedup.cfg",
+      "sha256": "ed8581bb69ee9b6a886636edf8800f9dcd3dac5cd3dc42d0a486af2ee5473841"
+    },
+    {
+      "public_path": "configs/regressions/client_capacity_diagnostic.cfg",
+      "previous_public_path": "client_capacity_diagnostic.cfg",
+      "frozen_path": "models/client_capacity_diagnostic.cfg",
+      "sha256": "62661ec7faf2b781f5ab608b02b8cc3351a95b5f24d7b2addf97a494a7af6d31"
+    },
+    {
+      "public_path": "configs/observer/client_fold_point_operations.cfg",
+      "previous_public_path": "client_fold_point_operations.cfg",
+      "frozen_path": "models/client_fold_point_operations.cfg",
+      "sha256": "8906c44bf9950fc302453a2cd128971da0b0743c403d46777be119f10625fa53"
+    },
+    {
+      "public_path": "configs/observer/client_fold_recovery_retry.cfg",
+      "previous_public_path": "client_fold_recovery_retry.cfg",
+      "frozen_path": "models/client_fold_recovery_retry.cfg",
+      "sha256": "4b304697603165c09c0f5e5d20b3bd4824d7073e2b50f018e7f391ca8ee70853"
+    },
+    {
+      "public_path": "configs/regressions/recovery_history_diagnostic.cfg",
+      "previous_public_path": "recovery_history_diagnostic.cfg",
+      "frozen_path": "models/recovery_history_diagnostic.cfg",
+      "sha256": "e5c9b91213ba751ad22b320bed225c20be0370c90373a5a0f6dc147613c4baca"
+    },
+    {
+      "public_path": "configs/regressions/evidence_order_diagnostic.cfg",
+      "previous_public_path": "evidence_order_diagnostic.cfg",
+      "frozen_path": "models/evidence_order_diagnostic.cfg",
+      "sha256": "86a43a6e5a0609e3bb9b2caae2c444830a27aa5caba32cbdff92291fe71e7b3b"
+    },
+    {
+      "public_path": "configs/regressions/induction_diagnostic.cfg",
+      "previous_public_path": "induction_diagnostic.cfg",
+      "frozen_path": "models/induction_diagnostic.cfg",
+      "sha256": "6dc12e59270c058b185f0059a43abe04b47da0188b9a50cf1d83e29c84090a02"
+    },
+    {
+      "public_path": "configs/regressions/offer_one_step.cfg",
+      "previous_public_path": "offer_one_step.cfg",
+      "frozen_path": "models/offer_one_step.cfg",
+      "sha256": "2c2d3fddf5779b6f3467d1a682c0d548130fed54c48603ebe3a58f22377b65c0"
+    },
+    {
+      "public_path": "configs/regressions/boundary_count_diagnostic.cfg",
+      "previous_public_path": "boundary_count_diagnostic.cfg",
+      "frozen_path": "models/boundary_count_diagnostic.cfg",
+      "sha256": "a14bde88dae80555ab5d16e41a2961fc0508ca05d906871d345c6915eb6de069"
+    },
+    {
+      "public_path": "configs/regressions/activation_diagnostic.cfg",
+      "previous_public_path": "activation_diagnostic.cfg",
+      "frozen_path": "models/activation_diagnostic.cfg",
+      "sha256": "1135b7a060a59bd9e4161d2704a844233b7fe227441c52b69b8e451008e898f1"
+    },
+    {
+      "public_path": "configs/regressions/applied_history_diagnostic.cfg",
+      "previous_public_path": "applied_history_diagnostic.cfg",
+      "frozen_path": "models/applied_history_diagnostic.cfg",
+      "sha256": "647bb2b6f9c97170d54db5c2b511d2d589db7cff54a8f5ab5f046ecc15d3a485"
+    },
+    {
+      "public_path": "configs/regressions/context_origin_diagnostic.cfg",
+      "previous_public_path": "context_origin_diagnostic.cfg",
+      "frozen_path": "models/context_origin_diagnostic.cfg",
+      "sha256": "793c59bd388b0d4ab5c13ffb7f5fb46029fc8a20e6ddd030497505dcb93e801a"
+    },
+    {
+      "public_path": "configs/regressions/partial_partition_history_diagnostic.cfg",
+      "previous_public_path": "partial_partition_history_diagnostic.cfg",
+      "frozen_path": "models/partial_partition_history_diagnostic.cfg",
+      "sha256": "76f0291fadc2419b1415101846d90e4d3a73b7996594cfa6038bad3bf5c3b2db"
+    },
+    {
+      "public_path": "configs/regressions/noop_self_ack_diagnostic.cfg",
+      "previous_public_path": "noop_self_ack_diagnostic.cfg",
+      "frozen_path": "models/noop_self_ack_diagnostic.cfg",
+      "sha256": "a4b9389c682514c4c691b3b22ea41cf1df953bb6b68f0ee6fa1474fb04aa7da8"
+    },
+    {
+      "public_path": "configs/regressions/observer_passivity.cfg",
+      "previous_public_path": "observer_passivity.cfg",
+      "frozen_path": "models/observer_passivity.cfg",
+      "sha256": "fe85c0b7f4865435ca3dc49de0a36d30fcefc5690b10f9a68d8d89e00e484577"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "all_mapped_inputs_match": true,
+  "mapped_files": 421,
+  "formal_modules": 359,
+  "frozen_source_manifest_sha256": "66916a17cdd5ef0ff5085ea162b6f78cd41bd73785ba167b7137e41c3f27e58a",
+  "core_sha256": "ee46650795d927a5c8204955565618240fea89af415ce50dc91ef6283223ec25",
+  "client_core_sha256": "6aaf4bd60c7f5a398ce3a00cfc8e59397de0e2a360a516d8e8ddad02a2db0be4",
+  "paper_provenance": {
+    "manuscript_main_tex_sha256": "287e9bc6c7bcc67cedbb2f5cd1c492e7a452329c5310cd79b44e1a07116865d7",
+    "appendix_body_tex_sha256": "6ed80cb35b1bd0c8950d1b92b667689e449e86f4013b6eba6cfd40ffc217fd17",
+    "protocol_text_sha256": "5194eb3f1b8d7eb290aca290c3f2373a779166fa7c9df7371e426c4dd5605610",
+    "supplied_public_pdf_sha256": "92a356024cb53f65e5fe959140e92f850614c59c4b1bfcc2a61776f78ed9bd7e",
+    "publication_modified_manuscript_or_pdf": false,
+    "note": "Manuscript source hashes identify the protocol interpretation. The existing public PDF is preserved; it was not re-typeset by this publication task."
+  }
+}

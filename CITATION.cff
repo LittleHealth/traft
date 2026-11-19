@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Cite the TRaft manuscript and the exact artifact commit or release used."
+type: software
+title: "TRaft TLA+ proof artifact"
+authors:
+  - family-names: Zhang
+    given-names: Xiaojian
+  - family-names: Song
+    given-names: Shaoxu
+  - family-names: Wang
+    given-names: Jianmin
+repository-code: "https://github.com/LittleHealth/traft"
+version: "traft-proof-v1"
+abstract: "Protocol safety, deterministic point-store agreement, and linearizability of the specified logged-read single-group client interface."
+url: "https://github.com/LittleHealth/traft/releases/tag/traft-proof-v1"

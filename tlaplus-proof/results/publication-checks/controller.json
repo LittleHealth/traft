@@ -1,0 +1,88 @@
+{
+  "completed": true,
+  "accepted": true,
+  "package_sha256": "2fd6ca61736adf3dc2fe9462e497edd13ff3a334d6d76a62ba258bebfce008e1",
+  "publication_manifest_sha256": "d46f45a08d29f9f544d274f21a99d579408d1ddb2b632b78bf4f87c86091360e",
+  "syntax_python_files": 17,
+  "stages": [
+    {
+      "name": "evidence",
+      "returncode": 0,
+      "seconds": 88.526,
+      "command": [
+        "/usr/bin/python3",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/package-v2/scripts/artifact.py",
+        "verify",
+        "--assets",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/assets",
+        "--report",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/evidence-verification.json"
+      ]
+    },
+    {
+      "name": "selftest",
+      "returncode": 0,
+      "seconds": 171.718,
+      "command": [
+        "/usr/bin/python3",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/package-v2/scripts/artifact.py",
+        "selftest",
+        "--group",
+        "--jar",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/assets/tla2tools.jar",
+        "--toolchain",
+        "/home/zxj/traft/2026-11-18-full-proof-02/toolchain.json",
+        "--output",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/selftest"
+      ]
+    },
+    {
+      "name": "tlc",
+      "returncode": 0,
+      "seconds": 109.772,
+      "command": [
+        "/usr/bin/python3",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/package-v2/scripts/artifact.py",
+        "tlc",
+        "--jar",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/assets/tla2tools.jar",
+        "--output",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/tlc"
+      ]
+    },
+    {
+      "name": "proof-smoke",
+      "returncode": 0,
+      "seconds": 5.073,
+      "command": [
+        "/usr/bin/python3",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/package-v2/scripts/artifact.py",
+        "prove",
+        "--jar",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/assets/tla2tools.jar",
+        "--toolchain",
+        "/home/zxj/traft/2026-11-18-full-proof-02/toolchain.json",
+        "--modules",
+        "TRaftFunctionProof",
+        "TRaftQuorumProof",
+        "--output",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/proof-smoke"
+      ]
+    },
+    {
+      "name": "acceptance-controls",
+      "returncode": 0,
+      "seconds": 2.123,
+      "command": [
+        "/usr/bin/python3",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/package-v2/scripts/test_artifact.py",
+        "--tlc-run",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/tlc",
+        "--proof-run",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/proof-smoke",
+        "--output",
+        "/home/zxj/traft/2026-11-19-review-artifact-01/validation-v2/acceptance-controls.json"
+      ]
+    }
+  ]
+}

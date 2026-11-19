@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "revision_date": "2026-11-20",
+  "scope": "Appendix clarification aligned with the frozen TLA+ model; no pseudocode added.",
+  "frozen_proof_run": "20261118T174404Z",
+  "main_manuscript_source_sha256": "287e9bc6c7bcc67cedbb2f5cd1c492e7a452329c5310cd79b44e1a07116865d7",
+  "appendix_source": {
+    "path": "supplementary/appendix-body.tex",
+    "sha256": "0f4b444a6fdbbba2d0a729702d6f038b2a875a81b92e957c87685ac39dfbf284"
+  },
+  "published_pdf": {
+    "path": "supplementary/appendix.pdf",
+    "sha256": "178bfa68002d7f2c4279796ecf3a9802cf98749012d77893cd056cb08b6edb63",
+    "pages": 18,
+    "appendix_starts_at_page": 15
+  },
+  "preservation": {
+    "original_published_pdf_sha256": "92a356024cb53f65e5fe959140e92f850614c59c4b1bfcc2a61776f78ed9bd7e",
+    "original_published_pdf_pages": 17,
+    "original_appendix_source_sha256": "6ed80cb35b1bd0c8950d1b92b667689e449e86f4013b6eba6cfd40ffc217fd17",
+    "original_main_pages_preserved": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "main_page_content_streams_equal": true,
+    "main_page_extracted_text_equal": true,
+    "replacement_appendix_page_content_streams_equal": true,
+    "formal_models_and_proof_sources_changed": false,
+    "proof_or_tlc_runs_added": false,
+    "pdf_internal_links_resolve": true,
+    "original_main_page_annotations_preserved": true,
+    "main_page_renderings_equal": true,
+    "replacement_appendix_page_renderings_equal": true
+  },
+  "assembly": "Original published PDF pages 1-14 followed by revised appendix pages 15-18. The main paper is not re-typeset.",
+  "changes": [
+    "Define latest complete durable recovery result, including unknown confirmation.",
+    "Define merged entries by creation term and partition lower bound; specify empty recovery and complete persistence before ACK.",
+    "Distinguish ordinary partition advancement from recovery proposal confirmation.",
+    "Replace the ordinary-partition opening-proposal premise with retained recovery origins and reported extensions."
+  ],
+  "historical_source_audit": "tlaplus-proof/results/source-verification.json"
+}

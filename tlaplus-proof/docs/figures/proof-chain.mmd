@@ -1,0 +1,9 @@
+flowchart TD
+    E[Quorums, elections, identities] --> C[Common origins and sound counts]
+    E --> A[Durable term-isolated ACK evidence]
+    C --> R[Recovery preserves evidence]
+    A --> R
+    R --> I[Initialization and preservation of Inv]
+    I --> S[Safety and history transport]
+    S --> P[Point-store agreement and durable deduplication]
+    P --> L[Client history and linearizability]

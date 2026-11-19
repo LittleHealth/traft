@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "publication_date": "2026-11-21",
+  "submission": {
+    "path": "supplementary/paper.pdf",
+    "pages": 14,
+    "main_text_pages": 12,
+    "acknowledgment_and_references_pages": [
+      13,
+      14
+    ],
+    "description": "The submission version contains 12 pages of main text plus the AI acknowledgment and references, for 14 PDF pages in total.",
+    "sha256": "29c4aeaabac153cc3653fad5a1d9dc9d0e842a26b1e798b4becb520bae475b6a"
+  },
+  "complete": {
+    "path": "supplementary/appendix.pdf",
+    "pages": 18,
+    "appendix_starts_at_page": 15,
+    "sha256": "178bfa68002d7f2c4279796ecf3a9802cf98749012d77893cd056cb08b6edb63",
+    "unchanged_from_previous_publication": true
+  },
+  "preservation": {
+    "source_pages_used": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "page_content_streams_equal": true,
+    "extracted_text_equal": true,
+    "page_annotation_counts_equal": true,
+    "internal_links_resolve": true,
+    "appendix_links_redirected_to_complete_pdf": [
+      {
+        "source_page": 6,
+        "destination_page_in_full_pdf": 15,
+        "url": "https://raw.githubusercontent.com/LittleHealth/traft/refs/tags/traft-proof-v1/supplementary/appendix.pdf#page=15"
+      },
+      {
+        "source_page": 6,
+        "destination_page_in_full_pdf": 15,
+        "url": "https://raw.githubusercontent.com/LittleHealth/traft/refs/tags/traft-proof-v1/supplementary/appendix.pdf#page=15"
+      },
+      {
+        "source_page": 8,
+        "destination_page_in_full_pdf": 16,
+        "url": "https://raw.githubusercontent.com/LittleHealth/traft/refs/tags/traft-proof-v1/supplementary/appendix.pdf#page=16"
+      },
+      {
+        "source_page": 10,
+        "destination_page_in_full_pdf": 17,
+        "url": "https://raw.githubusercontent.com/LittleHealth/traft/refs/tags/traft-proof-v1/supplementary/appendix.pdf#page=17"
+      }
+    ],
+    "manuscript_sources_changed": false,
+    "tla_models_or_proof_evidence_changed": false,
+    "rendered_pages_equal": true
+  },
+  "appendix_revision": "supplementary/appendix-revision.json"
+}
